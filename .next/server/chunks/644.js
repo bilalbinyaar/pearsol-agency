@@ -56,7 +56,6 @@ const removeSlashFromPagination = ()=>{
 /* harmony import */ var react_circular_progressbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1400);
 /* harmony import */ var react_circular_progressbar__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_circular_progressbar__WEBPACK_IMPORTED_MODULE_4__);
 
-// IS BEING USED
 /* eslint-disable @next/next/no-img-element */ 
 
 
@@ -238,8 +237,7 @@ var Split = __webpack_require__(8636);
 const clients_brands_namespaceObject = JSON.parse('[{"id":1,"darkImage":"/img/clients/brands/dark/01.png","lightImage":"/img/clients/brands/light/1.png"},{"id":2,"darkImage":"/img/clients/brands/dark/02.png","lightImage":"/img/clients/brands/light/2.png"},{"id":3,"darkImage":"/img/clients/brands/dark/03.png","lightImage":"/img/clients/brands/light/3.png"},{"id":4,"darkImage":"/img/clients/brands/dark/04.png","lightImage":"/img/clients/brands/light/4.png"},{"id":5,"darkImage":"/img/clients/brands/dark/05.png","lightImage":"/img/clients/brands/light/5.png"},{"id":6,"darkImage":"/img/clients/brands/dark/06.png","lightImage":"/img/clients/brands/light/6.png"},{"id":7,"darkImage":"/img/clients/brands/dark/07.png","lightImage":"/img/clients/brands/light/7.png"},{"id":8,"darkImage":"/img/clients/brands/dark/08.png","lightImage":"/img/clients/brands/light/8.png"}]');
 ;// CONCATENATED MODULE: ./src/components/Clients-brands/index.jsx
 
-/* eslint-disable @next/next/no-img-element */ // IS BEING USED
-
+/* eslint-disable @next/next/no-img-element */ 
 
 
 
@@ -363,7 +361,6 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper__WEBPACK_IMPORTED_MODULE_5__]);
 ([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);
 
-// IS BEING USED
 
 
 
@@ -574,7 +571,6 @@ var external_react_visibility_sensor_ = __webpack_require__(6882);
 var external_react_visibility_sensor_default = /*#__PURE__*/__webpack_require__.n(external_react_visibility_sensor_);
 ;// CONCATENATED MODULE: ./src/components/Numbers/index.jsx
 
-// IS BEING USED
 
 
 
@@ -653,7 +649,6 @@ const Numbers1 = ()=>{
 /* harmony import */ var _Split__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8636);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1664);
 
-// IS BEING USED
 
 
 
@@ -833,8 +828,7 @@ function parallaxie(selector) {
 
 ;// CONCATENATED MODULE: ./src/components/Testimonials1/index.jsx
 
-/* eslint-disable @next/next/no-img-element */ // IS BEING USED
-
+/* eslint-disable @next/next/no-img-element */ 
 
 
 
@@ -1139,7 +1133,6 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper__WEBPACK_IMPORTED_MODULE_4__]);
 ([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);
 
-// IS BEING USED
 
 
 

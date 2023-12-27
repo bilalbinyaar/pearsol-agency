@@ -115,8 +115,7 @@ const handleFullScreenNavbar = ()=>{
 
 ;// CONCATENATED MODULE: ./src/components/Navbar-full-menu/navbar-full-menu/index.jsx
 
-/* eslint-disable @next/next/no-img-element */ // IS BEING USED
-
+/* eslint-disable @next/next/no-img-element */ 
 
 
 

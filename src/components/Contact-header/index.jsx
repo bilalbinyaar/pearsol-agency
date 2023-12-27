@@ -1,4 +1,3 @@
-// IS BEING USED
 import React from 'react';
 import addParlx from '../../common/addParlx';
 

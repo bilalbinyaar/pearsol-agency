@@ -1,5 +1,3 @@
-// IS BEING USED
-
 import React from 'react';
 import works1SliderData from '../../data/sections/works1Slider.json';
 import { Swiper, SwiperSlide } from 'swiper/react';

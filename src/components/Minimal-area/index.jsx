@@ -1,6 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-// IS BEING USED
-
 import React from 'react';
 import featuresEffect from '../../common/featuresEffect';
 import { thumparallaxDown } from '../../common/thumparallax';

@@ -1,5 +1,3 @@
-// IS BEING USED
-
 import React from 'react';
 import AboutHeader from '../../components/About-header';
 import AboutIntro from '../../components/About-intro';

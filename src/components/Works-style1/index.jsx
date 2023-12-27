@@ -1,6 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-// IS BEING USED
-
 import React from 'react';
 import Link from 'next/link';
 import tooltipEffect from '../../common/tooltipEffect';

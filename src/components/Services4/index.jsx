@@ -1,5 +1,3 @@
-// IS BEING USED
-
 import React from 'react';
 import Split from '../Split';
 import services4Data from '../../data/sections/services4.json';

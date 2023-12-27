@@ -1,5 +1,3 @@
-// IS BEING USED
-
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import axios from 'axios';

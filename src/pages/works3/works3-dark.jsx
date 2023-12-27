@@ -1,5 +1,3 @@
-// IS BEING USED
-
 import React from 'react';
 import DarkTheme from '../../layouts/Dark';
 import addParlx from '../../common/addParlx';

@@ -59,7 +59,6 @@ const handleSearch = ()=>{
 
 ;// CONCATENATED MODULE: ./src/components/Navbar/index.jsx
 
-// IS BEING USED
 /* eslint-disable @next/next/no-img-element */ 
 
 

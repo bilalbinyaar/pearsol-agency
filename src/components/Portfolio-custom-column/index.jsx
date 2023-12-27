@@ -1,6 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-// IS BEING USED
-
 import React from 'react';
 import Split from '../Split';
 import Link from 'next/link';

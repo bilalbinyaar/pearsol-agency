@@ -1,6 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-// IS BEING USED
-
 import React from 'react';
 import Clients1Data from '../../data/sections/clients1.json';
 import Split from '../Split';

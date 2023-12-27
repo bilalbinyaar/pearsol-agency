@@ -1,5 +1,3 @@
-// IS BEING USED
-
 import React from 'react';
 import NavbarFullMenu from '../../components/Navbar-full-menu/navbar-full-menu';
 import ShowcasesOneCenter from '../../components/Showcases-one-center';

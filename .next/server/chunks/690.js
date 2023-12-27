@@ -17,7 +17,6 @@ exports.modules = {
 /* harmony import */ var formik__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(formik__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _data_app_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2806);
 
-// IS BEING USED
 /* eslint-disable @next/next/no-img-element */ 
 
 

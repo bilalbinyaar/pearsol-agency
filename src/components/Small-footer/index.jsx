@@ -1,5 +1,3 @@
-// IS BEING USED
-
 import React from 'react';
 
 const SmallFooter = () => {

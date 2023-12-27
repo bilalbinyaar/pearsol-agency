@@ -1,5 +1,3 @@
-// IS BEING USED
-
 import React from 'react';
 import CountUp from 'react-countup';
 import numbers1Data from '../../data/sections/numbers1.json';

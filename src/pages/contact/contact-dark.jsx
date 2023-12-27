@@ -1,4 +1,3 @@
-// IS BEING USED
 import React from 'react';
 import ContactHeader from '../../components/Contact-header';
 import ContactWithMap from '../../components/Contact-with-map';
