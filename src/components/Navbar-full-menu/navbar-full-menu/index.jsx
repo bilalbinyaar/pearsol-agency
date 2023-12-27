@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Split from "../../Split";
-import Link from "next/link";
-import appData from "../../../data/app.json";
-import handleFullScreenNavbar from "../../../common/handleFullScreenNavbar";
+import React from 'react';
+import Split from '../../Split';
+import Link from 'next/link';
+import appData from '../../../data/app.json';
+import handleFullScreenNavbar from '../../../common/handleFullScreenNavbar';
 
 const NavbarFullMenu = ({ theme, lr }) => {
   React.useEffect(() => {
@@ -13,13 +13,13 @@ const NavbarFullMenu = ({ theme, lr }) => {
     <>
       <div
         id="navi"
-        className={`topnav ${theme ? (theme === "light" ? "light" : "") : ""}`}
+        className={`topnav ${theme ? (theme === 'light' ? 'light' : '') : ''}`}
       >
         <div className="container-fluid">
           <div className="logo">
             <a href="#0">
               {theme ? (
-                theme === "light" ? (
+                theme === 'light' ? (
                   <img src={`${appData.darkLogo}`} alt="logo" />
                 ) : (
                   <img src={`${appData.lightLogo}`} alt="logo" />
@@ -49,7 +49,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
             <div className="col-lg-9 col-md-8">
               <div className="menu-links">
                 <ul className="main-menu">
-                  <li>
+                  {/* <li>
                     <div className="o-hidden">
                       <span className="link dmenu">
                         <span className="nm">01.</span>Home
@@ -111,6 +111,15 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           </div>
                         </li>
                       </ul>
+                    </div>
+                  </li> */}
+                  <li>
+                    <div className="o-hidden">
+                      <Link href="/">
+                        <a className="link">
+                          <span className="nm">01.</span>Home
+                        </a>
+                      </Link>
                     </div>
                   </li>
                   <li>
@@ -181,7 +190,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                   <li>
                     <div className="o-hidden">
                       <span className="link dmenu">
-                        <span className="nm">04.</span>Showcases
+                        <span className="nm">04.</span>Our Services
                         <i className="fas fa-angle-right"></i>
                       </span>
                     </div>
@@ -261,7 +270,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">Avo_website@gmail.com</a>
+                    <a href="#0">pearsols_website@gmail.com</a>
                   </p>
                 </div>
               </div>

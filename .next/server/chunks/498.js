@@ -128,7 +128,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 id: "navi",
-                className: `topnav ${theme ? theme === "light" ? "light" : "" : ""}`,
+                className: `topnav ${theme ? theme === 'light' ? 'light' : '' : ''}`,
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                     className: "container-fluid",
                     children: [
@@ -136,7 +136,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                             className: "logo",
                             children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                 href: "#0",
-                                children: theme ? theme === "light" ? /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                children: theme ? theme === 'light' ? /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                     src: `${app/* darkLogo */.Q1}`,
                                     alt: "logo"
                                 }) : /*#__PURE__*/ jsx_runtime_.jsx("img", {
@@ -189,136 +189,23 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                     children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
                                         className: "main-menu",
                                         children: [
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                        className: "o-hidden",
-                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                                            className: "link dmenu",
+                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                    className: "o-hidden",
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                                        href: "/",
+                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                                                            className: "link",
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                     className: "nm",
                                                                     children: "01."
                                                                 }),
-                                                                "Home",
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                                    className: "fas fa-angle-right"
-                                                                })
-                                                            ]
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                        className: "sub-menu",
-                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "o-hidden",
-                                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                                                            className: "sub-link back",
-                                                                            children: [
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                                                    className: "pe-7s-angle-left"
-                                                                                }),
-                                                                                " Go Back"
-                                                                            ]
-                                                                        })
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "o-hidden",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/home/home1-dark",
-                                                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                className: "sub-link",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                        className: "nm",
-                                                                                        children: "01."
-                                                                                    }),
-                                                                                    "Main Home"
-                                                                                ]
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "o-hidden",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/home/home2-dark",
-                                                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                className: "sub-link",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                        className: "nm",
-                                                                                        children: "02."
-                                                                                    }),
-                                                                                    "Creative Studio"
-                                                                                ]
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "o-hidden",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/home/home3-dark",
-                                                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                className: "sub-link",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                        className: "nm",
-                                                                                        children: "03."
-                                                                                    }),
-                                                                                    " Business Startup"
-                                                                                ]
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "o-hidden",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/home/home4-dark",
-                                                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                className: "sub-link",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                        className: "nm",
-                                                                                        children: "04."
-                                                                                    }),
-                                                                                    "One Page"
-                                                                                ]
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "o-hidden",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/home/home5-dark",
-                                                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                className: "sub-link",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                        className: "nm",
-                                                                                        children: "05."
-                                                                                    }),
-                                                                                    "Freelancer"
-                                                                                ]
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                })
+                                                                "Home"
                                                             ]
                                                         })
                                                     })
-                                                ]
+                                                })
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -462,7 +349,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                                     className: "nm",
                                                                     children: "04."
                                                                 }),
-                                                                "Showcases",
+                                                                "Our Services",
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                                                     className: "fas fa-angle-right"
                                                                 })
@@ -622,7 +509,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         href: "#0",
-                                                        children: "Avo_website@gmail.com"
+                                                        children: "pearsols_website@gmail.com"
                                                     })
                                                 })
                                             ]

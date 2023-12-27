@@ -1739,7 +1739,7 @@ body {
   cursor: pointer;
 }
 .navbar .logo {
-  width: 100px;
+  width: 130px;
 }
 
 .nav-scroll {
@@ -1780,7 +1780,7 @@ body {
   padding: 0 50px;
 }
 .topnav .logo {
-  width: 50px;
+  width: 120px;
 }
 .topnav .menu-icon {
   margin-left: auto;
@@ -5935,7 +5935,7 @@ header.simpl .caption .btn-curve {
   }
   .navbar .logo {
     margin-left: 15px;
-    width: 80px;
+    width: 90px;
   }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
@@ -6203,7 +6203,7 @@ header.simpl .caption .btn-curve {
     bottom: 15px;
   }
   .navbar .logo {
-    width: 50px;
+    width: 70px;
   }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;
@@ -6215,7 +6215,7 @@ header.simpl .caption .btn-curve {
     padding: 0 30px;
   }
   .topnav .logo {
-    width: 40px;
+    width: 80px;
   }
   .btn-curve {
     padding: 8px 15px;

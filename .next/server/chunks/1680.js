@@ -272,7 +272,7 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
                         nextEl: navigationNextRef.current
                     },
                     pagination: {
-                        type: "fraction",
+                        type: 'fraction',
                         clickable: true,
                         el: paginationRef.current
                     },
@@ -284,7 +284,7 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
                     onSwiper: (swiper)=>{
                         setTimeout(()=>{
                             for(var i = 0; i < swiper.slides.length; i++){
-                                swiper.slides[i].childNodes[0].setAttribute("data-swiper-parallax", 0.75 * swiper.width);
+                                swiper.slides[i].childNodes[0].setAttribute('data-swiper-parallax', 0.75 * swiper.width);
                             }
                             swiper.params.navigation.prevEl = navigationPrevRef.current;
                             swiper.params.navigation.nextEl = navigationNextRef.current;
@@ -320,7 +320,7 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                                                             className: "words chars splitting",
-                                                            children: typeof slide.title === "object" ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+                                                            children: typeof slide.title === 'object' ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
                                                                 children: [
                                                                     slide.title.first,
                                                                     " ",
@@ -370,10 +370,6 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
                             })
                         })
                     ]
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    ref: paginationRef,
-                    className: "swiper-pagination top botm custom-font"
                 }),
                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                     className: "social-icon",

@@ -1,15 +1,15 @@
-import React from "react";
-import introData from "../../data/sections/intro.json";
-import { Swiper, SwiperSlide } from "swiper/react";
-import Link from "next/link";
-import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";
+import React from 'react';
+import introData from '../../data/sections/intro.json';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import Link from 'next/link';
+import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from 'swiper';
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import Split from "../Split";
-import fadeWhenScroll from "../../common/fadeWhenScroll";
-import removeSlashFromPagination from "../../common/removeSlashFromPagination";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import Split from '../Split';
+import fadeWhenScroll from '../../common/fadeWhenScroll';
+import removeSlashFromPagination from '../../common/removeSlashFromPagination';
 
 SwiperCore.use([Navigation, Pagination, Parallax, Autoplay]);
 
@@ -46,7 +46,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
               nextEl: navigationNextRef.current,
             }}
             pagination={{
-              type: "fraction",
+              type: 'fraction',
               clickable: true,
               el: paginationRef.current,
             }}
@@ -59,7 +59,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
               setTimeout(() => {
                 for (var i = 0; i < swiper.slides.length; i++) {
                   swiper.slides[i].childNodes[0].setAttribute(
-                    "data-swiper-parallax",
+                    'data-swiper-parallax',
                     0.75 * swiper.width
                   );
                 }
@@ -94,7 +94,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
                         <div className="caption center">
                           <Split>
                             <h1 className="words chars splitting">
-                              {typeof slide.title === "object" ? (
+                              {typeof slide.title === 'object' ? (
                                 <>
                                   {slide.title.first} <br />
                                   {slide.title.second}
@@ -133,10 +133,10 @@ const IntroWithSlider1 = ({ sliderRef }) => {
             <i className="fas fa-chevron-left"></i>
           </div>
         </div>
-        <div
+        {/* <div
           ref={paginationRef}
           className="swiper-pagination top botm custom-font"
-        ></div>
+        ></div> */}
 
         <div className="social-icon">
           <a href="#0">
