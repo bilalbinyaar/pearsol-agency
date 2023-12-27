@@ -1,10 +1,12 @@
-import React from "react";
+// IS BEING USED
+
+import React from 'react';
 
 const AboutHeader = () => {
   return (
     <header
       className="pages-header bg-img valign parallaxie"
-      style={{ backgroundImage: "url(/img/slid/1.jpg)" }}
+      style={{ backgroundImage: 'url(/img/slid/1.jpg)' }}
       data-overlay-dark="5"
     >
       <div className="container">

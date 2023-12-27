@@ -1,11 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+// IS BEING USED
+
+import React from 'react';
 import Split from '../Split';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import ModalVideo from "react-modal-video";
-import "react-modal-video/css/modal-video.css";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import ModalVideo from 'react-modal-video';
+import 'react-modal-video/css/modal-video.css';
 
 const VideoWithTestimonials = () => {
   const [isOpen, setOpen] = React.useState(false);
@@ -32,7 +34,7 @@ const VideoWithTestimonials = () => {
             <div className="col-lg-6">
               <div className="vid-area">
                 <div className="vid-icon">
-                  {typeof window !== "undefined" && (
+                  {typeof window !== 'undefined' && (
                     <ModalVideo
                       channel="vimeo"
                       autoplay

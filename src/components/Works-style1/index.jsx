@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Link from "next/link";
-import tooltipEffect from "../../common/tooltipEffect";
+// IS BEING USED
+
+import React from 'react';
+import Link from 'next/link';
+import tooltipEffect from '../../common/tooltipEffect';
 
 const WorksStyle1 = () => {
   React.useEffect(() => {
@@ -9,7 +11,7 @@ const WorksStyle1 = () => {
   }, []);
   return (
     <section className="works section-padding pb-70">
-      <h2 style={{display: 'none'}}> &nbsp; </h2>
+      <h2 style={{ display: 'none' }}> &nbsp; </h2>
       <div className="container">
         <div className="row lg-space">
           <div className="col-lg-4 col-md-6">

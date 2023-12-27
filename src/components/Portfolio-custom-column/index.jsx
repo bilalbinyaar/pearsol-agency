@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Split from "../Split";
-import Link from "next/link";
-import initIsotope from "../../common/initIsotope";
-import portfolio1Data from "../../data/sections/portfolio1.json";
+// IS BEING USED
+
+import React from 'react';
+import Split from '../Split';
+import Link from 'next/link';
+import initIsotope from '../../common/initIsotope';
+import portfolio1Data from '../../data/sections/portfolio1.json';
 
 const PortfolioCustomColumn = ({
   column,
@@ -38,16 +40,16 @@ const PortfolioCustomColumn = ({
         </div>
       )}
 
-      <div className={`${column === 3 ? "container-fluid" : "container"}`}>
+      <div className={`${column === 3 ? 'container-fluid' : 'container'}`}>
         <div className="row">
           {!hideFilter && (
             <div
               className={`filtering ${
-                filterPosition === "center"
-                  ? "text-center"
-                  : filterPosition === "left"
-                  ? "text-left"
-                  : "text-right"
+                filterPosition === 'center'
+                  ? 'text-center'
+                  : filterPosition === 'left'
+                  ? 'text-left'
+                  : 'text-right'
               } col-12`}
             >
               <div className="filter">
@@ -67,16 +69,16 @@ const PortfolioCustomColumn = ({
                 key={item.id}
                 className={`${
                   column === 3
-                    ? "col-lg-4 col-md-6"
+                    ? 'col-lg-4 col-md-6'
                     : column === 2
-                    ? "col-md-6"
-                    : "col-12"
+                    ? 'col-md-6'
+                    : 'col-12'
                 } items ${item.filterCategory} wow fadeInUp ${
                   item.id === 2 && column == 3
-                    ? "lg-mr"
+                    ? 'lg-mr'
                     : item.id === 1 && column == 2
-                    ? "lg-mr"
-                    : ""
+                    ? 'lg-mr'
+                    : ''
                 }`}
                 data-wow-delay=".4s"
               >
@@ -94,7 +96,7 @@ const PortfolioCustomColumn = ({
                     {item.tags.map((tag, index) => (
                       <React.Fragment key={index * 3}>
                         <Link href="/works4/works4-dark">{tag}</Link>
-                        {index == item.tags.length - 1 ? "" : ","}
+                        {index == item.tags.length - 1 ? '' : ','}
                       </React.Fragment>
                     ))}
                   </span>

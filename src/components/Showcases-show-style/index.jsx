@@ -1,31 +1,28 @@
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import ShowcassesFullScreenData from "../../data/showcases-full-screen-slider.json";
-import SwiperCore, {
-  Navigation,
-  
-  Parallax,
-  Mousewheel,
-} from "swiper";
+// IS BEING USED
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/mousewheel";
+import React from 'react';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import ShowcassesFullScreenData from '../../data/showcases-full-screen-slider.json';
+import SwiperCore, { Navigation, Parallax, Mousewheel } from 'swiper';
 
-SwiperCore.use([Navigation,  Parallax, Mousewheel]);
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/mousewheel';
+
+SwiperCore.use([Navigation, Parallax, Mousewheel]);
 
 const ShowcasesShowStyle = () => {
   const [load, setLoad] = React.useState(true);
   React.useEffect(() => {
     setTimeout(() => {
       setLoad(false);
-      if (document.querySelector(".slider .swiper-pagination-fraction.steps")) {
+      if (document.querySelector('.slider .swiper-pagination-fraction.steps')) {
         document.querySelector(
-          ".slider .swiper-pagination-fraction.steps"
+          '.slider .swiper-pagination-fraction.steps'
         ).innerHTML = document
-          .querySelector(".slider .swiper-pagination-fraction.steps")
-          .innerHTML.replace(" / ", "");
+          .querySelector('.slider .swiper-pagination-fraction.steps')
+          .innerHTML.replace(' / ', '');
       }
     }, 1000);
   }, []);
@@ -34,7 +31,10 @@ const ShowcasesShowStyle = () => {
   const navigationNextRef = React.useRef(null);
   return (
     <header className="slider showstyle">
-      <div className="swiper-container container" style={{position: 'relative'}}>
+      <div
+        className="swiper-container container"
+        style={{ position: 'relative' }}
+      >
         {!load ? (
           <Swiper
             speed={1000}
@@ -44,7 +44,6 @@ const ShowcasesShowStyle = () => {
               prevEl: navigationPrevRef.current,
               nextEl: navigationNextRef.current,
             }}
-   
             onBeforeInit={(swiper) => {
               swiper.params.navigation.prevEl = navigationPrevRef.current;
               swiper.params.navigation.nextEl = navigationNextRef.current;
@@ -53,7 +52,7 @@ const ShowcasesShowStyle = () => {
               setTimeout(() => {
                 for (var i = 0; i < swiper.slides.length; i++) {
                   swiper.slides[i].childNodes[0].setAttribute(
-                    "data-swiper-parallax",
+                    'data-swiper-parallax',
                     0.75 * swiper.width
                   );
                 }
@@ -64,7 +63,6 @@ const ShowcasesShowStyle = () => {
                 swiper.navigation.destroy();
                 swiper.navigation.init();
                 swiper.navigation.update();
-
               });
             }}
             className="swiper-wrapper"

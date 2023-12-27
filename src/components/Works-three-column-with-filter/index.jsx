@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Link from "next/link";
-import initIsotope from "../../common/initIsotope";
+// IS BEING USED
+
+import React from 'react';
+import Link from 'next/link';
+import initIsotope from '../../common/initIsotope';
 
 const WorksThreeColumnWithFilter = ({ filterPosition }) => {
   const [pageLoaded, setPageLoaded] = React.useState(false);
@@ -10,7 +12,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
     if (pageLoaded) {
       setTimeout(() => {
         initIsotope();
-      }, 1000)
+      }, 1000);
     }
   }, [pageLoaded]);
   return (
@@ -19,11 +21,11 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
         <div className="row">
           <div
             className={`filtering ${
-              filterPosition === "center"
-                ? "text-center"
-                : filterPosition === "left"
-                ? "text-left"
-                : "text-right"
+              filterPosition === 'center'
+                ? 'text-center'
+                : filterPosition === 'left'
+                ? 'text-left'
+                : 'text-right'
             } smplx col-12`}
           >
             <div className="filter">

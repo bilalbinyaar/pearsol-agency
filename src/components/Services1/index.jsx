@@ -1,6 +1,8 @@
-import React from "react";
-import Split from "../Split";
-import Link from "next/link";
+// IS BEING USED
+
+import React from 'react';
+import Split from '../Split';
+import Link from 'next/link';
 
 const Services1 = () => {
   return (
@@ -21,7 +23,7 @@ const Services1 = () => {
           <div
             className="col-lg-3 col-md-6 item-box bg-img wow fadeInLeft"
             data-wow-delay=".3s"
-            style={{ backgroundImage: "url(/img/1.jpg)" }}
+            style={{ backgroundImage: 'url(/img/1.jpg)' }}
           >
             <h4 className="custom-font">
               Best Of <br /> Our Features

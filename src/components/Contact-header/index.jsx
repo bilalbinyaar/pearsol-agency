@@ -1,14 +1,15 @@
-import React from "react";
-import addParlx from "../../common/addParlx";
+// IS BEING USED
+import React from 'react';
+import addParlx from '../../common/addParlx';
 
 const ContactHeader = ({ sliderRef }) => {
   const [pageLoaded, setPageLoaded] = React.useState(false);
   React.useEffect(() => {
     setPageLoaded(true);
     if (pageLoaded) {
-      addParlx()
+      addParlx();
     }
-  }, [pageLoaded])
+  }, [pageLoaded]);
   return (
     <header ref={sliderRef} className="works-header fixed-slider hfixd valign">
       <div className="container">

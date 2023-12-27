@@ -1,19 +1,21 @@
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import ShowcassesFullScreenData from "../../data/showcases-full-screen-slider.json";
+// IS BEING USED
+
+import React from 'react';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import ShowcassesFullScreenData from '../../data/showcases-full-screen-slider.json';
 import SwiperCore, {
   Navigation,
   Pagination,
   Parallax,
   Mousewheel,
-} from "swiper";
+} from 'swiper';
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "swiper/css/mousewheel";
-import removeSlashFromPagination from "../../common/removeSlashFromPagination";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import 'swiper/css/mousewheel';
+import removeSlashFromPagination from '../../common/removeSlashFromPagination';
 
 SwiperCore.use([Navigation, Pagination, Parallax, Mousewheel]);
 
@@ -22,7 +24,7 @@ const ShowcasesFullScreen = () => {
   React.useEffect(() => {
     setTimeout(() => {
       setLoad(false);
-      removeSlashFromPagination()
+      removeSlashFromPagination();
     }, 1000);
   }, []);
 
@@ -42,8 +44,8 @@ const ShowcasesFullScreen = () => {
               nextEl: navigationNextRef.current,
             }}
             pagination={{
-                clickable: true,
-                type: "fraction",
+              clickable: true,
+              type: 'fraction',
               el: paginationRef.current,
             }}
             onBeforeInit={(swiper) => {
@@ -55,7 +57,7 @@ const ShowcasesFullScreen = () => {
               setTimeout(() => {
                 for (var i = 0; i < swiper.slides.length; i++) {
                   swiper.slides[i].childNodes[0].setAttribute(
-                    "data-swiper-parallax",
+                    'data-swiper-parallax',
                     0.75 * swiper.width
                   );
                 }

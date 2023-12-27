@@ -16,14 +16,15 @@ exports.modules = {
 /* harmony import */ var _Split__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8636);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1664);
 
+// IS BEING USED
 
 
 
 const CallToAction = ({ img , theme , subBG  })=>{
     return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-        className: `call-action section-padding ${subBG ? "sub-bg" : ""} bg-img`,
+        className: `call-action section-padding ${subBG ? 'sub-bg' : ''} bg-img`,
         style: {
-            backgroundImage: `url(${img ? img : "/img/pattern.png"})`
+            backgroundImage: `url(${img ? img : '/img/pattern.png'})`
         },
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             className: "container",
@@ -61,7 +62,7 @@ const CallToAction = ({ img , theme , subBG  })=>{
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
                             href: "/contact/contact-dark",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                className: `btn-curve ${theme == "light" ? "btn-blc" : "btn-lit"} wow fadeInUp`,
+                                className: `btn-curve ${theme == 'light' ? 'btn-blc' : 'btn-lit'} wow fadeInUp`,
                                 "data-wow-delay": ".5s",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                     children: "Get In Touch"

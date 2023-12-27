@@ -1,0 +1,62 @@
+import React from 'react';
+import CallToAction from '../../components/Call-to-action';
+import Footer from '../../components/Footer';
+import IntroWithSlider1 from '../../components/Intro-with-slider1';
+import Navbar from '../../components/Navbar';
+import Numbers1 from '../../components/Numbers';
+import Services1 from '../../components/Services1';
+import Works1Slider from '../../components/Works1-slider';
+import DarkTheme from '../../layouts/Dark';
+import AboutUs2 from '../../components/About-us2';
+import Testimonials1 from '../../components/Testimonials1';
+import ClientsBrands from '../../components/Clients-brands';
+
+const Homepage1 = () => {
+  const fixedSlider = React.useRef(null);
+  const MainContent = React.useRef(null);
+  const navbarRef = React.useRef(null);
+  const logoRef = React.useRef(null);
+
+  React.useEffect(() => {
+    setInterval(() => {
+      if (fixedSlider.current) {
+        var slidHeight = fixedSlider.current.offsetHeight;
+      }
+      if (MainContent.current) {
+        MainContent.current.style.marginTop = slidHeight + 'px';
+      }
+    }, 1000);
+    var navbar = navbarRef.current;
+    if (window.pageYOffset > 300) {
+      navbar.classList.add('nav-scroll');
+    } else {
+      navbar.classList.remove('nav-scroll');
+    }
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        navbar.classList.add('nav-scroll');
+      } else {
+        navbar.classList.remove('nav-scroll');
+      }
+    });
+  }, [fixedSlider, MainContent, navbarRef]);
+
+  return (
+    <DarkTheme>
+      <Navbar nr={navbarRef} lr={logoRef} />
+      <IntroWithSlider1 sliderRef={fixedSlider} />
+      <div ref={MainContent} className="main-content">
+        <AboutUs2 skillsTheme="dark" />
+        <Services1 />
+        <Numbers1 />
+        <Works1Slider />
+        <Testimonials1 withBG imgSrc="/img/pattern.png" />
+        <ClientsBrands subBG theme="dark" />
+        <CallToAction subBG />
+        <Footer />
+      </div>
+    </DarkTheme>
+  );
+};
+
+export default Homepage1;

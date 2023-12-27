@@ -1,8 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import featuresEffect from "../../common/featuresEffect";
-import { thumparallaxDown } from "../../common/thumparallax";
-import Split from "../Split";
+// IS BEING USED
+
+import React from 'react';
+import featuresEffect from '../../common/featuresEffect';
+import { thumparallaxDown } from '../../common/thumparallax';
+import Split from '../Split';
 
 const MinimalArea = () => {
   React.useEffect(() => {

@@ -1,3 +1,5 @@
+// IS BEING USED
+
 import React from 'react';
 import introData from '../../data/sections/intro.json';
 import { Swiper, SwiperSlide } from 'swiper/react';

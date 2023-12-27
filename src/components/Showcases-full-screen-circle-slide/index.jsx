@@ -1,12 +1,14 @@
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import ShowcassesFullScreenData from "../../data/showcases-full-screen-slider.json";
-import SwiperCore, { Navigation, Parallax, Mousewheel } from "swiper";
+// IS BEING USED
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/mousewheel";
+import React from 'react';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import ShowcassesFullScreenData from '../../data/showcases-full-screen-slider.json';
+import SwiperCore, { Navigation, Parallax, Mousewheel } from 'swiper';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/mousewheel';
 
 SwiperCore.use([Navigation, Parallax, Mousewheel]);
 
@@ -44,7 +46,7 @@ const ShowcasesFullScreenCircleSlide = () => {
               setTimeout(() => {
                 for (var i = 0; i < swiper.slides.length; i++) {
                   swiper.slides[i].childNodes[0].setAttribute(
-                    "data-swiper-parallax",
+                    'data-swiper-parallax',
                     0.75 * swiper.width
                   );
                 }

@@ -1,12 +1,14 @@
-import React from "react";
-import Split from "../Split";
-import services4Data from "../../data/sections/services4.json";
+// IS BEING USED
+
+import React from 'react';
+import Split from '../Split';
+import services4Data from '../../data/sections/services4.json';
 
 const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
   return (
     <section
-      className={`services ${withPadding ? "section-padding" : ""} ${
-        withBG ? "sub-bg" : ""
+      className={`services ${withPadding ? 'section-padding' : ''} ${
+        withBG ? 'sub-bg' : ''
       }`}
     >
       <div className="container">
@@ -28,10 +30,10 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
             <div className="col-lg-4" key={item.id}>
               <div
                 className={`item ${
-                  index != services4Data.length - 1 ? "md-mb50" : ""
+                  index != services4Data.length - 1 ? 'md-mb50' : ''
                 } wow fadeInUp`}
                 data-wow-delay={
-                  item.id == 1 ? ".5s" : item.id == 2 ? ".3s" : ".8s"
+                  item.id == 1 ? '.5s' : item.id == 2 ? '.3s' : '.8s'
                 }
               >
                 <span className={`icon ${item.icon}`}></span>

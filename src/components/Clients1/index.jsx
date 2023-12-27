@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Clients1Data from "../../data/sections/clients1.json";
-import Split from "../Split";
+// IS BEING USED
+
+import React from 'react';
+import Clients1Data from '../../data/sections/clients1.json';
+import Split from '../Split';
 
 const Clients1 = ({ theme, subBG }) => {
   var first = Clients1Data.slice(0, Clients1Data.length / 2);
@@ -27,18 +29,18 @@ const Clients1 = ({ theme, subBG }) => {
                       className="item wow fadeIn"
                       data-wow-delay={`${
                         item.id == 1
-                          ? ".3"
+                          ? '.3'
                           : item.id == 2
-                          ? ".6"
+                          ? '.6'
                           : item.id == 3
-                          ? ".8"
+                          ? '.8'
                           : item.id == 4
-                          ? ".3"
-                          : ""
+                          ? '.3'
+                          : ''
                       }s`}
                     >
                       <div className="img">
-                        {theme === "light" ? (
+                        {theme === 'light' ? (
                           <img src={item.lightImage} alt="" />
                         ) : (
                           <img src={item.darkImage} alt="" />
@@ -63,32 +65,32 @@ const Clients1 = ({ theme, subBG }) => {
                     key={item.id}
                     className={`${
                       item.id == 5
-                        ? "col-md-3 col-6 brands sm-mb30"
+                        ? 'col-md-3 col-6 brands sm-mb30'
                         : item.id == 6
-                        ? "col-md-3 col-6 brands sm-mb30"
+                        ? 'col-md-3 col-6 brands sm-mb30'
                         : item.id == 7
-                        ? "col-md-3 col-6 brands"
+                        ? 'col-md-3 col-6 brands'
                         : item.id == 8
-                        ? "col-md-3 col-6 brands"
-                        : ""
+                        ? 'col-md-3 col-6 brands'
+                        : ''
                     }`}
                   >
                     <div
                       className="item wow fadeIn"
                       data-wow-delay={`${
                         item.id == 1
-                          ? ".4"
+                          ? '.4'
                           : item.id == 2
-                          ? ".7"
+                          ? '.7'
                           : item.id == 3
-                          ? ".5"
+                          ? '.5'
                           : item.id == 4
-                          ? ".3"
-                          : ""
+                          ? '.3'
+                          : ''
                       }s`}
                     >
                       <div className="img">
-                        {theme === "light" ? (
+                        {theme === 'light' ? (
                           <img src={item.lightImage} alt="" />
                         ) : (
                           <img src={item.darkImage} alt="" />

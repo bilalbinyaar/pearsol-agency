@@ -1,9 +1,11 @@
-import React from "react";
-import DarkTheme from "../../layouts/Dark";
-import addParlx from "../../common/addParlx";
-import Navbar from "../../components/Navbar";
-import SmallFooter from "../../components/Small-footer";
-import PortfolioCustomColumn from "../../components/Portfolio-custom-column";
+// IS BEING USED
+
+import React from 'react';
+import DarkTheme from '../../layouts/Dark';
+import addParlx from '../../common/addParlx';
+import Navbar from '../../components/Navbar';
+import SmallFooter from '../../components/Small-footer';
+import PortfolioCustomColumn from '../../components/Portfolio-custom-column';
 
 const Works3Dark = () => {
   const fixedHeader = React.useRef(null);
@@ -22,23 +24,23 @@ const Works3Dark = () => {
   React.useEffect(() => {
     var navbar = navbarRef.current;
     if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
+      navbar.classList.add('nav-scroll');
     } else {
-      navbar.classList.remove("nav-scroll");
+      navbar.classList.remove('nav-scroll');
     }
-    window.addEventListener("scroll", () => {
+    window.addEventListener('scroll', () => {
       if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
+        navbar.classList.add('nav-scroll');
       } else {
-        navbar.classList.remove("nav-scroll");
+        navbar.classList.remove('nav-scroll');
       }
     });
-    window.addEventListener("load", () => {
+    window.addEventListener('load', () => {
       setTimeout(() => {
         if (fixedHeader.current) {
           var slidHeight = fixedHeader.current.offsetHeight;
           if (MainContent.current) {
-            MainContent.current.style.marginTop = slidHeight + "px";
+            MainContent.current.style.marginTop = slidHeight + 'px';
           }
         }
       }, 0);

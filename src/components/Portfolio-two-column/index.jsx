@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Link from "next/link";
-import initIsotope from "../../common/initIsotope";
+// IS BEING USED
+
+import React from 'react';
+import Link from 'next/link';
+import initIsotope from '../../common/initIsotope';
 
 const PortfolioTwoColumn = () => {
   const [pageLoaded, setPageLoaded] = React.useState(false);
@@ -10,7 +12,7 @@ const PortfolioTwoColumn = () => {
     if (pageLoaded) {
       setTimeout(() => {
         initIsotope();
-      }, 1000)
+      }, 1000);
     }
   }, [pageLoaded]);
   return (

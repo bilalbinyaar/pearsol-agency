@@ -1,12 +1,14 @@
-import React from "react";
-import works1SliderData from "../../data/sections/works1Slider.json";
-import { Swiper, SwiperSlide } from "swiper/react";
+// IS BEING USED
+
+import React from 'react';
+import works1SliderData from '../../data/sections/works1Slider.json';
+import { Swiper, SwiperSlide } from 'swiper/react';
 // import Swiper core and required modules
-import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
-import Link from "next/link";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
+import Link from 'next/link';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const Works1Slider = () => {

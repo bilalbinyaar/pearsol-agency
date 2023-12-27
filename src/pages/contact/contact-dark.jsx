@@ -1,8 +1,9 @@
-import React from "react";
-import ContactHeader from "../../components/Contact-header";
-import ContactWithMap from "../../components/Contact-with-map";
-import Navbar from "../../components/Navbar";
-import DarkTheme from "../../layouts/Dark";
+// IS BEING USED
+import React from 'react';
+import ContactHeader from '../../components/Contact-header';
+import ContactWithMap from '../../components/Contact-with-map';
+import Navbar from '../../components/Navbar';
+import DarkTheme from '../../layouts/Dark';
 
 const Contact = () => {
   const fixedHeader = React.useRef(null);
@@ -14,20 +15,20 @@ const Contact = () => {
         var slidHeight = fixedHeader.current.offsetHeight;
       }
       if (MainContent.current) {
-        MainContent.current.style.marginTop = slidHeight + "px";
+        MainContent.current.style.marginTop = slidHeight + 'px';
       }
     }, 1000);
     var navbar = navbarRef.current;
     if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
+      navbar.classList.add('nav-scroll');
     } else {
-      navbar.classList.remove("nav-scroll");
+      navbar.classList.remove('nav-scroll');
     }
-    window.addEventListener("scroll", () => {
+    window.addEventListener('scroll', () => {
       if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
+        navbar.classList.add('nav-scroll');
       } else {
-        navbar.classList.remove("nav-scroll");
+        navbar.classList.remove('nav-scroll');
       }
     });
   }, []);

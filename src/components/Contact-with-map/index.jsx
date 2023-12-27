@@ -1,16 +1,18 @@
-import React from "react";
-import { Formik, Form, Field } from "formik";
+// IS BEING USED
+
+import React from 'react';
+import { Formik, Form, Field } from 'formik';
 import axios from 'axios';
 import Split from '../Split';
 
-const ContactWithMap = ({ theme = "dark" }) => {
+const ContactWithMap = ({ theme = 'dark' }) => {
   const messageRef = React.useRef(null);
   function validateEmail(value) {
     let error;
     if (!value) {
-      error = "Required";
+      error = 'Required';
     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
-      error = "Invalid email address";
+      error = 'Invalid email address';
     }
     return error;
   }
@@ -26,9 +28,9 @@ const ContactWithMap = ({ theme = "dark" }) => {
 
                 <Formik
                   initialValues={{
-                    name: "",
-                    email: "",
-                    message: "",
+                    name: '',
+                    email: '',
+                    message: '',
                   }}
                   onSubmit={async (values) => {
                     await sendMessage(500);
@@ -45,14 +47,14 @@ const ContactWithMap = ({ theme = "dark" }) => {
                     if (!res) return;
 
                     messageRef.current.innerText =
-                      "Your Message has been successfully sent. I will contact you soon.";
+                      'Your Message has been successfully sent. I will contact you soon.';
                     // Reset the values
-                    values.name = "";
-                    values.email = "";
-                    values.message = "";
+                    values.name = '';
+                    values.email = '';
+                    values.message = '';
                     // clear message
                     setTimeout(() => {
-                      messageRef.current.innerText = "";
+                      messageRef.current.innerText = '';
                     }, 2000);
                   }}
                 >
@@ -96,7 +98,12 @@ const ContactWithMap = ({ theme = "dark" }) => {
                           />
                         </div>
 
-                        <button type="submit" className={`btn-curve ${theme === 'dark' ? 'btn-lit':'btn-color'} disabled`}>
+                        <button
+                          type="submit"
+                          className={`btn-curve ${
+                            theme === 'dark' ? 'btn-lit' : 'btn-color'
+                          } disabled`}
+                        >
                           <span>Send Message</span>
                         </button>
                       </div>
@@ -163,8 +170,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
         <div className="container">
           <div className="copyrights text-center mt-0">
             <p>
-              © 2022, Avo Template. Made with passion by 
-              <a href="#0">ThemesCamp</a>.
+              © 2024 - <a href="#">PearSols</a>. All Copyrights Reserved.
             </p>
           </div>
         </div>

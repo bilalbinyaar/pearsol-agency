@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import team1Data from "../../data/sections/team1.json";
+// IS BEING USED
+
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import team1Data from '../../data/sections/team1.json';
 
 class Team1 extends React.Component {
   constructor(props) {

@@ -1,5 +1,7 @@
-import React from "react";
-import Split from "../Split";
+// IS BEING USED
+
+import React from 'react';
+import Split from '../Split';
 
 const AboutIntro = () => {
   return (

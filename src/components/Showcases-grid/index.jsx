@@ -1,20 +1,22 @@
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import ShowcassesFullScreenData from "../../data/showcases-full-screen-slider.json";
+// IS BEING USED
+
+import React from 'react';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import ShowcassesFullScreenData from '../../data/showcases-full-screen-slider.json';
 import SwiperCore, {
   Navigation,
   Pagination,
   Parallax,
   Mousewheel,
-} from "swiper";
+} from 'swiper';
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "swiper/css/mousewheel";
-import tooltipEffect from "../../common/tooltipEffect";
-import removeSlashFromPagination from "../../common/removeSlashFromPagination";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import 'swiper/css/mousewheel';
+import tooltipEffect from '../../common/tooltipEffect';
+import removeSlashFromPagination from '../../common/removeSlashFromPagination';
 
 SwiperCore.use([Navigation, Pagination, Parallax, Mousewheel]);
 
@@ -24,7 +26,7 @@ const ShowcasesGrid = () => {
     setTimeout(() => {
       setLoad(false);
       tooltipEffect();
-      removeSlashFromPagination()
+      removeSlashFromPagination();
     });
   }, []);
 
@@ -67,7 +69,7 @@ const ShowcasesGrid = () => {
               setTimeout(() => {
                 for (var i = 0; i < swiper.slides.length; i++) {
                   swiper.slides[i].childNodes[0].setAttribute(
-                    "data-swiper-parallax",
+                    'data-swiper-parallax',
                     0.75 * swiper.width
                   );
                 }
@@ -92,7 +94,7 @@ const ShowcasesGrid = () => {
                       backgroundImage: `url(${slide.image})`,
                     }}
                     data-tooltip-tit={
-                      slide.title.first + " " + slide.title.second
+                      slide.title.first + ' ' + slide.title.second
                     }
                     data-tooltip-sub={slide.sub}
                   ></div>

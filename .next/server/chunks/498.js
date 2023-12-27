@@ -115,7 +115,8 @@ const handleFullScreenNavbar = ()=>{
 
 ;// CONCATENATED MODULE: ./src/components/Navbar-full-menu/navbar-full-menu/index.jsx
 
-/* eslint-disable @next/next/no-img-element */ 
+/* eslint-disable @next/next/no-img-element */ // IS BEING USED
+
 
 
 
@@ -524,7 +525,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
         ]
     }));
 };
-/* harmony default export */ const navbar_full_menu = (NavbarFullMenu);
+/* harmony default export */ const navbar_full_menu = (NavbarFullMenu); // TURN YELLOW
 
 
 /***/ }),

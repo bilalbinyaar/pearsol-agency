@@ -1,12 +1,14 @@
-import React from "react";
-import Split from "../Split";
-import Link from "next/link";
+// IS BEING USED
+
+import React from 'react';
+import Split from '../Split';
+import Link from 'next/link';
 
 const CallToAction = ({ img, theme, subBG }) => {
   return (
     <section
-      className={`call-action section-padding ${subBG ? "sub-bg" : ""} bg-img`}
-      style={{ backgroundImage: `url(${img ? img : "/img/pattern.png"})` }}
+      className={`call-action section-padding ${subBG ? 'sub-bg' : ''} bg-img`}
+      style={{ backgroundImage: `url(${img ? img : '/img/pattern.png'})` }}
     >
       <div className="container">
         <div className="row">
@@ -30,7 +32,7 @@ const CallToAction = ({ img, theme, subBG }) => {
             <Link href="/contact/contact-dark">
               <a
                 className={`btn-curve ${
-                  theme == "light" ? "btn-blc" : "btn-lit"
+                  theme == 'light' ? 'btn-blc' : 'btn-lit'
                 } wow fadeInUp`}
                 data-wow-delay=".5s"
               >
