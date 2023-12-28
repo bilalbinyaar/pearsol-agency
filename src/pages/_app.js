@@ -5,6 +5,7 @@ import Script from 'next/script';
 import ScrollToTop from '../components/Scroll-to-top';
 import LoadingScreen from '../components/Loading-Screen';
 import '../styles/globals.css';
+import StickyWhatsApp from '../components/StickWhatsApp';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       {/* <Cursor /> */}
       <LoadingScreen />
       <ScrollToTop />
+      <StickyWhatsApp />
       <Component {...pageProps} />
 
       <Script

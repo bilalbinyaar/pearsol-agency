@@ -5,7 +5,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 1532:
+/***/ 8274:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -29,13 +29,13 @@ const script_namespaceObject = require("next/script");
 var script_default = /*#__PURE__*/__webpack_require__.n(script_namespaceObject);
 ;// CONCATENATED MODULE: ./src/common/scrollToTo.js
 const scrollToTop = ()=>{
-    let progressPath = document.querySelector(".progress-wrap path");
+    let progressPath = document.querySelector('.progress-wrap path');
     let pathLength = progressPath.getTotalLength();
-    progressPath.style.transition = progressPath.style.WebkitTransition = "none";
-    progressPath.style.strokeDasharray = pathLength + " " + pathLength;
+    progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+    progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
     progressPath.style.strokeDashoffset = pathLength;
     progressPath.getBoundingClientRect();
-    progressPath.style.transition = progressPath.style.WebkitTransition = "stroke-dashoffset 10ms linear";
+    progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
     const updateProgress = function() {
         let scroll = window.pageYOffset;
         let height = document.documentElement.scrollHeight - window.innerHeight;
@@ -43,21 +43,21 @@ const scrollToTop = ()=>{
         progressPath.style.strokeDashoffset = progress;
     };
     updateProgress();
-    window.addEventListener("scroll", updateProgress);
-    let progressWrap = document.querySelector(".progress-wrap");
+    window.addEventListener('scroll', updateProgress);
+    let progressWrap = document.querySelector('.progress-wrap');
     let offset = 150;
-    window.addEventListener("scroll", function() {
+    window.addEventListener('scroll', function() {
         if (window.pageYOffset > offset) {
-            progressWrap.classList.add("active-progress");
+            progressWrap.classList.add('active-progress');
         } else {
-            document.querySelector(".progress-wrap").classList.remove("active-progress");
+            document.querySelector('.progress-wrap').classList.remove('active-progress');
         }
     });
-    progressWrap.addEventListener("click", function(event) {
+    progressWrap.addEventListener('click', function(event) {
         event.preventDefault();
         window.scrollTo({
             top: 0,
-            behavior: "smooth"
+            behavior: 'smooth'
         });
         return false;
     });
@@ -151,12 +151,50 @@ const LoadingScreen = ()=>{
 };
 /* harmony default export */ const Loading_Screen = (LoadingScreen);
 
+;// CONCATENATED MODULE: ./src/common/whatsApp.js
+const whatsApp = ()=>{
+    let whatsappWrap = document.querySelector('.whatsapp-wrapper');
+    let offset = 150;
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > offset) {
+            whatsappWrap.classList.add('active-progress');
+        } else {
+            document.querySelector('.whatsapp-wrapper').classList.remove('active-progress');
+        }
+    });
+    whatsappWrap.addEventListener('click', function(event) {
+        event.preventDefault();
+        window.open('https://wa.me/923076078089', '_blank');
+        return false;
+    });
+};
+/* harmony default export */ const common_whatsApp = (whatsApp);
+
+;// CONCATENATED MODULE: ./src/components/StickWhatsApp/index.jsx
+
+/* eslint-disable @next/next/no-img-element */ 
+
+const StickyWhatsApp = ()=>{
+    external_react_default().useEffect(()=>{
+        common_whatsApp();
+    }, []);
+    return(/*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: "whatsapp-wrapper cursor-pointer",
+        children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+            src: "/img/whatsapp.png",
+            alt: "whatsapp"
+        })
+    }));
+};
+/* harmony default export */ const StickWhatsApp = (StickyWhatsApp);
+
 ;// CONCATENATED MODULE: ./src/pages/_app.js
 
 
 
 
 // import Cursor from '../components/Cursor';
+
 
 
 
@@ -177,6 +215,8 @@ function MyApp({ Component , pageProps  }) {
             /*#__PURE__*/ jsx_runtime_.jsx(Loading_Screen, {
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Scroll_to_top, {
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(StickWhatsApp, {
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Component, {
                 ...pageProps
@@ -241,7 +281,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [958], () => (__webpack_exec__(1532)));
+var __webpack_exports__ = __webpack_require__.X(0, [958], () => (__webpack_exec__(8274)));
 module.exports = __webpack_exports__;
 
 })();
