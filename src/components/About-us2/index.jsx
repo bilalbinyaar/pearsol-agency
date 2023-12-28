@@ -35,13 +35,12 @@ const AboutUs2 = ({ skillsTheme }) => {
                 <span></span>
               </div>
               <Split>
-                <h3
+                <h2
                   className="co-tit custom-font wow words chars splitting"
                   data-splitting
                 >
-                  Our 20 years working experience make a different business
-                  agency services.
-                </h3>
+                  Our 20 Years Experience.
+                </h2>
               </Split>
               <p className="wow fadeInUp" data-wow-delay=".4s">
                 We are PearSols. We create award-winning websites, remarkable

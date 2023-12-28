@@ -101,10 +101,10 @@ const AboutUs2 = ({ skillsTheme  })=>{
                                     ]
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
-                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                                         className: "co-tit custom-font wow words chars splitting",
                                         "data-splitting": true,
-                                        children: "Our 20 years working experience make a different business agency services."
+                                        children: "Our 20 Years Experience."
                                     })
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
@@ -393,150 +393,100 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
     return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("header", {
         ref: sliderRef,
         className: "slider slider-prlx fixed-slider text-center",
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             className: "swiper-container parallax-slider",
-            children: [
-                !load ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.Swiper, {
-                    speed: 1000,
-                    autoplay: {
-                        delay: 1000,
-                        disableOnInteraction: true
-                    },
-                    parallax: true,
-                    navigation: {
-                        prevEl: navigationPrevRef.current,
-                        nextEl: navigationNextRef.current
-                    },
-                    pagination: {
-                        type: 'fraction',
-                        clickable: true,
-                        el: paginationRef.current
-                    },
-                    onBeforeInit: (swiper)=>{
+            children: !load ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.Swiper, {
+                speed: 1000,
+                autoplay: {
+                    delay: 1000,
+                    disableOnInteraction: true
+                },
+                parallax: true,
+                navigation: {
+                    prevEl: navigationPrevRef.current,
+                    nextEl: navigationNextRef.current
+                },
+                pagination: {
+                    type: 'fraction',
+                    clickable: true,
+                    el: paginationRef.current
+                },
+                onBeforeInit: (swiper)=>{
+                    swiper.params.navigation.prevEl = navigationPrevRef.current;
+                    swiper.params.navigation.nextEl = navigationNextRef.current;
+                    swiper.params.pagination.el = paginationRef.current;
+                },
+                onSwiper: (swiper)=>{
+                    setTimeout(()=>{
+                        for(var i = 0; i < swiper.slides.length; i++){
+                            swiper.slides[i].childNodes[0].setAttribute('data-swiper-parallax', 0.75 * swiper.width);
+                        }
                         swiper.params.navigation.prevEl = navigationPrevRef.current;
                         swiper.params.navigation.nextEl = navigationNextRef.current;
                         swiper.params.pagination.el = paginationRef.current;
-                    },
-                    onSwiper: (swiper)=>{
-                        setTimeout(()=>{
-                            for(var i = 0; i < swiper.slides.length; i++){
-                                swiper.slides[i].childNodes[0].setAttribute('data-swiper-parallax', 0.75 * swiper.width);
-                            }
-                            swiper.params.navigation.prevEl = navigationPrevRef.current;
-                            swiper.params.navigation.nextEl = navigationNextRef.current;
-                            swiper.params.pagination.el = paginationRef.current;
-                            swiper.navigation.destroy();
-                            swiper.navigation.init();
-                            swiper.navigation.update();
-                            swiper.pagination.destroy();
-                            swiper.pagination.init();
-                            swiper.pagination.update();
-                        });
-                    },
-                    className: "swiper-wrapper",
-                    slidesPerView: 1,
-                    children: _data_sections_intro_json__WEBPACK_IMPORTED_MODULE_2__.map((slide)=>{
-                        return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
-                            className: "swiper-slide",
+                        swiper.navigation.destroy();
+                        swiper.navigation.init();
+                        swiper.navigation.update();
+                        swiper.pagination.destroy();
+                        swiper.pagination.init();
+                        swiper.pagination.update();
+                    });
+                },
+                className: "swiper-wrapper",
+                slidesPerView: 1,
+                children: _data_sections_intro_json__WEBPACK_IMPORTED_MODULE_2__.map((slide)=>{
+                    return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
+                        className: "swiper-slide",
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "bg-img valign",
+                            style: {
+                                backgroundImage: `url(${slide.image})`
+                            },
+                            "data-overlay-dark": "6",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "bg-img valign",
-                                style: {
-                                    backgroundImage: `url(${slide.image})`
-                                },
-                                "data-overlay-dark": "6",
+                                className: "container",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: "container",
+                                    className: "row justify-content-center",
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "row justify-content-center",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            className: "col-lg-7 col-md-9",
-                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                className: "caption center",
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                                                            className: "words chars splitting",
-                                                            children: typeof slide.title === 'object' ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-                                                                children: [
-                                                                    slide.title.first,
-                                                                    " ",
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                                    }),
-                                                                    slide.title.second
-                                                                ]
-                                                            }) : slide.title
-                                                        })
-                                                    }),
-                                                    (slide === null || slide === void 0 ? void 0 : slide.content) && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                        children: slide.content
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_4__["default"], {
-                                                        href: "/about/about-dark",
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                            className: "btn-curve btn-lit mt-30",
-                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                children: "Look More"
-                                                            })
+                                        className: "col-lg-7 col-md-9",
+                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            className: "caption center",
+                                            children: [
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                                                        className: "words chars splitting",
+                                                        children: typeof slide.title === 'object' ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+                                                            children: [
+                                                                slide.title.first,
+                                                                " ",
+                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
+                                                                }),
+                                                                slide.title.second
+                                                            ]
+                                                        }) : slide.title
+                                                    })
+                                                }),
+                                                (slide === null || slide === void 0 ? void 0 : slide.content) && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                    children: slide.content
+                                                }),
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_4__["default"], {
+                                                    href: "/about/about-dark",
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                        className: "btn-curve btn-lit mt-30",
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                            children: "Look More"
                                                         })
                                                     })
-                                                ]
-                                            })
+                                                })
+                                            ]
                                         })
                                     })
                                 })
                             })
-                        }, slide.id));
-                    })
-                }) : null,
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "setone setwo",
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            ref: navigationNextRef,
-                            className: "swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                className: "fas fa-chevron-right"
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            ref: navigationPrevRef,
-                            className: "swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                className: "fas fa-chevron-left"
-                            })
                         })
-                    ]
-                }),
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "social-icon",
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            href: "#0",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                className: "fab fa-facebook-f"
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            href: "#0",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                className: "fab fa-twitter"
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            href: "#0",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                className: "fab fa-behance"
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            href: "#0",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                className: "fab fa-pinterest-p"
-                            })
-                        })
-                    ]
+                    }, slide.id));
                 })
-            ]
+            }) : null
         })
     }));
 };
@@ -717,8 +667,13 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         className: "icon pe-7s-paint-bucket"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                        children: "Graphic Design"
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h6", {
+                                        children: [
+                                            "DESIGN & ",
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
+                                            }),
+                                            " BRANDING"
+                                        ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
@@ -732,13 +687,8 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         className: "icon pe-7s-phone"
                                     }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h6", {
-                                        children: [
-                                            "Web & ",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                            }),
-                                            " Mobile Design"
-                                        ]
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                        children: "DIGITAL MARKETING"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "Tempore corrupti temporibus fuga earum asperiores fugit."
@@ -752,13 +702,8 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         className: "icon pe-7s-display1"
                                     }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h6", {
-                                        children: [
-                                            "Social ",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                            }),
-                                            " media Marketing"
-                                        ]
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                        children: "WEBSITE DEVELOPMENT"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "Tempore corrupti temporibus fuga earum asperiores fugit."

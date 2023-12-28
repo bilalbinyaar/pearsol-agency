@@ -37,7 +37,9 @@ const Services1 = () => {
             data-wow-delay=".5s"
           >
             <span className="icon pe-7s-paint-bucket"></span>
-            <h6>Graphic Design</h6>
+            <h6>
+              DESIGN &amp; <br /> BRANDING
+            </h6>
             <p>
               Tempore corrupti temporibus fuga earum asperiores fugit
               laudantium.
@@ -48,9 +50,7 @@ const Services1 = () => {
             data-wow-delay=".7s"
           >
             <span className="icon pe-7s-phone"></span>
-            <h6>
-              Web &amp; <br /> Mobile Design
-            </h6>
+            <h6>DIGITAL MARKETING</h6>
             <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
           </div>
           <div
@@ -58,9 +58,7 @@ const Services1 = () => {
             data-wow-delay=".9s"
           >
             <span className="icon pe-7s-display1"></span>
-            <h6>
-              Social <br /> media Marketing
-            </h6>
+            <h6>WEBSITE DEVELOPMENT</h6>
             <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
           </div>
         </div>

@@ -5,7 +5,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 2497:
+/***/ 1532:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -27,55 +27,6 @@ var head_default = /*#__PURE__*/__webpack_require__.n(head_);
 ;// CONCATENATED MODULE: external "next/script"
 const script_namespaceObject = require("next/script");
 var script_default = /*#__PURE__*/__webpack_require__.n(script_namespaceObject);
-;// CONCATENATED MODULE: ./src/common/mouseEffect.js
-const mousecursor = ()=>{
-    const cursorInner = document.querySelector(".cursor-inner"), cursorOuter = document.querySelector(".cursor-outer");
-    let n, i = 0, o = !1;
-    window.onmousemove = function(s) {
-        o || (cursorOuter.style.transform = "translate(" + s.clientX + "px, " + s.clientY + "px)"), cursorInner.style.transform = "translate(" + s.clientX + "px, " + s.clientY + "px)", n = s.clientY, i = s.clientX;
-    };
-    if (document.querySelector(".cursor-pointer")) {
-        document.querySelector(".cursor-pointer").addEventListener("mouseenter", function() {
-            cursorInner.classList.add("cursor-hover"), cursorOuter.classList.add("cursor-hover");
-        });
-        document.querySelector(".cursor-pointer").addEventListener("mouseleave", function() {
-            cursorInner.classList.remove("cursor-hover"), cursorOuter.classList.remove("cursor-hover");
-        }), cursorInner.style.visibility = "visible", cursorOuter.style.visibility = "visible";
-    }
-    document.querySelectorAll("a").forEach(function(item) {
-        item.addEventListener("mouseenter", function() {
-            cursorInner.classList.add("cursor-hover"), cursorOuter.classList.add("cursor-hover");
-        });
-    });
-    document.querySelectorAll("a").forEach(function(item) {
-        item.addEventListener("mouseleave", function() {
-            cursorInner.classList.remove("cursor-hover"), cursorOuter.classList.remove("cursor-hover");
-        });
-    }), cursorInner.style.visibility = "visible", cursorOuter.style.visibility = "visible";
-};
-/* harmony default export */ const mouseEffect = (mousecursor);
-
-;// CONCATENATED MODULE: ./src/components/Cursor/index.jsx
-
-
-
-const Cursor = ()=>{
-    external_react_default().useEffect(()=>{
-        mouseEffect();
-    }, []);
-    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "mouse-cursor cursor-outer"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "mouse-cursor cursor-inner"
-            })
-        ]
-    }));
-};
-/* harmony default export */ const components_Cursor = (Cursor);
-
 ;// CONCATENATED MODULE: ./src/common/scrollToTo.js
 const scrollToTop = ()=>{
     let progressPath = document.querySelector(".progress-wrap path");
@@ -205,7 +156,7 @@ const LoadingScreen = ()=>{
 
 
 
-
+// import Cursor from '../components/Cursor';
 
 
 
@@ -222,8 +173,6 @@ function MyApp({ Component , pageProps  }) {
                         href: "/img/favicon.ico"
                     })
                 ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(components_Cursor, {
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Loading_Screen, {
             }),
@@ -292,7 +241,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [958], () => (__webpack_exec__(2497)));
+var __webpack_exports__ = __webpack_require__.X(0, [958], () => (__webpack_exec__(1532)));
 module.exports = __webpack_exports__;
 
 })();

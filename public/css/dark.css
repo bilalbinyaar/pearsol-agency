@@ -1126,11 +1126,11 @@ span:hover {
 
 /* ====================== [ End Text Animation & Images ] ====================== */
 /* ====================== [ Start Cursor Style ] ====================== */
-body {
+/* body {
   cursor: none;
-}
+} */
 
-.mouse-cursor {
+/* .mouse-cursor {
   position: fixed;
   left: 0;
   top: 0;
@@ -1139,7 +1139,7 @@ body {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   visibility: hidden;
-}
+} 
 
 .cursor-inner {
   margin-left: 2px;
@@ -1182,6 +1182,8 @@ body {
 .cursor-outer.cursor-hover {
   opacity: 0;
 }
+
+*/
 
 /* ====================== [ End Cursor Style ] ====================== */
 /* ====================== [ Start progress-wrap ] ====================== */
@@ -1695,7 +1697,7 @@ body {
 }
 .navbar .search {
   color: #fff;
-  padding-left: 30px;
+  padding-left: 20px;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 .navbar .search .icon {
@@ -1739,7 +1741,7 @@ body {
   cursor: pointer;
 }
 .navbar .logo {
-  width: 130px;
+  width: 150px;
 }
 
 .nav-scroll {
@@ -2331,7 +2333,7 @@ body {
 .slider .swiper-pagination-fraction.steps .swiper-pagination-total {
   float: right;
 }
-.slider .social-icon {
+/* .slider .social-icon {
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -2344,6 +2346,17 @@ body {
   text-align: center;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-size: 13px;
+} */
+
+.search .social-icon a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  /* border: 1px solid rgba(255, 255, 255, 0.05); */
   color: #fff;
   font-size: 13px;
 }
@@ -3230,7 +3243,7 @@ header.simpl .caption .btn-curve {
 /* ====================== [ end showcase ] ====================== */
 /* ====================== [ Start Intro ] ====================== */
 .about .content .co-tit {
-  color: #d1e231;
+  color: #fff;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -5935,7 +5948,7 @@ header.simpl .caption .btn-curve {
   }
   .navbar .logo {
     margin-left: 15px;
-    width: 90px;
+    width: 110px;
   }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
@@ -6203,7 +6216,7 @@ header.simpl .caption .btn-curve {
     bottom: 15px;
   }
   .navbar .logo {
-    width: 70px;
+    width: 85px;
   }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;

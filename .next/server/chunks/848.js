@@ -16,7 +16,6 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 // EXTERNAL MODULE: external "formik"
 var external_formik_ = __webpack_require__(2296);
 // EXTERNAL MODULE: ./node_modules/next/link.js
@@ -49,11 +48,11 @@ const handleSearch = ()=>{
     let searchForm = document.querySelector(".navbar .search .search-form");
     document.querySelector(".navbar .search .icon").addEventListener("click", function() {
         searchForm.style.display = "block";
-        (0,customFunctions/* fadeIn */.Ji)(searchForm, 200);
+        fadeIn(searchForm, 200);
     });
     document.querySelector(".navbar .search .search-form .close").addEventListener("click", function() {
         searchForm.style.display = "none";
-        (0,customFunctions/* fadeOut */.U6)(searchForm, 200);
+        fadeOut(searchForm, 200);
     });
 };
 
@@ -65,9 +64,9 @@ const handleSearch = ()=>{
 
 
 const Navbar = ({ lr , nr , theme  })=>{
-    external_react_default().useEffect(()=>{
-        handleSearch();
-    }, []);
+    // React.useEffect(() => {
+    //   handleSearch();
+    // }, []);
     return(/*#__PURE__*/ jsx_runtime_.jsx("nav", {
         ref: nr,
         className: `navbar navbar-expand-lg change ${theme === 'themeL' ? 'light' : ''}`,
@@ -136,7 +135,7 @@ const Navbar = ({ lr , nr , theme  })=>{
                                             role: "button",
                                             "aria-haspopup": "true",
                                             "aria-expanded": "false",
-                                            children: "Services"
+                                            children: "Our Services"
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                             className: "dropdown-menu",
@@ -145,35 +144,42 @@ const Navbar = ({ lr , nr , theme  })=>{
                                                     href: "/showcase/showcase-dark",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
-                                                        children: "Graphic Designing"
+                                                        children: "Design & Branding"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                     href: "/showcase2/showcase2-dark",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
-                                                        children: "Web & Mobile Development"
+                                                        children: "Digital Marketing"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                     href: "/showcase3/showcase3-dark",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
-                                                        children: "Social Media Handling"
+                                                        children: "UI/UX Design"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                     href: "/showcase4/showcase4-dark",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
-                                                        children: "Digital Marketing"
+                                                        children: "Website Development"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                     href: "/showcase5/showcase5-dark",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
-                                                        children: "SEO"
+                                                        children: "Social Media Management"
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                                    href: "#",
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                        className: "dropdown-item",
+                                                        children: "Search Engine Optimization"
                                                     })
                                                 })
                                             ]
@@ -186,7 +192,7 @@ const Navbar = ({ lr , nr , theme  })=>{
                                         href: "/about/about-dark",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                             className: "nav-link",
-                                            children: "About"
+                                            children: "About Us"
                                         })
                                     })
                                 }),
@@ -249,38 +255,37 @@ const Navbar = ({ lr , nr , theme  })=>{
                                 })
                             ]
                         }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: "search",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                    className: "icon pe-7s-search cursor-pointer"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: "search-form text-center custom-font",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx(external_formik_.Formik, {
-                                            initialValues: {
-                                                search: ''
-                                            },
-                                            onSubmit: async (values)=>{
-                                                alert(JSON.stringify(values, null, 2));
-                                                // Reset the values
-                                                values.search = '';
-                                            },
-                                            children: ({ errors , touched  })=>/*#__PURE__*/ jsx_runtime_.jsx(external_formik_.Form, {
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx(external_formik_.Field, {
-                                                        type: "text",
-                                                        name: "search",
-                                                        placeholder: "Search"
-                                                    })
-                                                })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                            className: "close pe-7s-close cursor-pointer"
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "social-icon",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        href: "#0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
+                                            className: "fab fa-facebook-f"
                                         })
-                                    ]
-                                })
-                            ]
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        href: "#0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
+                                            className: "fab fa-twitter"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        href: "#0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
+                                            className: "fab fa-behance"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        href: "#0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
+                                            className: "fab fa-pinterest-p"
+                                        })
+                                    })
+                                ]
+                            })
                         })
                     ]
                 })

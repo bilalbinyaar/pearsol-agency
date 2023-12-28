@@ -10,9 +10,9 @@ import {
 } from '../../common/navbar';
 
 const Navbar = ({ lr, nr, theme }) => {
-  React.useEffect(() => {
-    handleSearch();
-  }, []);
+  // React.useEffect(() => {
+  //   handleSearch();
+  // }, []);
   return (
     <nav
       ref={nr}
@@ -95,30 +95,33 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Services
+                Our Services
               </span>
               <div className="dropdown-menu">
                 <Link href="/showcase/showcase-dark">
-                  <a className="dropdown-item">Graphic Designing</a>
+                  <a className="dropdown-item">Design & Branding</a>
                 </Link>
                 <Link href="/showcase2/showcase2-dark">
-                  <a className="dropdown-item">Web & Mobile Development</a>
-                </Link>
-                <Link href="/showcase3/showcase3-dark">
-                  <a className="dropdown-item">Social Media Handling</a>
-                </Link>
-                <Link href="/showcase4/showcase4-dark">
                   <a className="dropdown-item">Digital Marketing</a>
                 </Link>
+                <Link href="/showcase3/showcase3-dark">
+                  <a className="dropdown-item">UI/UX Design</a>
+                </Link>
+                <Link href="/showcase4/showcase4-dark">
+                  <a className="dropdown-item">Website Development</a>
+                </Link>
                 <Link href="/showcase5/showcase5-dark">
-                  <a className="dropdown-item">SEO</a>
+                  <a className="dropdown-item">Social Media Management</a>
+                </Link>
+                <Link href="#">
+                  <a className="dropdown-item">Search Engine Optimization</a>
                 </Link>
               </div>
             </li>
 
             <li className="nav-item">
               <Link href="/about/about-dark">
-                <a className="nav-link">About</a>
+                <a className="nav-link">About Us</a>
               </Link>
             </li>
             <li className="nav-item dropdown" onClick={handleDropdown}>
@@ -152,8 +155,9 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
           </ul>
+
           <div className="search">
-            <span className="icon pe-7s-search cursor-pointer"></span>
+            {/* <span className="icon pe-7s-search cursor-pointer"></span>
             <div className="search-form text-center custom-font">
               <Formik
                 initialValues={{
@@ -171,7 +175,22 @@ const Navbar = ({ lr, nr, theme }) => {
                   </Form>
                 )}
               </Formik>
+
               <span className="close pe-7s-close cursor-pointer"></span>
+            </div> */}
+            <div className="social-icon">
+              <a href="#0">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="#0">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="#0">
+                <i className="fab fa-behance"></i>
+              </a>
+              <a href="#0">
+                <i className="fab fa-pinterest-p"></i>
+              </a>
             </div>
           </div>
         </div>
