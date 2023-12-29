@@ -90,7 +90,7 @@ const AboutUs2 = ({ skillsTheme  })=>{
                                     className: "sub-title",
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                            children: "About Us"
+                                            children: "Who We Are"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         }),
@@ -621,7 +621,7 @@ const Services1 = ()=>{
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                     className: "wow words chars splitting",
                                     "data-splitting": true,
-                                    children: "Services."
+                                    children: "What We Do."
                                 })
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
@@ -667,13 +667,8 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         className: "icon pe-7s-paint-bucket"
                                     }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h6", {
-                                        children: [
-                                            "DESIGN & ",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                            }),
-                                            " BRANDING"
-                                        ]
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                        children: "DESIGN & BRANDING"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
@@ -827,7 +822,7 @@ class Testimonials1 extends (external_react_default()).Component {
                             /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                                 className: "wow fadeIn",
                                 "data-wow-delay": ".5s",
-                                children: "What Peapole Says?"
+                                children: "What Client Says?"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx(Split/* default */.Z, {
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("h3", {

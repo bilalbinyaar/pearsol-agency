@@ -12,7 +12,7 @@ const Services1 = () => {
           </h6>
           <Split>
             <h3 className="wow words chars splitting" data-splitting>
-              Services.
+              What We Do.
             </h3>
           </Split>
           <span className="tbg">Services</span>
@@ -37,9 +37,7 @@ const Services1 = () => {
             data-wow-delay=".5s"
           >
             <span className="icon pe-7s-paint-bucket"></span>
-            <h6>
-              DESIGN &amp; <br /> BRANDING
-            </h6>
+            <h6>DESIGN & BRANDING</h6>
             <p>
               Tempore corrupti temporibus fuga earum asperiores fugit
               laudantium.

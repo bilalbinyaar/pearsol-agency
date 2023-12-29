@@ -29,7 +29,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6 valign">
             <div className="content">
               <div className="sub-title">
-                <h6>About Us</h6>
+                <h6>Who We Are</h6>
                 <span></span>
                 <span></span>
                 <span></span>
