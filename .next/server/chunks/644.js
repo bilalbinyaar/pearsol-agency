@@ -1329,7 +1329,7 @@ const Homepage1 = ()=>{
 /***/ 5754:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Unique","second":"brand Stories"},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/01.webp"},{"id":2,"title":{"first":"Digital","second":"Design Awards"},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/02.webp"},{"id":3,"title":"Original Solutions","content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/03.webp"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"first":"Unique","second":"brand Stories"},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/01.png"},{"id":2,"title":{"first":"Digital","second":"Design Awards"},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/02.png"},{"id":3,"title":"Original Solutions","content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/03.png"}]');
 
 /***/ }),
 
