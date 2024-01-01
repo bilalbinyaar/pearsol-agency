@@ -189,6 +189,7 @@ const Navbar = ({ lr , nr , theme  })=>{
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: "nav-item",
+                                    onClick: handleDropdown,
                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                         href: "/about/about-dark",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
@@ -246,6 +247,7 @@ const Navbar = ({ lr , nr , theme  })=>{
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: "nav-item",
+                                    onClick: handleDropdown,
                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                         href: "/contact/contact-dark",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
