@@ -65,7 +65,7 @@ const Footer = ({ noSubBG  })=>{
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                             children: "Email : "
                                                         }),
-                                                        " pearsols@website.com"
+                                                        " info@pearsols.com"
                                                     ]
                                                 }),
                                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
@@ -73,7 +73,7 @@ const Footer = ({ noSubBG  })=>{
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                             children: "Address : "
                                                         }),
-                                                        " A32 , Ave 15th Street, Door 211, San Franciso, USA 32490."
+                                                        " Islamabad, Pakistan 46000."
                                                     ]
                                                 }),
                                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
@@ -81,7 +81,7 @@ const Footer = ({ noSubBG  })=>{
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                             children: "Phone : "
                                                         }),
-                                                        " (+1) 2345 678 44 88"
+                                                        " (+92) 307 607 40 89"
                                                     ]
                                                 })
                                             ]
@@ -101,6 +101,13 @@ const Footer = ({ noSubBG  })=>{
                                                         href: "#0",
                                                         className: "icon",
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
+                                                            className: "fab fa-behance"
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                        href: "#0",
+                                                        className: "icon",
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                             className: "fab fa-facebook-f"
                                                         })
                                                     }),
@@ -108,21 +115,14 @@ const Footer = ({ noSubBG  })=>{
                                                         href: "#0",
                                                         className: "icon",
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                            className: "fab fa-twitter"
+                                                            className: "fab fa-instagram"
                                                         })
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                         href: "#0",
                                                         className: "icon",
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                            className: "fab fa-pinterest"
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                        href: "#0",
-                                                        className: "icon",
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                            className: "fab fa-behance"
+                                                            className: "fab fa-linkedin-in"
                                                         })
                                                     })
                                                 ]

@@ -181,7 +181,7 @@ const StickyWhatsApp = ()=>{
     return(/*#__PURE__*/ jsx_runtime_.jsx("div", {
         className: "whatsapp-wrapper cursor-pointer",
         children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-            src: "/img/whatsapp.png",
+            src: "/img/whatsapp.svg",
             alt: "whatsapp"
         })
     }));

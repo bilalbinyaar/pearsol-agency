@@ -8,7 +8,7 @@ const StickyWhatsApp = () => {
   }, []);
   return (
     <div className="whatsapp-wrapper cursor-pointer">
-      <img src="/img/whatsapp.png" alt="whatsapp" />
+      <img src="/img/whatsapp.svg" alt="whatsapp" />
     </div>
   );
 };

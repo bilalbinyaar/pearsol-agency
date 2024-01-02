@@ -396,7 +396,7 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             className: "swiper-container parallax-slider",
             children: !load ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.Swiper, {
-                speed: 1000,
+                speed: 2500,
                 autoplay: {
                     delay: 1000,
                     disableOnInteraction: true
@@ -513,7 +513,7 @@ var external_react_ = __webpack_require__(6689);
 var external_react_countup_ = __webpack_require__(609);
 var external_react_countup_default = /*#__PURE__*/__webpack_require__.n(external_react_countup_);
 ;// CONCATENATED MODULE: ./src/data/sections/numbers1.json
-const numbers1_namespaceObject = JSON.parse('[{"id":1,"icon":"pe-7s-smile","txt":"Happy Clients","value":"2400"},{"id":2,"icon":"pe-7s-portfolio","txt":"Compleate Projects","value":"133"},{"id":3,"icon":"pe-7s-cloud-download","txt":"Files Downloaded","value":"254"},{"id":4,"icon":"pe-7s-medal","txt":"Award Win","value":"46"}]');
+const numbers1_namespaceObject = JSON.parse('[{"id":1,"icon":"pe-7s-smile","txt":"Total Clients","value":"132"},{"id":2,"icon":"pe-7s-portfolio","txt":"Completed Projects","value":"238"},{"id":3,"icon":"pe-7s-cloud-download","txt":"Good Reviews","value":"181"},{"id":4,"icon":"pe-7s-medal","txt":"Avg. Rating","value":"4.9"}]');
 // EXTERNAL MODULE: ./src/components/Split/index.jsx
 var Split = __webpack_require__(8636);
 // EXTERNAL MODULE: external "react-visibility-sensor"

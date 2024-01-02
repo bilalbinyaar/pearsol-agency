@@ -30,14 +30,13 @@ const Footer = ({ noSubBG }) => {
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span> pearsols@website.com
+                    <span>Email : </span> info@pearsols.com
                   </li>
                   <li>
-                    <span>Address : </span> A32 , Ave 15th Street, Door 211, San
-                    Franciso, USA 32490.
+                    <span>Address : </span> Islamabad, Pakistan 46000.
                   </li>
                   <li>
-                    <span>Phone : </span> (+1) 2345 678 44 88
+                    <span>Phone : </span> (+92) 307 607 40 89
                   </li>
                 </ul>
               </div>
@@ -45,16 +44,16 @@ const Footer = ({ noSubBG }) => {
                 <h6 className="custom-font stit simple-btn">Follow Us</h6>
                 <div className="social">
                   <a href="#0" className="icon">
+                    <i className="fab fa-behance"></i>
+                  </a>
+                  <a href="#0" className="icon">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a href="#0" className="icon">
-                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                   <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
+                    <i className="fab fa-linkedin-in"></i>
                   </a>
                 </div>
               </div>

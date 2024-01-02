@@ -138,16 +138,16 @@ const ContactWithMap = ({ theme = 'dark' }) => {
                 </div>
                 <div className="social mt-50">
                   <a href="#0" className="icon">
+                    <i className="fab fa-behance"></i>
+                  </a>
+                  <a href="#0" className="icon">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a href="#0" className="icon">
-                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                   <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
+                    <i className="fab fa-linkedin-in"></i>
                   </a>
                 </div>
               </div>

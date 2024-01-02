@@ -3,7 +3,6 @@ import introData from '../../data/sections/intro.json';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Link from 'next/link';
 import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from 'swiper';
-
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -35,7 +34,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
       <div className="swiper-container parallax-slider">
         {!load ? (
           <Swiper
-            speed={1000}
+            speed={2500}
             autoplay={{
               delay: 1000,
               disableOnInteraction: true,

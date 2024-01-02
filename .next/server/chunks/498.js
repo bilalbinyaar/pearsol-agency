@@ -521,7 +521,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                     children: "Phone :"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    children: "+03 762-2367-723"
+                                                    children: "(+92) 307 607 40 89"
                                                 })
                                             ]
                                         }),
@@ -532,7 +532,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                     children: "Address :"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    children: "541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io"
+                                                    children: "Islamabad, Pakistan 46000."
                                                 })
                                             ]
                                         }),
@@ -545,7 +545,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         href: "#0",
-                                                        children: "pearsols_website@gmail.com"
+                                                        children: "info@pearsols.com"
                                                     })
                                                 })
                                             ]
