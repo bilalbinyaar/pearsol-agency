@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/8gFp6sVgTLp9jP1PdJlQa/_buildManifest.js",
-    "static/8gFp6sVgTLp9jP1PdJlQa/_ssgManifest.js",
-    "static/8gFp6sVgTLp9jP1PdJlQa/_middlewareManifest.js"
+    "static/sxShxON1-LuQCSyCCRwwm/_buildManifest.js",
+    "static/sxShxON1-LuQCSyCCRwwm/_ssgManifest.js",
+    "static/sxShxON1-LuQCSyCCRwwm/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -20,7 +20,7 @@
       "static/css/3dd8c10dc41289e4.css",
       "static/chunks/201-eb99250a496369dd.js",
       "static/chunks/849-56b96979157aaeab.js",
-      "static/chunks/923-bb2e6338d7229135.js",
+      "static/chunks/923-034e8d674d912754.js",
       "static/chunks/pages/index-81d9a1c75e3f6bfd.js"
     ],
     "/_app": [
@@ -65,7 +65,7 @@
       "static/css/3dd8c10dc41289e4.css",
       "static/chunks/201-eb99250a496369dd.js",
       "static/chunks/849-56b96979157aaeab.js",
-      "static/chunks/923-bb2e6338d7229135.js",
+      "static/chunks/923-034e8d674d912754.js",
       "static/chunks/pages/main-a42fe2bbe3bc6378.js"
     ],
     "/showcase/showcase-dark": [
@@ -92,8 +92,8 @@
       "static/chunks/main-8a41031e1038fac7.js",
       "static/chunks/121-6ee2413dfcad4f92.js",
       "static/chunks/512-d35a0bded01f34a0.js",
-      "static/chunks/pages/showcase3/showcase3-dark-30367e0196ef9541.js",
-      "static/css/8377d3a10130571c.css"
+      "static/css/8377d3a10130571c.css",
+      "static/chunks/pages/showcase3/showcase3-dark-30367e0196ef9541.js"
     ],
     "/showcase4/showcase4-dark": [
       "static/chunks/webpack-b927671265afed5e.js",
@@ -110,8 +110,8 @@
       "static/chunks/main-8a41031e1038fac7.js",
       "static/chunks/121-6ee2413dfcad4f92.js",
       "static/chunks/512-d35a0bded01f34a0.js",
-      "static/chunks/pages/showcase5/showcase5-dark-46646137fbe45f11.js",
-      "static/css/8377d3a10130571c.css"
+      "static/css/8377d3a10130571c.css",
+      "static/chunks/pages/showcase5/showcase5-dark-46646137fbe45f11.js"
     ],
     "/works/works-dark": [
       "static/chunks/webpack-b927671265afed5e.js",
