@@ -1329,7 +1329,7 @@ const Homepage1 = ()=>{
 /***/ 5754:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Glancyr Font","second":"."},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/01.png"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"first":"Glancyr Font","second":""},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/01.png"}]');
 
 /***/ }),
 
