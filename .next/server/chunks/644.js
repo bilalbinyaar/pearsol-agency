@@ -474,7 +474,7 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                         className: "btn-curve btn-lit mt-30",
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                            children: "Look More"
+                                                            children: "Explore"
                                                         })
                                                     })
                                                 })
@@ -1329,7 +1329,7 @@ const Homepage1 = ()=>{
 /***/ 5754:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Welcome","second":"To Pearsols"},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/01.png"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"first":"Welcome To","second":"Pearsols"},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/01.png"}]');
 
 /***/ }),
 
