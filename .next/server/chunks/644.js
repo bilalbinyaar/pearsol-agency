@@ -559,7 +559,7 @@ const Numbers1 = ()=>{
                                                                 ref: countUpRef
                                                             }),
                                                             ' ',
-                                                            item.id == 3 ? 'K' : ''
+                                                            item.id == 4 ? '' : ''
                                                         ]
                                                     })
                                                 })
@@ -1329,7 +1329,7 @@ const Homepage1 = ()=>{
 /***/ 5754:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Unique","second":"brand Stories"},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/01.png"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"first":"The","second":"quick brown"},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/01.png"}]');
 
 /***/ }),
 

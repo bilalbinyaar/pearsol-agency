@@ -5,7 +5,7 @@
 @import '/css/pe-icon.min.css';
 @import '/css/font-awesome.min.css';
 @font-face {
-  font-family: 'Glyancer';
+  font-family: 'Glancyr';
   src: url('/public/fonts/glancyr.ttf') format('truetype');
 }
 * {
@@ -2029,7 +2029,7 @@ span:hover {
 }
 .slider .parallax-slider .caption h1 {
   font-size: 65px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 4px;
   color: #fff;
   opacity: 0;
@@ -2037,7 +2037,8 @@ span:hover {
   -webkit-transition: opacity 0.5s, visibility 0.5s;
   -o-transition: opacity 0.5s, visibility 0.5s;
   transition: opacity 0.5s, visibility 0.5s;
-  font-family: 'Glyancer', sans-serif !important;
+  font-family: 'Glancyr', sans-serif !important;
+  line-height: 1.2;
 }
 .slider .parallax-slider .caption p {
   color: #eee;

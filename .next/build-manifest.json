@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/sxShxON1-LuQCSyCCRwwm/_buildManifest.js",
-    "static/sxShxON1-LuQCSyCCRwwm/_ssgManifest.js",
-    "static/sxShxON1-LuQCSyCCRwwm/_middlewareManifest.js"
+    "static/ahKzPxTMwG2do_rlcoE_w/_buildManifest.js",
+    "static/ahKzPxTMwG2do_rlcoE_w/_ssgManifest.js",
+    "static/ahKzPxTMwG2do_rlcoE_w/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -20,7 +20,7 @@
       "static/css/3dd8c10dc41289e4.css",
       "static/chunks/201-eb99250a496369dd.js",
       "static/chunks/849-56b96979157aaeab.js",
-      "static/chunks/923-034e8d674d912754.js",
+      "static/chunks/923-76a187bcb83a076c.js",
       "static/chunks/pages/index-81d9a1c75e3f6bfd.js"
     ],
     "/_app": [
@@ -45,7 +45,7 @@
       "static/chunks/104-64f92408e3d27fcc.js",
       "static/chunks/849-56b96979157aaeab.js",
       "static/css/f58e81d79508afc4.css",
-      "static/chunks/pages/about/about-dark-ea7206a49892ca4a.js"
+      "static/chunks/pages/about/about-dark-384f311725963115.js"
     ],
     "/contact/contact-dark": [
       "static/chunks/webpack-b927671265afed5e.js",
@@ -65,7 +65,7 @@
       "static/css/3dd8c10dc41289e4.css",
       "static/chunks/201-eb99250a496369dd.js",
       "static/chunks/849-56b96979157aaeab.js",
-      "static/chunks/923-034e8d674d912754.js",
+      "static/chunks/923-76a187bcb83a076c.js",
       "static/chunks/pages/main-a42fe2bbe3bc6378.js"
     ],
     "/showcase/showcase-dark": [

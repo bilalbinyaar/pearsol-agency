@@ -81,7 +81,7 @@ const Footer = ({ noSubBG  })=>{
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                             children: "Phone : "
                                                         }),
-                                                        " (+92) 307 607 40 89"
+                                                        " (+92) 307 607 80 89"
                                                     ]
                                                 })
                                             ]

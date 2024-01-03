@@ -36,7 +36,7 @@ const Footer = ({ noSubBG }) => {
                     <span>Address : </span> Islamabad, Pakistan 46000.
                   </li>
                   <li>
-                    <span>Phone : </span> (+92) 307 607 40 89
+                    <span>Phone : </span> (+92) 307 607 80 89
                   </li>
                 </ul>
               </div>
