@@ -43,7 +43,7 @@ const AboutUs2 = ({ skillsTheme }) => {
                 </h2>
               </Split>
               <p className="wow fadeInUp" data-wow-delay=".4s">
-                We are PearSols. We create award-winning websites, remarkable
+                We are Pearsols. We create award-winning websites, remarkable
                 brands and cutting-edge apps.Nullam imperdiet, sem at fringilla
                 lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet
                 erat. Ut dictum nisi masvitp.

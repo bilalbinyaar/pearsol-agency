@@ -110,7 +110,7 @@ const AboutUs2 = ({ skillsTheme  })=>{
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                     className: "wow fadeInUp",
                                     "data-wow-delay": ".4s",
-                                    children: "We are PearSols. We create award-winning websites, remarkable brands and cutting-edge apps.Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet erat. Ut dictum nisi masvitp."
+                                    children: "We are Pearsols. We create award-winning websites, remarkable brands and cutting-edge apps.Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet erat. Ut dictum nisi masvitp."
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                     className: "mt-10 wow fadeInUp",
@@ -858,7 +858,7 @@ class Testimonials1 extends (external_react_default()).Component {
                                         className: "item",
                                         children: [
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                children: "Working with PearSols digital agency to support our organic and paid social media activity has extended the marketing activities we are able to achieve platform has made collaboration easy."
+                                                children: "Working with Pearsols digital agency to support our organic and paid social media activity has extended the marketing activities we are able to achieve platform has made collaboration easy."
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                 className: "info",
@@ -920,7 +920,7 @@ class Testimonials1 extends (external_react_default()).Component {
                                         className: "item",
                                         children: [
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                children: "PearSols started out managing our SEO efforts, but their scientific approach to digital marketing and the results they have achieved made it an easy decision for us to handover the management."
+                                                children: "Pearsols started out managing our SEO efforts, but their scientific approach to digital marketing and the results they have achieved made it an easy decision for us to handover the management."
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                 className: "info",
@@ -982,7 +982,7 @@ class Testimonials1 extends (external_react_default()).Component {
                                         className: "item",
                                         children: [
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                children: "I would highly recommend PearSols Digital. I worked with the team on an animation for our U+2018 Click & Collect U+2019 service. This team is different from any other agency I have worked with in the past."
+                                                children: "I would highly recommend Pearsols Digital. I worked with the team on an animation for our U+2018 Click & Collect U+2019 service. This team is different from any other agency I have worked with in the past."
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                 className: "info",
@@ -1329,7 +1329,7 @@ const Homepage1 = ()=>{
 /***/ 5754:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Glancyr Font","second":""},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/01.png"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"first":"Welcome","second":"To Pearsols"},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/01.png"}]');
 
 /***/ }),
 

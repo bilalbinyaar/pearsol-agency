@@ -168,7 +168,7 @@ const ContactWithMap = ({ theme = 'dark' }) => {
         <div className="container">
           <div className="copyrights text-center mt-0">
             <p>
-              © 2024 - <a href="#">PearSols</a>. All Copyrights Reserved.
+              © 2024 - <a href="#">Pearsols</a>. All Copyrights Reserved.
             </p>
           </div>
         </div>

@@ -187,7 +187,7 @@ const Footer = ({ noSubBG  })=>{
                             "\xa9 2024 - ",
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                 href: "#",
-                                children: "PearSols"
+                                children: "Pearsols"
                             }),
                             ". All Copyrights Reserved."
                         ]

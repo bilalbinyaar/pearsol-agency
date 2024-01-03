@@ -110,7 +110,7 @@ const Footer = ({ noSubBG }) => {
         </div>
         <div className="copyrights text-center">
           <p>
-            © 2024 - <a href="#">PearSols</a>. All Copyrights Reserved.
+            © 2024 - <a href="#">Pearsols</a>. All Copyrights Reserved.
           </p>
         </div>
       </div>

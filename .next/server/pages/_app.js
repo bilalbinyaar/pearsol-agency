@@ -204,7 +204,7 @@ function MyApp({ Component , pageProps  }) {
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                        children: "PearSols - Digital Agency"
+                        children: "Pearsols - Digital Agency"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "icon",

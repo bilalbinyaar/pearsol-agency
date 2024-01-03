@@ -6,7 +6,7 @@ const SmallFooter = () => {
       <div className="container">
         <div className="copyrights text-center mt-0">
           <p>
-            © 2024 - <a href="#0">PearSols</a>. All Copyrights Reserved.
+            © 2024 - <a href="#0">Pearsols</a>. All Copyrights Reserved.
           </p>
         </div>
       </div>

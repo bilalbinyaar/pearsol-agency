@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>PearSols - Digital Agency</title>
+        <title>Pearsols - Digital Agency</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       {/* <Cursor /> */}
