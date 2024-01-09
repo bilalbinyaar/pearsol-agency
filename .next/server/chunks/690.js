@@ -81,7 +81,7 @@ const Footer = ({ noSubBG  })=>{
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                             children: "Phone : "
                                                         }),
-                                                        " (+92) 307 607 80 89"
+                                                        " +92 307 607 8089"
                                                     ]
                                                 })
                                             ]
@@ -98,29 +98,37 @@ const Footer = ({ noSubBG  })=>{
                                                 className: "social",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                        href: "#0",
+                                                        href: "https://www.behance.net/marketingpearsols",
                                                         className: "icon",
+                                                        target: "_blank",
+                                                        rel: "noopener noreferrer",
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                             className: "fab fa-behance"
                                                         })
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                        href: "#0",
+                                                        href: "https://www.facebook.com/marketingpearsols",
                                                         className: "icon",
+                                                        target: "_blank",
+                                                        rel: "noopener noreferrer",
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                             className: "fab fa-facebook-f"
                                                         })
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                        href: "#0",
+                                                        href: "https://www.instagram.com/marketingpearsols",
                                                         className: "icon",
+                                                        target: "_blank",
+                                                        rel: "noopener noreferrer",
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                             className: "fab fa-instagram"
                                                         })
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                        href: "#0",
+                                                        href: "https://www.linkedin.com/company/marketingpearsols",
                                                         className: "icon",
+                                                        target: "_blank",
+                                                        rel: "noopener noreferrer",
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                             className: "fab fa-linkedin-in"
                                                         })

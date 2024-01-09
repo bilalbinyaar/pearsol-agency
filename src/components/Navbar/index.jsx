@@ -177,16 +177,32 @@ const Navbar = ({ lr, nr, theme }) => {
               <span className="close pe-7s-close cursor-pointer"></span>
             </div> */}
             <div className="social-icon">
-              <a href="#0">
+              <a
+                href="https://www.behance.net/marketingpearsols"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-behance"></i>
               </a>
-              <a href="#0">
+              <a
+                href="https://www.facebook.com/marketingpearsols"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#0">
+              <a
+                href="https://www.instagram.com/marketingpearsols"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#0">
+              <a
+                href="https://www.linkedin.com/company/marketingpearsols"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </div>

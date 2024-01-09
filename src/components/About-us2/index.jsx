@@ -39,18 +39,21 @@ const AboutUs2 = ({ skillsTheme }) => {
                   className="co-tit custom-font wow words chars splitting"
                   data-splitting
                 >
-                  Our 20 Years Experience.
+                  Pearsols: Towards Digital Excellence.
                 </h2>
               </Split>
               <p className="wow fadeInUp" data-wow-delay=".4s">
-                We are Pearsols. We create award-winning websites, remarkable
-                brands and cutting-edge apps.Nullam imperdiet, sem at fringilla
-                lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet
-                erat. Ut dictum nisi masvitp.
+                At Pearsols, we lead the way in transforming the digital
+                landscape. Seamlessly blending design, strategy, and innovation,
+                we meticulously shape compelling brands, user-friendly
+                responsive websites, and impactful digital strategies. Our
+                commitment to excellence drive businesses to new heights,
+                setting the gold standard for digital achievements.
               </p>
               <p className="mt-10 wow fadeInUp" data-wow-delay=".4s">
-                Nulla metus metus ullamcorper vel tincidunt sed euismod nibh
-                volutpat velit class aptent taciti sociosqu ad litora.
+                Join us in sculpting your success, where every collaboration is
+                a story of constant innovation, growth, and unparalleled
+                excellence in the evolving world of digital possibilities.
               </p>
               <Split>
                 <Link href="/about/about-dark">

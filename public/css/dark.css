@@ -1526,6 +1526,11 @@ span:hover {
   padding: 15px 7px;
   margin: 10px 15px;
 }
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #d1e231 !important;
+}
+
 .navbar .navbar-nav .dropdown-menu {
   padding: 10px 0;
   border: 0;
@@ -2006,6 +2011,12 @@ span:hover {
   -ms-transform: translateY(0);
   transform: translateY(0);
 }
+
+.slider .parallax-slider .swiper-slide-active .caption p {
+  text-align: left;
+  font-size: 28px;
+}
+
 .slider .parallax-slider .caption .thin {
   color: #d1e231;
   font-size: 30px;
@@ -2067,6 +2078,7 @@ span:hover {
   transition-delay: 1s;
   border: 2px solid;
   line-height: 2;
+  border-radius: 45px;
 }
 .slider .parallax-slider .caption .btn-curve span {
   font-size: 15px;
@@ -6369,6 +6381,10 @@ header.simpl .caption .btn-curve {
 
 /* ====================== [ End Responsive ] ====================== */
 
+.whatsapp-wrapper:hover {
+  transform: scale(1.18) !important;
+}
+
 .whatsapp-wrapper {
   position: fixed;
   bottom: 100px;
@@ -6404,7 +6420,6 @@ header.simpl .caption .btn-curve {
   line-height: 44px;
   font-size: 13px;
   font-weight: 900;
-  color: #d1e231;
   left: 0;
   top: 0;
   height: 44px;
@@ -6417,16 +6432,7 @@ header.simpl .caption .btn-curve {
   transition: all 400ms linear;
 }
 
-.whatsapp-wrapper svg path {
-  fill: none;
-}
-
-.whatsapp-wrapper svg.progress-circle path {
-  stroke: #d1e231;
-  stroke-width: 4;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 400ms linear;
-  -o-transition: all 400ms linear;
-  transition: all 400ms linear;
+.banner-a {
+  font-weight: 500;
+  color: #d1e231 !important;
 }

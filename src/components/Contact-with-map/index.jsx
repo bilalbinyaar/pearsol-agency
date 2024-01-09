@@ -137,16 +137,36 @@ const ContactWithMap = ({ theme = 'dark' }) => {
                   </h6>
                 </div>
                 <div className="social mt-50">
-                  <a href="#0" className="icon">
+                  <a
+                    href="https://www.behance.net/marketingpearsols"
+                    className="icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fab fa-behance"></i>
                   </a>
-                  <a href="#0" className="icon">
+                  <a
+                    href="https://www.facebook.com/marketingpearsols"
+                    className="icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="#0" className="icon">
+                  <a
+                    href="https://www.instagram.com/marketingpearsols"
+                    className="icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="#0" className="icon">
+                  <a
+                    href="https://www.linkedin.com/company/marketingpearsols"
+                    className="icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </div>

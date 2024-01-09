@@ -2,10 +2,14 @@
   {
     "id": 1,
     "title": {
-      "first": "Welcome To",
-      "second": "Pearsols"
+      "first": "Shattering Barriers",
+      "second": "Through Bold Digital Solutions"
     },
-    "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
+    "content": {
+      "first": "Transforming the business landscape",
+      "second": "with bold <a class='banner-a' href='#'>marketing solutions!</a>"
+    },
+
     "image": "/img/slid/01.png"
   }
 ]

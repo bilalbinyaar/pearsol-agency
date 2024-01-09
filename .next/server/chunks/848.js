@@ -269,25 +269,33 @@ const Navbar = ({ lr , nr , theme  })=>{
                                 className: "social-icon",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#0",
+                                        href: "https://www.behance.net/marketingpearsols",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                             className: "fab fa-behance"
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#0",
+                                        href: "https://www.facebook.com/marketingpearsols",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                             className: "fab fa-facebook-f"
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#0",
+                                        href: "https://www.instagram.com/marketingpearsols",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                             className: "fab fa-instagram"
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#0",
+                                        href: "https://www.linkedin.com/company/marketingpearsols",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                             className: "fab fa-linkedin-in"
                                         })

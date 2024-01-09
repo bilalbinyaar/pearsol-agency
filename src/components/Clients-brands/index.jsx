@@ -90,7 +90,7 @@ const ClientsBrands = ({ subBG, theme }) => {
                     className="link words chars splitting"
                     data-splitting
                   >
-                    www.pearsols.com
+                    {item.companyName}
                   </a>
                 </Split>
               </div>

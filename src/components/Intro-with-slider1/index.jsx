@@ -27,10 +27,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
   const paginationRef = React.useRef(null);
 
   return (
-    <header
-      ref={sliderRef}
-      className="slider slider-prlx fixed-slider text-center"
-    >
+    <header ref={sliderRef} className="slider slider-prlx fixed-slider">
       <div className="swiper-container parallax-slider">
         {!load ? (
           <Swiper
@@ -88,10 +85,10 @@ const IntroWithSlider1 = ({ sliderRef }) => {
                   data-overlay-dark="6"
                 >
                   <div className="container">
-                    <div className="row justify-content-center">
+                    <div className="row">
                       <div className="col-lg-7 col-md-9">
                         <div className="caption center">
-                          <Split>
+                          {/* <Split>
                             <h1 className="words chars splitting">
                               {typeof slide.title === 'object' ? (
                                 <>
@@ -102,8 +99,18 @@ const IntroWithSlider1 = ({ sliderRef }) => {
                                 slide.title
                               )}
                             </h1>
-                          </Split>
-                          {slide?.content && <p>{slide.content}</p>}
+                          </Split> */}
+                          {slide?.content && (
+                            <p>
+                              {slide.content.first} <br />
+                              <span
+                                dangerouslySetInnerHTML={{
+                                  __html: slide.content.second,
+                                }}
+                              />
+                            </p>
+                          )}
+
                           <Link href="/about/about-dark">
                             <a className="btn-curve btn-lit mt-30">
                               <span>Explore</span>

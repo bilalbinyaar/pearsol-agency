@@ -104,18 +104,18 @@ const AboutUs2 = ({ skillsTheme  })=>{
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                                         className: "co-tit custom-font wow words chars splitting",
                                         "data-splitting": true,
-                                        children: "Our 20 Years Experience."
+                                        children: "Pearsols: Towards Digital Excellence."
                                     })
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                     className: "wow fadeInUp",
                                     "data-wow-delay": ".4s",
-                                    children: "We are Pearsols. We create award-winning websites, remarkable brands and cutting-edge apps.Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet erat. Ut dictum nisi masvitp."
+                                    children: "At Pearsols, we lead the way in transforming the digital landscape. Seamlessly blending design, strategy, and innovation, we meticulously shape compelling brands, user-friendly responsive websites, and impactful digital strategies. Our commitment to excellence drive businesses to new heights, setting the gold standard for digital achievements."
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                     className: "mt-10 wow fadeInUp",
                                     "data-wow-delay": ".4s",
-                                    children: "Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit class aptent taciti sociosqu ad litora."
+                                    children: "Join us in sculpting your success, where every collaboration is a story of constant innovation, growth, and unparalleled excellence in the evolving world of digital possibilities."
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -234,7 +234,7 @@ var external_react_slick_default = /*#__PURE__*/__webpack_require__.n(external_r
 // EXTERNAL MODULE: ./src/components/Split/index.jsx
 var Split = __webpack_require__(8636);
 ;// CONCATENATED MODULE: ./src/data/sections/clients-brands.json
-const clients_brands_namespaceObject = JSON.parse('[{"id":1,"darkImage":"/img/clients/brands/dark/01.png","lightImage":"/img/clients/brands/light/1.png"},{"id":2,"darkImage":"/img/clients/brands/dark/02.png","lightImage":"/img/clients/brands/light/2.png"},{"id":3,"darkImage":"/img/clients/brands/dark/03.png","lightImage":"/img/clients/brands/light/3.png"},{"id":4,"darkImage":"/img/clients/brands/dark/04.png","lightImage":"/img/clients/brands/light/4.png"},{"id":5,"darkImage":"/img/clients/brands/dark/05.png","lightImage":"/img/clients/brands/light/5.png"},{"id":6,"darkImage":"/img/clients/brands/dark/06.png","lightImage":"/img/clients/brands/light/6.png"},{"id":7,"darkImage":"/img/clients/brands/dark/07.png","lightImage":"/img/clients/brands/light/7.png"},{"id":8,"darkImage":"/img/clients/brands/dark/08.png","lightImage":"/img/clients/brands/light/8.png"}]');
+const clients_brands_namespaceObject = JSON.parse('[{"id":1,"darkImage":"/img/clients/brands/dark/01.svg","lightImage":"/img/clients/brands/light/1.png","companyName":"NETSOFT SOLUTIONS"},{"id":2,"darkImage":"/img/clients/brands/dark/02.svg","lightImage":"/img/clients/brands/light/2.png","companyName":"DevBracket"},{"id":3,"darkImage":"/img/clients/brands/dark/03.svg","lightImage":"/img/clients/brands/light/3.png","companyName":"SPARKPRO"},{"id":4,"darkImage":"/img/clients/brands/dark/04.svg","lightImage":"/img/clients/brands/light/4.png","companyName":"CLIMATE PIONEERS ACADEMY"},{"id":5,"darkImage":"/img/clients/brands/dark/05.svg","lightImage":"/img/clients/brands/light/5.png","companyName":"apex"},{"id":6,"darkImage":"/img/clients/brands/dark/06.svg","lightImage":"/img/clients/brands/light/6.png","companyName":"THE URBAN FACTORY"},{"id":7,"darkImage":"/img/clients/brands/dark/07.svg","lightImage":"/img/clients/brands/light/7.png","companyName":"Stylux"},{"id":8,"darkImage":"/img/clients/brands/dark/08.svg","lightImage":"/img/clients/brands/light/8.png","companyName":"Trends Maven"},{"id":9,"darkImage":"/img/clients/brands/dark/09.svg","lightImage":"/img/clients/brands/light/8.png","companyName":"Oral Medicine & Pathology Center"},{"id":10,"darkImage":"/img/clients/brands/dark/11.svg","lightImage":"/img/clients/brands/light/8.png","companyName":"Modulare Klima Trennung"},{"id":11,"darkImage":"/img/clients/brands/dark/12.svg","lightImage":"/img/clients/brands/light/8.png","companyName":"Gozubi"},{"id":12,"darkImage":"/img/clients/brands/dark/13.svg","lightImage":"/img/clients/brands/light/8.png","companyName":"Thomas Andresen"},{"id":13,"darkImage":"/img/clients/brands/dark/14.svg","lightImage":"/img/clients/brands/light/8.png","companyName":"Giving Back Pharmacy"},{"id":14,"darkImage":"/img/clients/brands/dark/15.svg","lightImage":"/img/clients/brands/light/8.png","companyName":"Homewire"},{"id":15,"darkImage":"/img/clients/brands/dark/16.svg","lightImage":"/img/clients/brands/light/8.png","companyName":"MidCountry Homes"},{"id":16,"darkImage":"/img/clients/brands/dark/17.svg","lightImage":"/img/clients/brands/light/8.png","companyName":"NuGen Homes"}]');
 ;// CONCATENATED MODULE: ./src/components/Clients-brands/index.jsx
 
 /* eslint-disable @next/next/no-img-element */ 
@@ -322,7 +322,7 @@ const ClientsBrands = ({ subBG , theme  })=>{
                                                 href: "#0",
                                                 className: "link words chars splitting",
                                                 "data-splitting": true,
-                                                children: "www.pearsols.com"
+                                                children: item.companyName
                                             })
                                         })
                                     ]
@@ -392,7 +392,7 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
     const paginationRef = react__WEBPACK_IMPORTED_MODULE_1___default().useRef(null);
     return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("header", {
         ref: sliderRef,
-        className: "slider slider-prlx fixed-slider text-center",
+        className: "slider slider-prlx fixed-slider",
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             className: "swiper-container parallax-slider",
             children: !load ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.Swiper, {
@@ -446,28 +446,24 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "container",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: "row justify-content-center",
+                                    className: "row",
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         className: "col-lg-7 col-md-9",
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                             className: "caption center",
                                             children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
-                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                                                        className: "words chars splitting",
-                                                        children: typeof slide.title === 'object' ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-                                                            children: [
-                                                                slide.title.first,
-                                                                " ",
-                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                                                }),
-                                                                slide.title.second
-                                                            ]
-                                                        }) : slide.title
-                                                    })
-                                                }),
-                                                (slide === null || slide === void 0 ? void 0 : slide.content) && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    children: slide.content
+                                                (slide === null || slide === void 0 ? void 0 : slide.content) && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                                    children: [
+                                                        slide.content.first,
+                                                        " ",
+                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
+                                                        }),
+                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                            dangerouslySetInnerHTML: {
+                                                                __html: slide.content.second
+                                                            }
+                                                        })
+                                                    ]
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_4__["default"], {
                                                     href: "/about/about-dark",
@@ -1329,7 +1325,7 @@ const Homepage1 = ()=>{
 /***/ 5754:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Welcome To","second":"Pearsols"},"content":"If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.","image":"/img/slid/01.png"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"first":"Shattering Barriers","second":"Through Bold Digital Solutions"},"content":{"first":"Transforming the business landscape","second":"with bold <a class=\'banner-a\' href=\'#\'>marketing solutions!</a>"},"image":"/img/slid/01.png"}]');
 
 /***/ }),
 
