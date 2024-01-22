@@ -866,7 +866,7 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "img",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                            src: "/img/clients/1.jpg",
+                                                                            src: "/img/clients/2.jpg",
                                                                             alt: ""
                                                                         })
                                                                     })
@@ -890,7 +890,7 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                     className: "img",
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                        src: "/img/clients/1.jpg",
+                                                                        src: "/img/clients/2.jpg",
                                                                         alt: ""
                                                                     })
                                                                 }),
@@ -928,7 +928,7 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "img",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                            src: "/img/clients/1.jpg",
+                                                                            src: "/img/clients/3.jpg",
                                                                             alt: ""
                                                                         })
                                                                     })
@@ -952,7 +952,7 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                     className: "img",
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                        src: "/img/clients/1.jpg",
+                                                                        src: "/img/clients/3.jpg",
                                                                         alt: ""
                                                                     })
                                                                 }),
