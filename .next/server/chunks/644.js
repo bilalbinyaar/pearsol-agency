@@ -129,15 +129,65 @@ const AboutUs2 = ({ skillsTheme  })=>{
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "col-lg-6",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             className: "blc-img",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "bimg wow imago",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                    src: "/img/intro/about-section.png",
-                                    alt: ""
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    className: "bimg wow imago",
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                        src: "/img/intro/about-section.png",
+                                        alt: ""
+                                    })
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "skills-circle wow fadeInUp",
+                                    "data-wow-delay": ".8",
+                                    children: [
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            className: "item",
+                                            children: [
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                    className: "skill",
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_circular_progressbar__WEBPACK_IMPORTED_MODULE_4__.CircularProgressbar, {
+                                                        value: 93,
+                                                        className: "custom-font",
+                                                        strokeWidth: 2,
+                                                        text: `${93}%`,
+                                                        styles: cpStyle
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                    className: "cont",
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                        children: "Branding"
+                                                    })
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            className: "item",
+                                            children: [
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                    className: "skill",
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_circular_progressbar__WEBPACK_IMPORTED_MODULE_4__.CircularProgressbar, {
+                                                        value: 96,
+                                                        strokeWidth: 2,
+                                                        className: "custom-font",
+                                                        text: `${96}%`,
+                                                        styles: cpStyle
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                    className: "cont",
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                        children: "Web Development"
+                                                    })
+                                                })
+                                            ]
+                                        })
+                                    ]
                                 })
-                            })
+                            ]
                         })
                     })
                 ]
@@ -246,7 +296,7 @@ const ClientsBrands = ({ subBG , theme  })=>{
                                     "data-wow-delay": index + 1 == '1' ? '.3s' : index + 1 == '2' ? '.6s' : index + 1 == '3' ? '.8s' : index + 1 == '4' ? '.3s' : index + 1 == '5' ? '.4s' : index + 1 == '6' ? '.7s' : index + 1 == '7' ? '.5s' : index + 1 == '8' ? '.3s' : '',
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "img",
+                                            className: "img clients-brand",
                                             children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                                 src: theme == 'dark' ? item.darkImage : item.lightImage,
                                                 alt: ""
@@ -255,7 +305,7 @@ const ClientsBrands = ({ subBG , theme  })=>{
                                         /*#__PURE__*/ jsx_runtime_.jsx(Split/* default */.Z, {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                 href: "#0",
-                                                className: "link words chars splitting",
+                                                className: "link words chars splitting clients-brand",
                                                 "data-splitting": true,
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                                     src: item.lightImage,
@@ -447,7 +497,7 @@ var external_react_ = __webpack_require__(6689);
 var external_react_countup_ = __webpack_require__(609);
 var external_react_countup_default = /*#__PURE__*/__webpack_require__.n(external_react_countup_);
 ;// CONCATENATED MODULE: ./src/data/sections/numbers1.json
-const numbers1_namespaceObject = JSON.parse('[{"id":1,"icon":"pe-7s-smile","txt":"Happy Clients","value":"132"},{"id":2,"icon":"pe-7s-portfolio","txt":"Completed Projects","value":"238"},{"id":3,"icon":"pe-7s-cloud-download","txt":"Positive Reviews","value":"181"},{"id":4,"icon":"pe-7s-medal","txt":"Avg. Rating","value":"4.9"}]');
+const numbers1_namespaceObject = JSON.parse('[{"id":1,"icon":"pe-7s-smile","txt":"Happy Clients","value":"132"},{"id":2,"icon":"pe-7s-portfolio","txt":"Completed Projects","value":"238"},{"id":3,"icon":"pe-7s-cloud-download","txt":"Positive Reviews","value":"98"},{"id":4,"icon":"pe-7s-medal","txt":"Avg. Rating","value":"4.9"}]');
 // EXTERNAL MODULE: ./src/components/Split/index.jsx
 var Split = __webpack_require__(8636);
 // EXTERNAL MODULE: external "react-visibility-sensor"
@@ -493,7 +543,7 @@ const Numbers1 = ()=>{
                                                                 ref: countUpRef
                                                             }),
                                                             ' ',
-                                                            item.id == 4 ? '' : ''
+                                                            item.id == 3 ? '%' : ''
                                                         ]
                                                     })
                                                 })
@@ -1263,7 +1313,7 @@ const Homepage1 = ()=>{
 /***/ 5754:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Shattering Barriers","second":"Through Bold Digital Solutions"},"content":{"first":"Transforming the business landscape","second":"with bold <a class=\'banner-a\' href=\'#\'>marketing solutions!</a>"},"image":"/img/slid/01.png"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"first":"Shattering Barriers","second":"Through Bold Digital Solutions"},"content":{"first":"Transforming the business landscape","second":"with bold marketing solutions!"},"image":"/img/slid/01.png"}]');
 
 /***/ }),
 

@@ -72,38 +72,38 @@ const AboutUs2 = ({ skillsTheme }) => {
               <div className="bimg wow imago">
                 <img src="/img/intro/about-section.png" alt="" />
               </div>
-              {/* <div className="skills-circle wow fadeInUp" data-wow-delay=".8">
+              <div className="skills-circle wow fadeInUp" data-wow-delay=".8">
                 <div className="item">
                   <div className="skill">
                     <CircularProgressbar
-                      value={90}
+                      value={93}
                       className="custom-font"
                       strokeWidth={2}
-                      text={`${90}%`}
+                      text={`${93}%`}
                       styles={cpStyle}
                     />
                   </div>
                   <div className="cont">
-                    <span>Project</span>
-                    <h6>Consulting</h6>
+                    {/* <span>Project</span> */}
+                    <h6>Branding</h6>
                   </div>
                 </div>
                 <div className="item">
                   <div className="skill">
                     <CircularProgressbar
-                      value={75}
+                      value={96}
                       strokeWidth={2}
                       className="custom-font"
-                      text={`${75}%`}
+                      text={`${96}%`}
                       styles={cpStyle}
                     />
                   </div>
                   <div className="cont">
-                    <span>App</span>
-                    <h6>Development</h6>
+                    {/* <span>App</span> */}
+                    <h6>Web Development</h6>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

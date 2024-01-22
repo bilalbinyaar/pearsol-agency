@@ -78,7 +78,7 @@ const ClientsBrands = ({ subBG, theme }) => {
                     : ''
                 }
               >
-                <div className="img">
+                <div className="img clients-brand">
                   <img
                     src={theme == 'dark' ? item.darkImage : item.lightImage}
                     alt=""
@@ -87,7 +87,7 @@ const ClientsBrands = ({ subBG, theme }) => {
                 <Split>
                   <a
                     href="#0"
-                    className="link words chars splitting"
+                    className="link words chars splitting clients-brand"
                     data-splitting
                   >
                     <img src={item.lightImage} alt="" />

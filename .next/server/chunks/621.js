@@ -41,16 +41,10 @@ const CallToAction = ({ img , theme , subBG  })=>{
                                         "data-splitting": true,
                                         children: "Let's Talk"
                                     }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                                         className: "wow words custom-font chars splitting",
                                         "data-splitting": true,
-                                        children: [
-                                            "about your ",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
-                                                children: "next project"
-                                            }),
-                                            "."
-                                        ]
+                                        children: "about your project."
                                     })
                                 ]
                             })

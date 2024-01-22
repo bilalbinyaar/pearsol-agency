@@ -15,13 +15,6 @@ export const handleDropdown = (e) => {
   e.target.parentElement.classList.toggle('show');
   e.target.setAttribute('aria-expanded', true);
   e.target.parentElement.childNodes[1].classList.toggle('show');
-  // console.log('i am toggle');
-  // document.body.addEventListener('click', () => {
-  //   if (e.target.parentElement.childNodes[1]) {
-  //     e.target.parentElement.childNodes[1].classList.toggle('show');
-  //     console.log('body click');
-  //   }
-  // });
 };
 
 export const handleMobileDropdown = (e) => {
