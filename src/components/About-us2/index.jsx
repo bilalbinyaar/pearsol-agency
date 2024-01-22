@@ -50,18 +50,18 @@ const AboutUs2 = ({ skillsTheme }) => {
                 commitment to excellence drive businesses to new heights,
                 setting the gold standard for digital achievements.
               </p>
-              <p className="mt-10 wow fadeInUp" data-wow-delay=".4s">
+              {/* <p className="mt-10 wow fadeInUp" data-wow-delay=".4s">
                 Join us in sculpting your success, where every collaboration is
                 a story of constant innovation, growth, and unparalleled
                 excellence in the evolving world of digital possibilities.
-              </p>
+              </p> */}
               <Split>
                 <Link href="/about/about-dark">
                   <a
                     className="words chars splitting simple-btn custom-font mt-30 wow"
                     data-splitting
                   >
-                    <span>Know More</span>
+                    <span>Learn More</span>
                   </a>
                 </Link>
               </Split>

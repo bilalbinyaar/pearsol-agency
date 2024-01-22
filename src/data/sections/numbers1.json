@@ -2,7 +2,7 @@
   {
     "id": 1,
     "icon": "pe-7s-smile",
-    "txt": "Total Clients",
+    "txt": "Happy Clients",
     "value": "132"
   },
   {
@@ -14,7 +14,7 @@
   {
     "id": 3,
     "icon": "pe-7s-cloud-download",
-    "txt": "Good Reviews",
+    "txt": "Positive Reviews",
     "value": "181"
   },
   {

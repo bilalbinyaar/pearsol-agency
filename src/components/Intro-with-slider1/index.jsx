@@ -27,7 +27,10 @@ const IntroWithSlider1 = ({ sliderRef }) => {
   const paginationRef = React.useRef(null);
 
   return (
-    <header ref={sliderRef} className="slider slider-prlx fixed-slider">
+    <header
+      ref={sliderRef}
+      className="slider slider-prlx fixed-slider text-center"
+    >
       <div className="swiper-container parallax-slider">
         {!load ? (
           <Swiper
@@ -85,7 +88,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
                   data-overlay-dark="6"
                 >
                   <div className="container">
-                    <div className="row">
+                    <div className="row justify-content-center">
                       <div className="col-lg-7 col-md-9">
                         <div className="caption center">
                           {/* <Split>

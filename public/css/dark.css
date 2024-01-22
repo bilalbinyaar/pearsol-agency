@@ -2013,8 +2013,7 @@ span:hover {
 }
 
 .slider .parallax-slider .swiper-slide-active .caption p {
-  text-align: left;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .slider .parallax-slider .caption .thin {
@@ -2078,7 +2077,6 @@ span:hover {
   transition-delay: 1s;
   border: 2px solid;
   line-height: 2;
-  border-radius: 45px;
 }
 .slider .parallax-slider .caption .btn-curve span {
   font-size: 15px;
