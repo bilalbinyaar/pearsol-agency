@@ -39,8 +39,7 @@ const Services1 = () => {
             <span className="icon pe-7s-paint-bucket"></span>
             <h6>DESIGN & BRANDING</h6>
             <p>
-              Tempore corrupti temporibus fuga earum asperiores fugit
-              laudantium.
+              We craft modern brand stories, seamlessly blending creativity.
             </p>
           </div>
           <div
@@ -49,7 +48,10 @@ const Services1 = () => {
           >
             <span className="icon pe-7s-phone"></span>
             <h6>DIGITAL MARKETING</h6>
-            <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
+            <p>
+              We are pioneering strategic digital mastery to propel your brand
+              forward.
+            </p>
           </div>
           <div
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
@@ -57,7 +59,10 @@ const Services1 = () => {
           >
             <span className="icon pe-7s-display1"></span>
             <h6>WEBSITE DEVELOPMENT</h6>
-            <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
+            <p>
+              We are crafting digital masterpieces for impactful online
+              presence.
+            </p>
           </div>
         </div>
       </div>

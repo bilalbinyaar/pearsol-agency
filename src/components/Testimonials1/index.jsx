@@ -84,10 +84,11 @@ class Testimonials1 extends React.Component {
               >
                 <div className="item">
                   <p>
-                    Working with Pearsols digital agency to support our organic
-                    and paid social media activity has extended the marketing
-                    activities we are able to achieve platform has made
-                    collaboration easy.
+                    The team at Pearsols provided exceptional social media
+                    service, and work, exceeding all expectations. Their
+                    expertise, dedication, and professionalism made the
+                    experience truly remarkable. Highly recommended for
+                    top-notch results, and a delightful collaboration!
                   </p>
                   <div className="info">
                     <div className="cont">
@@ -101,11 +102,9 @@ class Testimonials1 extends React.Component {
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                Alex Regelman
+                                KEVIN NAFASH
                               </h6>
-                              <span className="author-details">
-                                Co-founder, Colabrio
-                              </span>
+                              <span className="author-details">USA</span>
                             </div>
                           </>
                         ) : (
@@ -114,11 +113,9 @@ class Testimonials1 extends React.Component {
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              Alex Regelman
+                              KEVIN NAFASH
                             </h6>
-                            <span className="author-details">
-                              Co-founder, Colabrio
-                            </span>
+                            <span className="author-details">USA</span>
                           </>
                         )}
                       </div>
@@ -127,10 +124,10 @@ class Testimonials1 extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                    Pearsols started out managing our SEO efforts, but their
-                    scientific approach to digital marketing and the results
-                    they have achieved made it an easy decision for us to
-                    handover the management.
+                    Precize communication, excellent results and fast delivery.
+                    I can recommend working with Pearsols for any kind of design
+                    and branding work to be done in high quality and fast. Well
+                    Done!
                   </p>
                   <div className="info">
                     <div className="cont">
@@ -144,11 +141,9 @@ class Testimonials1 extends React.Component {
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                Alex Regelman
+                                HAUKAY
                               </h6>
-                              <span className="author-details">
-                                Co-founder, Colabrio
-                              </span>
+                              <span className="author-details">Germany</span>
                             </div>
                           </>
                         ) : (
@@ -156,12 +151,8 @@ class Testimonials1 extends React.Component {
                             <div className="img">
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
-                            <h6 className="author-name custom-font">
-                              Alex Regelman
-                            </h6>
-                            <span className="author-details">
-                              Co-founder, Colabrio
-                            </span>
+                            <h6 className="author-name custom-font">HAUKAY</h6>
+                            <span className="author-details">Germany</span>
                           </>
                         )}
                       </div>
@@ -170,10 +161,10 @@ class Testimonials1 extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                    I would highly recommend Pearsols Digital. I worked with the
-                    team on an animation for our U+2018 Click &amp; Collect
-                    U+2019 service. This team is different from any other agency
-                    I have worked with in the past.
+                    Their prolonged efforts yielded exceptional, professional
+                    results precisely on schedule. I intend to repeatedly enlist
+                    their services due to the outstanding quality and timeliness
+                    of their work.
                   </p>
                   <div className="info">
                     <div className="cont">
@@ -187,11 +178,9 @@ class Testimonials1 extends React.Component {
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                Alex Regelman
+                                ANKEET UDANI
                               </h6>
-                              <span className="author-details">
-                                Co-founder, Colabrio
-                              </span>
+                              <span className="author-details">USA</span>
                             </div>
                           </>
                         ) : (
@@ -200,11 +189,9 @@ class Testimonials1 extends React.Component {
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              Alex Regelman
+                              ANKEET UDANI
                             </h6>
-                            <span className="author-details">
-                              Co-founder, Colabrio
-                            </span>
+                            <span className="author-details">USA</span>
                           </>
                         )}
                       </div>

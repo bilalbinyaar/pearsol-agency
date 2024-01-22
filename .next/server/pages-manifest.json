@@ -1,5 +1,19 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js"
+  "/about/about-dark": "pages/about/about-dark.html",
+  "/contact/contact-dark": "pages/contact/contact-dark.html",
+  "/": "pages/index.html",
+  "/main": "pages/main.html",
+  "/showcase2/showcase2-dark": "pages/showcase2/showcase2-dark.html",
+  "/showcase3/showcase3-dark": "pages/showcase3/showcase3-dark.html",
+  "/showcase4/showcase4-dark": "pages/showcase4/showcase4-dark.html",
+  "/showcase5/showcase5-dark": "pages/showcase5/showcase5-dark.html",
+  "/showcase/showcase-dark": "pages/showcase/showcase-dark.html",
+  "/works2/works2-dark": "pages/works2/works2-dark.html",
+  "/works3/works3-dark": "pages/works3/works3-dark.html",
+  "/works4/works4-dark": "pages/works4/works4-dark.html",
+  "/works/works-dark": "pages/works/works-dark.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
 }
