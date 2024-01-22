@@ -3190,7 +3190,7 @@ header.simpl .caption .btn-curve {
   box-shadow: -10px -10px 20px -5px rgba(52, 60, 70, 0.1);
   position: relative;
 }
-.about .blc-img .bimg:after {
+/* .about .blc-img .bimg:after {
   content: '';
   position: absolute;
   top: -30px;
@@ -3200,7 +3200,7 @@ header.simpl .caption .btn-curve {
   background-image: url(../img/dots.png);
   opacity: 0.4;
   z-index: -1;
-}
+} */
 .about .blc-img .bimg img {
   border-radius: 15px;
   overflow: hidden;

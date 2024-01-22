@@ -70,9 +70,9 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/intro/about-section.png" alt="" />
               </div>
-              <div className="skills-circle wow fadeInUp" data-wow-delay=".8">
+              {/* <div className="skills-circle wow fadeInUp" data-wow-delay=".8">
                 <div className="item">
                   <div className="skill">
                     <CircularProgressbar
@@ -103,7 +103,7 @@ const AboutUs2 = ({ skillsTheme }) => {
                     <h6>Development</h6>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
