@@ -90,7 +90,7 @@ const ClientsBrands = ({ subBG, theme }) => {
                     className="link words chars splitting"
                     data-splitting
                   >
-                    {item.companyName}
+                    <img src={item.lightImage} alt="" />
                   </a>
                 </Split>
               </div>
