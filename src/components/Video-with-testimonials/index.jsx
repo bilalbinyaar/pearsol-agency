@@ -83,9 +83,11 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      The team at Pearsols provided exceptional social media
+                      service, and work, exceeding all expectations. Their
+                      expertise, dedication, and professionalism made the
+                      experience truly remarkable. Highly recommended for
+                      top-notch results, and a delightful collaboration!
                     </p>
                     <div className="info">
                       <div className="img">
@@ -96,20 +98,19 @@ const VideoWithTestimonials = () => {
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">
-                            Alex Regelman
+                            KEVIN NAFASH
                           </h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
+                          <span className="author-details">USA</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      Precize communication, excellent results and fast
+                      delivery. I can recommend working with Pearsols for any
+                      kind of design and branding work to be done in high
+                      quality and fast. Well Done!
                     </p>
                     <div className="info">
                       <div className="img">
@@ -119,21 +120,18 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name custom-font">
-                            Alex Regelman
-                          </h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
+                          <h6 className="author-name custom-font">HAUKAY</h6>
+                          <span className="author-details">Germany</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      Their prolonged efforts yielded exceptional, professional
+                      results precisely on schedule. I intend to repeatedly
+                      enlist their services due to the outstanding quality and
+                      timeliness of their work.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -144,11 +142,9 @@ const VideoWithTestimonials = () => {
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">
-                            Alex Regelman
+                            ANKEET UDANI
                           </h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
+                          <span className="author-details">USA</span>
                         </div>
                       </div>
                     </div>

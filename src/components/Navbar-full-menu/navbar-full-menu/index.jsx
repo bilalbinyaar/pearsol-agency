@@ -17,7 +17,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
       >
         <div className="container-fluid">
           <div className="logo">
-            <a href="#0">
+            <Link href="/">
               {theme ? (
                 theme === 'light' ? (
                   <img src={`${appData.darkLogo}`} alt="logo" />
@@ -27,7 +27,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
               ) : (
                 <img src={`${appData.lightLogo}`} alt="logo" />
               )}
-            </a>
+            </Link>
           </div>
           <div className="menu-icon">
             <span className="icon">
@@ -177,7 +177,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/showcase4/showcase4-dark">
+                            <Link href="/showcase5/showcase5-dark">
                               <a className="sub-link">
                                 <span className="nm">05.</span>Social Media
                                 Management
@@ -187,7 +187,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/showcase4/showcase4-dark">
+                            <Link href="/showcase/showcase-dark">
                               <a className="sub-link">
                                 <span className="nm">06.</span>Search Engine
                                 Optimization

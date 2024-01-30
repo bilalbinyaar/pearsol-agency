@@ -175,7 +175,7 @@ const Navbar = ({ lr , nr , theme  })=>{
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "#",
+                                                    href: "/showcase/showcase-dark",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
                                                         children: "Search Engine Optimization"

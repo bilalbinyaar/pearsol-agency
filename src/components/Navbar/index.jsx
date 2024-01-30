@@ -111,7 +111,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href="/showcase5/showcase5-dark">
                   <a className="dropdown-item">Social Media Management</a>
                 </Link>
-                <Link href="#">
+                <Link href="/showcase/showcase-dark">
                   <a className="dropdown-item">Search Engine Optimization</a>
                 </Link>
               </div>

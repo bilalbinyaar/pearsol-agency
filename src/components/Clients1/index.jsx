@@ -57,6 +57,57 @@ const Clients1 = ({ theme, subBG }) => {
                   </div>
                 ))}
               </div>
+              {/* <div className="row">
+                {second.map((item) => (
+                  <div
+                    key={item.id}
+                    className={`${
+                      item.id == 5
+                        ? 'col-md-3 col-6 brands sm-mb30'
+                        : item.id == 6
+                        ? 'col-md-3 col-6 brands sm-mb30'
+                        : item.id == 7
+                        ? 'col-md-3 col-6 brands'
+                        : item.id == 8
+                        ? 'col-md-3 col-6 brands'
+                        : ''
+                    }`}
+                  >
+                    <div
+                      className="item wow fadeIn"
+                      data-wow-delay={`${
+                        item.id == 1
+                          ? '.4'
+                          : item.id == 2
+                          ? '.7'
+                          : item.id == 3
+                          ? '.5'
+                          : item.id == 4
+                          ? '.3'
+                          : ''
+                      }s`}
+                    >
+                      <div className="img">
+                        {theme === 'light' ? (
+                          <img src={item.lightImage} alt="" />
+                        ) : (
+                          <img src={item.darkImage} alt="" />
+                        )}
+                        <Split>
+                          <a
+                            href="#0"
+                            className="link words chars splitting"
+                            data-splitting
+                          >
+                            {item.url}
+                          </a>
+                        </Split>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div> */}
+
               <div className="row">
                 {second.map((item) => (
                   <div

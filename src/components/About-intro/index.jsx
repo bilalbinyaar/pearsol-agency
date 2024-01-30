@@ -15,14 +15,13 @@ const AboutIntro = () => {
             <div className="text">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  We develop creative solutions for small and big brands alike,
-                  build authentic product identities and much more.Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit sit non facilisis
-                  vitae eu. Ultrices ut diam morbi risus dui, nec eget at lorem
-                  in id tristique in elementum leo nisi eleifend placerat magna
-                  lacus elementum ornare vehicula odio posuere quisque ultrices
-                  tempus cras id blandit maecenas in ornare quis dolor tempus
-                  risus vitae feugiat fames aliquet sede.
+                  At Pearsols, we lead the way in transforming the digital
+                  landscape. Seamlessly blending design, strategy, and
+                  innovation, we meticulously shape compelling brands,
+                  user-friendly responsive websites, and impactful digital
+                  strategies. Our commitment to excellence drive businesses to
+                  new heights, setting the gold standard for digital
+                  achievements.
                 </p>
               </Split>
             </div>

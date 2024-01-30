@@ -6441,3 +6441,7 @@ header.simpl .caption .btn-curve {
 .clients-brand img {
   width: 112px !important;
 }
+
+.container-fluid .logo {
+  cursor: pointer !important;
+}

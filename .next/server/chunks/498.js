@@ -134,8 +134,8 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: "logo",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                href: "#0",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                href: "/",
                                 children: theme ? theme === 'light' ? /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                     src: `${app/* darkLogo */.Q1}`,
                                     alt: "logo"
@@ -319,7 +319,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "o-hidden",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/showcase4/showcase4-dark",
+                                                                            href: "/showcase5/showcase5-dark",
                                                                             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                                                 className: "sub-link",
                                                                                 children: [
@@ -337,7 +337,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "o-hidden",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/showcase4/showcase4-dark",
+                                                                            href: "/showcase/showcase-dark",
                                                                             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                                                 className: "sub-link",
                                                                                 children: [
@@ -603,7 +603,7 @@ class Split extends (react__WEBPACK_IMPORTED_MODULE_1___default().Component) {
 /***/ 265:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Hoodie","second":"Jacket"},"image":"/img/portfolio/full/1.jpg","sub":"Design"},{"id":2,"title":{"first":"Eminem","second":"Style"},"image":"/img/portfolio/full/4.jpg","sub":"Design"},{"id":3,"title":{"first":"Black","second":"Panther"},"image":"/img/portfolio/full/5.jpg","sub":"Design"},{"id":4,"title":{"first":"Secret","second":"Office"},"image":"/img/portfolio/full/6.jpg","sub":"Design"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"first":"Brand","second":"Stories"},"image":"/img/portfolio/full/1.jpg","sub":"Design"},{"id":2,"title":{"first":"Blending","second":"Creativity"},"image":"/img/portfolio/full/4.jpg","sub":"Design"},{"id":3,"title":{"first":"Mold","second":"Narratives"},"image":"/img/portfolio/full/5.jpg","sub":"Design"},{"id":4,"title":{"first":"Creativity","second":"Strategy"},"image":"/img/portfolio/full/6.jpg","sub":"Design"}]');
 
 /***/ })
 

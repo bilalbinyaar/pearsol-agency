@@ -1,20 +1,20 @@
 [
-    {
-        "id": 1,
-        "title": "Digital Marketing",
-        "icon": "pe-7s-gleam",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
-    },
-    {
-      "id": 2,
-      "title": "Web & App Development",
-      "icon": "pe-7s-phone",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
-    },
-    {
-      "id": 3,
-      "title": "Graphic Design",
-      "icon": "pe-7s-magic-wand",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
-    }
+  {
+    "id": 1,
+    "title": "DESIGN & BRANDING",
+    "icon": "pe-7s-gleam",
+    "content": "We craft modern brand stories, ensuring seamlessly blending creativity."
+  },
+  {
+    "id": 2,
+    "title": "DIGITAL MARKETING",
+    "icon": "pe-7s-phone",
+    "content": "We are pioneering strategic digital mastery to propel your brand forward."
+  },
+  {
+    "id": 3,
+    "title": "WEBSITE DEVELOPMENT",
+    "icon": "pe-7s-magic-wand",
+    "content": "We are crafting digital masterpieces for impactful online presence."
+  }
 ]
