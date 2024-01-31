@@ -85,7 +85,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
 
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -115,6 +115,12 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className="dropdown-item">Search Engine Optimization</a>
                 </Link>
               </div>
+            </li> */}
+
+            <li className="nav-item" onClick={handleDropdown}>
+              <Link href="#">
+                <a className="nav-link">Services</a>
+              </Link>
             </li>
 
             <li className="nav-item" onClick={handleDropdown}>
@@ -122,7 +128,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">About Us</a>
               </Link>
             </li>
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -146,7 +152,7 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className="dropdown-item">Pinterest List</a>
                 </Link>
               </div>
-            </li>
+            </li> */}
             <li className="nav-item" onClick={handleDropdown}>
               <Link href="/contact/contact-dark">
                 <a className="nav-link">Contact</a>

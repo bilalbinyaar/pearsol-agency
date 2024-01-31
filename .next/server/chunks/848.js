@@ -124,66 +124,16 @@ const Navbar = ({ lr , nr , theme  })=>{
                                         })
                                     })
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                    className: "nav-item dropdown",
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    className: "nav-item",
                                     onClick: handleDropdown,
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                            className: "nav-link dropdown-toggle",
-                                            "data-toggle": "dropdown",
-                                            role: "button",
-                                            "aria-haspopup": "true",
-                                            "aria-expanded": "false",
-                                            children: "Our Services"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "dropdown-menu",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase/showcase-dark",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        className: "dropdown-item",
-                                                        children: "Design & Branding"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase2/showcase2-dark",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        className: "dropdown-item",
-                                                        children: "Digital Marketing"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase3/showcase3-dark",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        className: "dropdown-item",
-                                                        children: "UI/UX Design"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase4/showcase4-dark",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        className: "dropdown-item",
-                                                        children: "Website Development"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase5/showcase5-dark",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        className: "dropdown-item",
-                                                        children: "Social Media Management"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase/showcase-dark",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        className: "dropdown-item",
-                                                        children: "Search Engine Optimization"
-                                                    })
-                                                })
-                                            ]
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                        href: "#",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            className: "nav-link",
+                                            children: "Services"
                                         })
-                                    ]
+                                    })
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: "nav-item",
@@ -195,53 +145,6 @@ const Navbar = ({ lr , nr , theme  })=>{
                                             children: "About Us"
                                         })
                                     })
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                    className: "nav-item dropdown",
-                                    onClick: handleDropdown,
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                            className: "nav-link dropdown-toggle",
-                                            "data-toggle": "dropdown",
-                                            role: "button",
-                                            "aria-haspopup": "true",
-                                            "aria-expanded": "false",
-                                            children: "portfolio"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "dropdown-menu",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/works/works-dark",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        className: "dropdown-item",
-                                                        children: "Mouse Info"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/works2/works2-dark",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        className: "dropdown-item",
-                                                        children: "Masonry 3 Columns"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/works3/works3-dark",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        className: "dropdown-item",
-                                                        children: "Masonry 2 Columns"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/works4/works4-dark",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                        className: "dropdown-item",
-                                                        children: "Pinterest List"
-                                                    })
-                                                })
-                                            ]
-                                        })
-                                    ]
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: "nav-item",
