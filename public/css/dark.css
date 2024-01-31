@@ -2064,6 +2064,8 @@ span:hover {
   -webkit-transition-delay: 0.8s;
   -o-transition-delay: 0.8s;
   transition-delay: 0.8s;
+  font-family: 'Glancyr', sans-serif !important;
+  line-height: 1.2;
 }
 .slider .parallax-slider .caption .btn-curve {
   opacity: 0;
