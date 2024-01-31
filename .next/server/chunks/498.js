@@ -374,118 +374,23 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                        className: "o-hidden",
-                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                                            className: "link dmenu",
+                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                    className: "o-hidden",
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
+                                                        href: "/contact/contact-dark",
+                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                                                            className: "link",
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                     className: "nm",
-                                                                    children: "03."
+                                                                    children: "04."
                                                                 }),
-                                                                "Portfolio",
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                                    className: "fas fa-angle-right"
-                                                                })
-                                                            ]
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                        className: "sub-menu",
-                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "o-hidden",
-                                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                                                            className: "sub-link back",
-                                                                            children: [
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                                                    className: "pe-7s-angle-left"
-                                                                                }),
-                                                                                " Go Back"
-                                                                            ]
-                                                                        })
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "o-hidden",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/works/works-dark",
-                                                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                className: "sub-link",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                        className: "nm",
-                                                                                        children: "01."
-                                                                                    }),
-                                                                                    "Mouse Info"
-                                                                                ]
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "o-hidden",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/works2/works2-dark",
-                                                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                className: "sub-link",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                        className: "nm",
-                                                                                        children: "02."
-                                                                                    }),
-                                                                                    "Masonry 3 Columns"
-                                                                                ]
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "o-hidden",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/works3/works3-dark",
-                                                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                className: "sub-link",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                        className: "nm",
-                                                                                        children: "03."
-                                                                                    }),
-                                                                                    "Masonry 2 Columns"
-                                                                                ]
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "o-hidden",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/works4/works4-dark",
-                                                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                                                className: "sub-link",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                        className: "nm",
-                                                                                        children: "04."
-                                                                                    }),
-                                                                                    "Pinterest List"
-                                                                                ]
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                })
+                                                                "Portfolio"
                                                             ]
                                                         })
                                                     })
-                                                ]
+                                                })
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -521,7 +426,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                     children: "Phone :"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    children: "(+92) 307 607 40 89"
+                                                    children: "(+92) 307 607 4089"
                                                 })
                                             ]
                                         }),

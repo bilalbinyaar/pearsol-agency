@@ -21,7 +21,7 @@ const CallToAction = ({ img, theme, subBG }) => {
                   data-splitting
                 >
                   {/* about your <b>project</b>. */}
-                  about your project.
+                  <b>about your project.</b>
                 </h2>
               </Split>
             </div>

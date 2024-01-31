@@ -207,7 +207,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                       </Link>
                     </div>
                   </li>
-                  <li>
+                  {/* <li>
                     <div className="o-hidden">
                       <span className="link dmenu">
                         <span className="nm">03.</span>Portfolio
@@ -261,8 +261,17 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                       </ul>
                     </div>
-                  </li>
+                  </li> */}
 
+                  <li>
+                    <div className="o-hidden">
+                      <Link href="/contact/contact-dark">
+                        <a className="link">
+                          <span className="nm">04.</span>Portfolio
+                        </a>
+                      </Link>
+                    </div>
+                  </li>
                   <li>
                     <div className="o-hidden">
                       <Link href="/contact/contact-dark">
@@ -279,7 +288,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
               <div className="cont-info">
                 <div className="item">
                   <h6>Phone :</h6>
-                  <p>(+92) 307 607 40 89</p>
+                  <p>(+92) 307 607 4089</p>
                 </div>
                 <div className="item">
                   <h6>Address :</h6>

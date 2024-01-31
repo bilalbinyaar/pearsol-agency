@@ -91,10 +91,7 @@ const ShowcasesFullScreen = () => {
                           <h1>
                             <Link href="/project-details2/project-details2-dark">
                               <a>
-                                <div
-                                  className="stroke"
-                                  data-swiper-parallax="-2000"
-                                >
+                                <div data-swiper-parallax="-2000">
                                   {slide.title.first}
                                 </div>
                                 <span data-swiper-parallax="-5000">

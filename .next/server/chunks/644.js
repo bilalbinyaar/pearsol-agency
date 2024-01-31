@@ -349,7 +349,7 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper__WEBPACK_IMPORTED_MODULE_5__]);
 ([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);
 
-
+/* eslint-disable @next/next/no-img-element */ 
 
 
 
@@ -456,9 +456,10 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_4__["default"], {
                                                     href: "/about/about-dark",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                        className: "btn-curve btn-lit mt-30",
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                            children: "Explore"
+                                                        className: "explorebtn mt-30",
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                            src: "/img/ExploreBtn.png",
+                                                            alt: "explore"
                                                         })
                                                     })
                                                 })
@@ -542,7 +543,6 @@ const Numbers1 = ()=>{
                                                                 className: "count",
                                                                 ref: countUpRef
                                                             }),
-                                                            ' ',
                                                             item.id == 3 ? '%' : ''
                                                         ]
                                                     })
@@ -1087,7 +1087,7 @@ const Works1Slider = ()=>{
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.Swiper, {
                                 className: "swiper-wrapper",
-                                slidesPerView: 2,
+                                slidesPerView: 1,
                                 centeredSlides: true,
                                 loop: true,
                                 navigation: {
@@ -1127,7 +1127,7 @@ const Works1Slider = ()=>{
                                         centeredSlides: false
                                     },
                                     991: {
-                                        slidesPerView: 2
+                                        slidesPerView: 1
                                     }
                                 },
                                 children: _data_sections_works1Slider_json__WEBPACK_IMPORTED_MODULE_2__.map((slide)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {

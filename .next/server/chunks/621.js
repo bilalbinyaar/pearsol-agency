@@ -44,7 +44,9 @@ const CallToAction = ({ img , theme , subBG  })=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                                         className: "wow words custom-font chars splitting",
                                         "data-splitting": true,
-                                        children: "about your project."
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                            children: "about your project."
+                                        })
                                     })
                                 ]
                             })

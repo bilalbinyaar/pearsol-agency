@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import introData from '../../data/sections/intro.json';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -115,8 +116,9 @@ const IntroWithSlider1 = ({ sliderRef }) => {
                           )}
 
                           <Link href="/about/about-dark">
-                            <a className="btn-curve btn-lit mt-30">
-                              <span>Explore</span>
+                            <a className="explorebtn mt-30">
+                              {/* <span>Explore</span> */}
+                              <img src="/img/ExploreBtn.png" alt="explore" />
                             </a>
                           </Link>
                         </div>

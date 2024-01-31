@@ -20,7 +20,7 @@ const Works1Slider = () => {
             <div className="swiper-container">
               <Swiper
                 className="swiper-wrapper"
-                slidesPerView={2}
+                slidesPerView={1}
                 centeredSlides={true}
                 loop={true}
                 navigation={{
@@ -61,7 +61,7 @@ const Works1Slider = () => {
                     centeredSlides: false,
                   },
                   991: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                   },
                 }}
               >

@@ -3214,7 +3214,7 @@ header.simpl .caption .btn-curve {
   display: -ms-flexbox;
   display: flex;
   background: #11141b;
-  padding: 30px;
+  padding: 20px 30px;
   border-radius: 15px;
   position: relative;
   margin-top: -80px;
@@ -6446,4 +6446,13 @@ header.simpl .caption .btn-curve {
 
 .container-fluid .logo {
   cursor: pointer !important;
+}
+
+.explorebtn img {
+  width: 100px;
+  transition: transform 0.7s ease;
+}
+
+.explorebtn img:hover {
+  transform: rotate(-50deg);
 }
