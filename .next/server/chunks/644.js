@@ -149,10 +149,10 @@ const AboutUs2 = ({ skillsTheme  })=>{
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                     className: "skill",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_circular_progressbar__WEBPACK_IMPORTED_MODULE_4__.CircularProgressbar, {
-                                                        value: 93,
+                                                        value: 96,
                                                         className: "custom-font",
                                                         strokeWidth: 2,
-                                                        text: `${93}%`,
+                                                        text: `${96}%`,
                                                         styles: cpStyle
                                                     })
                                                 }),
@@ -170,10 +170,10 @@ const AboutUs2 = ({ skillsTheme  })=>{
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                     className: "skill",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_circular_progressbar__WEBPACK_IMPORTED_MODULE_4__.CircularProgressbar, {
-                                                        value: 96,
+                                                        value: 93,
                                                         strokeWidth: 2,
                                                         className: "custom-font",
-                                                        text: `${96}%`,
+                                                        text: `${93}%`,
                                                         styles: cpStyle
                                                     })
                                                 }),
@@ -583,7 +583,7 @@ const Numbers1 = ()=>{
 /* harmony import */ var _Split__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8636);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1664);
 
-
+/* eslint-disable */ 
 
 
 const Services1 = ()=>{
@@ -649,7 +649,10 @@ const Services1 = ()=>{
                                 "data-wow-delay": ".5s",
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                        className: "icon pe-7s-paint-bucket"
+                                        className: "icon home-services-icons",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                            src: "/img/branding.png"
+                                        })
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                         children: "DESIGN & BRANDING"
@@ -664,7 +667,10 @@ const Services1 = ()=>{
                                 "data-wow-delay": ".7s",
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                        className: "icon pe-7s-phone"
+                                        className: "icon home-services-icons",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                            src: "/img/digital-marketing.png"
+                                        })
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                         children: "DIGITAL MARKETING"
@@ -679,7 +685,10 @@ const Services1 = ()=>{
                                 "data-wow-delay": ".9s",
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                        className: "icon pe-7s-display1"
+                                        className: "icon home-services-icons",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                            src: "/img/website.png"
+                                        })
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                         children: "WEBSITE DEVELOPMENT"

@@ -37,8 +37,9 @@ const MinimalArea = () => {
 
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  Our creative Ad agency is ranked among the finest in the US.
-                  We cultivate smart ideas for start-ups and seasoned players.
+                  We are recognized as a top-tier creative marketing agency,
+                  generating innovative concepts for both start-ups and large
+                  industries.
                 </p>
               </Split>
               <ul className="feat">
@@ -47,25 +48,28 @@ const MinimalArea = () => {
                     <span>1</span> Our Mission
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    We aim to go beyond the outdated digital marketing approach
+                    and consistently exceeding the expectations for a sustained
+                    business growth of our valuable clients.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
                   <h6>
-                    <span>2</span> Our Goals
+                    <span>2</span> Our Vision
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    Our main focus is to be the most creative agency among the
+                    top-notch digital agencies in the world.
                   </p>
                 </li>
-                <li className="wow fadeInUp" data-wow-delay=".6s">
+                {/* <li className="wow fadeInUp" data-wow-delay=".6s">
                   <h6>
                     <span>3</span> Why Us?
                   </h6>
                   <p>
                     luctus massa ipsum at tempus eleifend congue lectus bibendum
                   </p>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

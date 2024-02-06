@@ -15,13 +15,12 @@ const AboutIntro = () => {
             <div className="text">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  At Pearsols, we lead the way in transforming the digital
-                  landscape. Seamlessly blending design, strategy, and
-                  innovation, we meticulously shape compelling brands,
-                  user-friendly responsive websites, and impactful digital
-                  strategies. Our commitment to excellence drive businesses to
-                  new heights, setting the gold standard for digital
-                  achievements.
+                  We are the trendsetters in reshaping the digital landscape. We
+                  excel in seamlessly blending design, strategy, and innovation
+                  to precisely craft compelling brands, create user-friendly
+                  responsive websites, and develop impactful digital strategies.
+                  Committed to excellence, we propel businesses to new heights,
+                  establishing the gold standard for digital achievements.
                 </p>
               </Split>
             </div>

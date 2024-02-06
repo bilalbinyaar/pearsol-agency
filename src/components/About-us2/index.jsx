@@ -76,10 +76,10 @@ const AboutUs2 = ({ skillsTheme }) => {
                 <div className="item">
                   <div className="skill">
                     <CircularProgressbar
-                      value={93}
+                      value={96}
                       className="custom-font"
                       strokeWidth={2}
-                      text={`${93}%`}
+                      text={`${96}%`}
                       styles={cpStyle}
                     />
                   </div>
@@ -91,10 +91,10 @@ const AboutUs2 = ({ skillsTheme }) => {
                 <div className="item">
                   <div className="skill">
                     <CircularProgressbar
-                      value={96}
+                      value={93}
                       strokeWidth={2}
                       className="custom-font"
-                      text={`${96}%`}
+                      text={`${93}%`}
                       styles={cpStyle}
                     />
                   </div>

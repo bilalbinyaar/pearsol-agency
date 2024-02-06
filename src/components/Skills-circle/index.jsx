@@ -26,9 +26,9 @@ const SkillsCircle = ({ subBG, theme }) => {
                   <div className="item wow fadeInLeft" data-wow-delay=".6">
                     <div className="skill">
                       <CircularProgressbar
-                        value={93}
+                        value={96}
                         strokeWidth={2}
-                        text={`${93}%`}
+                        text={`${96}%`}
                         styles={cpStyle}
                       />
                     </div>
@@ -42,9 +42,9 @@ const SkillsCircle = ({ subBG, theme }) => {
                   <div className="item wow fadeInLeft" data-wow-delay=".3">
                     <div className="skill">
                       <CircularProgressbar
-                        value={96}
+                        value={93}
                         strokeWidth={2}
-                        text={`${96}%`}
+                        text={`${93}%`}
                         styles={cpStyle}
                       />
                     </div>

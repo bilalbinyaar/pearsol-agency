@@ -60,7 +60,8 @@ const VideoWithTestimonials = () => {
                 <div className="cont">
                   <Split>
                     <h3 className="wow" data-splitting>
-                      So that&apos;s us. There&apos;s no other way to put it.
+                      That&apos;s who we are. There&apos;s simply no
+                      alternative.
                     </h3>
                   </Split>
                 </div>

@@ -6456,3 +6456,7 @@ header.simpl .caption .btn-curve {
 .explorebtn img:hover {
   transform: rotate(-360deg) scale(1.1) rotate(-50deg);
 }
+
+.home-services-icons img {
+  width: 50px !important;
+}

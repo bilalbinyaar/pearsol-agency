@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import Split from '../Split';
 import Link from 'next/link';
@@ -36,7 +37,9 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".5s"
           >
-            <span className="icon pe-7s-paint-bucket"></span>
+            <span className="icon home-services-icons">
+              <img src="/img/branding.png" />
+            </span>
             <h6>DESIGN & BRANDING</h6>
             <p>
               We craft modern brand stories, seamlessly blending creativity.
@@ -46,7 +49,9 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".7s"
           >
-            <span className="icon pe-7s-phone"></span>
+            <span className="icon home-services-icons">
+              <img src="/img/digital-marketing.png" />
+            </span>
             <h6>DIGITAL MARKETING</h6>
             <p>
               We are pioneering strategic digital mastery to propel your brand
@@ -57,7 +62,9 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".9s"
           >
-            <span className="icon pe-7s-display1"></span>
+            <span className="icon home-services-icons">
+              <img src="/img/website.png" />
+            </span>
             <h6>WEBSITE DEVELOPMENT</h6>
             <p>
               We are crafting digital masterpieces for impactful online
