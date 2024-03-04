@@ -98,7 +98,7 @@ p {
   color: #c8c8c8;
   font-size: 15px;
   font-weight: 300;
-  line-height: 2;
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -1281,7 +1281,7 @@ span:hover {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
-  text-shadow: 0 8px rgba(255, 255, 255, 0.05);
+  /* text-shadow: 0 8px rgba(255, 255, 255, 0.05); */
 }
 .sec-head .tbg {
   position: absolute;
@@ -1986,6 +1986,7 @@ span:hover {
   bottom: 0;
   left: 0;
   background-size: cover;
+  background-position: 0px -180px;
 }
 .slider .parallax-slider .swiper-slide-active .caption h1 {
   -webkit-transition: all 0s;
@@ -2013,8 +2014,8 @@ span:hover {
 }
 
 .slider .parallax-slider .swiper-slide-active .caption p {
-  font-size: 54px;
-  line-height: 1.1;
+  font-size: 42px;
+  line-height: 1;
   font-weight: 100;
 }
 
@@ -2050,7 +2051,7 @@ span:hover {
   -o-transition: opacity 0.5s, visibility 0.5s;
   transition: opacity 0.5s, visibility 0.5s;
   /* font-family: 'Glancyr', sans-serif !important; */
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: 'Barlow', sans-serif !important;
   line-height: 1.2;
 }
 .slider .parallax-slider .caption p {
@@ -2067,7 +2068,7 @@ span:hover {
   -o-transition-delay: 0.8s;
   transition-delay: 0.8s;
   /* font-family: 'Glancyr', sans-serif !important; */
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: 'Barlow', sans-serif !important;
 
   line-height: 1.2;
 }
@@ -3211,6 +3212,14 @@ header.simpl .caption .btn-curve {
 .about .blc-img .bimg img {
   border-radius: 15px;
   overflow: hidden;
+}
+.about .blc-img .bimg .about-img-cus {
+  border-radius: 15px;
+  overflow: hidden;
+  background-image: url(/img/intro/about-section.png);
+  width: 600px;
+  height: 400px;
+  background-size: cover;
 }
 
 .about .blc-img .skills-circle {
@@ -4626,7 +4635,7 @@ header.simpl .caption .btn-curve {
   padding: 0 0.8rem;
 }
 .testimonials .item p {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 300;
 }
 .testimonials .item .info {
@@ -6463,4 +6472,8 @@ header.simpl .caption .btn-curve {
 
 .home-services-icons img {
   width: 50px !important;
+}
+
+.to-justify {
+  text-align: justify;
 }

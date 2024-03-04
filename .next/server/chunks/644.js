@@ -108,7 +108,7 @@ const AboutUs2 = ({ skillsTheme  })=>{
                                     })
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: "wow fadeInUp",
+                                    className: "wow fadeInUp to-justify",
                                     "data-wow-delay": ".4s",
                                     children: "At Pearsols, we lead the way in transforming the digital landscape. Seamlessly blending design, strategy, and innovation, we meticulously shape compelling brands, user-friendly responsive websites, and impactful digital strategies. Our commitment to excellence drive businesses to new heights, setting the gold standard for digital achievements."
                                 }),
@@ -134,9 +134,8 @@ const AboutUs2 = ({ skillsTheme  })=>{
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "bimg wow imago",
-                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                        src: "/img/intro/about-section.png",
-                                        alt: ""
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "about-img-cus"
                                     })
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {

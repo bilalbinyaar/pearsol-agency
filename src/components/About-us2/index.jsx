@@ -42,7 +42,7 @@ const AboutUs2 = ({ skillsTheme }) => {
                   Pearsols: Towards Digital Excellence.
                 </h2>
               </Split>
-              <p className="wow fadeInUp" data-wow-delay=".4s">
+              <p className="wow fadeInUp to-justify" data-wow-delay=".4s">
                 At Pearsols, we lead the way in transforming the digital
                 landscape. Seamlessly blending design, strategy, and innovation,
                 we meticulously shape compelling brands, user-friendly
@@ -70,7 +70,8 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/about-section.png" alt="" />
+                {/* <img src="/img/intro/about-section.png" alt="" /> */}
+                <div className="about-img-cus"></div>
               </div>
               <div className="skills-circle wow fadeInUp" data-wow-delay=".8">
                 <div className="item">
