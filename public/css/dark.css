@@ -2013,8 +2013,9 @@ span:hover {
 }
 
 .slider .parallax-slider .swiper-slide-active .caption p {
-  font-size: 35px;
-  line-height: 1.3;
+  font-size: 54px;
+  line-height: 1.1;
+  font-weight: 100;
 }
 
 .slider .parallax-slider .caption .thin {
@@ -2048,12 +2049,13 @@ span:hover {
   -webkit-transition: opacity 0.5s, visibility 0.5s;
   -o-transition: opacity 0.5s, visibility 0.5s;
   transition: opacity 0.5s, visibility 0.5s;
-  font-family: 'Glancyr', sans-serif !important;
+  /* font-family: 'Glancyr', sans-serif !important; */
+  font-family: 'Barlow Condensed', sans-serif !important;
   line-height: 1.2;
 }
 .slider .parallax-slider .caption p {
   color: #eee;
-  margin-top: 65px;
+  margin-top: 160px;
   opacity: 0;
   -webkit-transform: translateY(20px);
   -ms-transform: translateY(20px);
@@ -2064,7 +2066,9 @@ span:hover {
   -webkit-transition-delay: 0.8s;
   -o-transition-delay: 0.8s;
   transition-delay: 0.8s;
-  font-family: 'Glancyr', sans-serif !important;
+  /* font-family: 'Glancyr', sans-serif !important; */
+  font-family: 'Barlow Condensed', sans-serif !important;
+
   line-height: 1.2;
 }
 .slider .parallax-slider .caption .btn-curve {

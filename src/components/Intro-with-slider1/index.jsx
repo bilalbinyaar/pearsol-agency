@@ -106,12 +106,13 @@ const IntroWithSlider1 = ({ sliderRef }) => {
                           </Split> */}
                           {slide?.content && (
                             <p>
-                              {slide.content.first} <br />
-                              <span
+                              {slide.content.first}
+                              {/* <br /> */}
+                              {/* <span
                                 dangerouslySetInnerHTML={{
                                   __html: slide.content.second,
                                 }}
-                              />
+                              /> */}
                             </p>
                           )}
 
