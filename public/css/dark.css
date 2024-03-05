@@ -1548,26 +1548,26 @@ span:hover {
 }
 .navbar .dropdown-menu {
   display: block;
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0;
+  visibility: hidden; */
   border-radius: 0;
   color: #fff;
   background: #1a1e25;
   min-width: 185px;
-  -webkit-transform: translateY(20px);
-  -ms-transform: translateY(20px);
-  transform: translateY(20px);
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
 }
-.navbar .dropdown-menu.show {
+/* .navbar .dropdown-menu.show {
   opacity: 1;
   visibility: visible;
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
-}
+} */
 .navbar .dropdown-menu .dropdown-item {
   color: #fff;
   -webkit-transition: all 0.4s;
@@ -3213,14 +3213,14 @@ header.simpl .caption .btn-curve {
   border-radius: 15px;
   overflow: hidden;
 }
-.about .blc-img .bimg .about-img-cus {
+/* .about .blc-img .bimg .about-img-cus {
   border-radius: 15px;
   overflow: hidden;
   background-image: url(/img/intro/about-section.png);
   width: 600px;
   height: 400px;
   background-size: cover;
-}
+} */
 
 .about .blc-img .skills-circle {
   display: -webkit-box;
@@ -3473,7 +3473,7 @@ header.simpl .caption .btn-curve {
 }
 .services .item-box .icon {
   color: #d1e231;
-  font-size: 40px;
+  /* font-size: 40px; */
   margin-bottom: 30px;
 }
 .services .item-box h6 {
@@ -6476,4 +6476,48 @@ header.simpl .caption .btn-curve {
 
 .to-justify {
   text-align: justify;
+}
+
+.bimg {
+  position: relative;
+  display: inline-block;
+}
+.about-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.bimg:hover .about-hover {
+  opacity: 1;
+}
+
+.icon-for-hover {
+  position: relative;
+  display: inline-block;
+}
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.icon-for-hover:hover .hover-image {
+  opacity: 1;
+}
+
+.to-transform {
+  transform: translateX(-2px);
+}
+
+.dropdown-menu {
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  visibility: visible !important;
+  opacity: 1 !important;
 }

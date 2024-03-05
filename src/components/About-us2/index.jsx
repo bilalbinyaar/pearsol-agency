@@ -70,8 +70,16 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                {/* <img src="/img/intro/about-section.png" alt="" /> */}
-                <div className="about-img-cus"></div>
+                <img
+                  className="about-normal"
+                  src="/img/intro/about-section.png"
+                  alt=""
+                />
+                <img
+                  className="about-hover"
+                  src="/img/intro/about-section-hover.png"
+                  alt=""
+                />
               </div>
               <div className="skills-circle wow fadeInUp" data-wow-delay=".8">
                 <div className="item">

@@ -426,7 +426,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                     children: "Phone :"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    children: "(+92) 307 607 4089"
+                                                    children: "(+92) 307 607 8089"
                                                 })
                                             ]
                                         }),

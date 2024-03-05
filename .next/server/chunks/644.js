@@ -132,11 +132,20 @@ const AboutUs2 = ({ skillsTheme  })=>{
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             className: "blc-img",
                             children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: "bimg wow imago",
-                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "about-img-cus"
-                                    })
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                            className: "about-normal",
+                                            src: "/img/intro/about-section.png",
+                                            alt: ""
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                            className: "about-hover",
+                                            src: "/img/intro/about-section-hover.png",
+                                            alt: ""
+                                        })
+                                    ]
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: "skills-circle wow fadeInUp",
@@ -304,7 +313,7 @@ const ClientsBrands = ({ subBG , theme  })=>{
                                         /*#__PURE__*/ jsx_runtime_.jsx(Split/* default */.Z, {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                 href: "#0",
-                                                className: "link words chars splitting clients-brand",
+                                                className: "link words chars splitting clients-brand to-transform",
                                                 "data-splitting": true,
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                                     src: item.lightImage,
@@ -607,10 +616,11 @@ const Services1 = ()=>{
                         className: "row",
                         children: [
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "col-lg-3 col-md-6 item-box bg-img wow fadeInLeft",
+                                className: "col-lg-3 col-md-6 item-box bg-img wow fadeInLeft ",
                                 "data-wow-delay": ".3s",
                                 style: {
-                                    backgroundImage: 'url(/img/1.jpg)'
+                                    backgroundImage: 'url(/img/1.jpg)',
+                                    backgroundPosition: '-60px'
                                 },
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h4", {
@@ -637,11 +647,18 @@ const Services1 = ()=>{
                                 className: "col-lg-3 col-md-6 item-box wow fadeInLeft",
                                 "data-wow-delay": ".5s",
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                        className: "icon home-services-icons",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                            src: "/img/branding.png"
-                                        })
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                        className: "icon icon-for-hover home-services-icons",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/branding.png",
+                                                className: "normal-image"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/branding-hover.png",
+                                                className: "hover-image"
+                                            })
+                                        ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                         children: "DESIGN & BRANDING"
@@ -655,11 +672,18 @@ const Services1 = ()=>{
                                 className: "col-lg-3 col-md-6 item-box wow fadeInLeft",
                                 "data-wow-delay": ".7s",
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                        className: "icon home-services-icons",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                            src: "/img/digital-marketing.png"
-                                        })
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                        className: "icon icon-for-hover home-services-icons",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/digital-marketing.png",
+                                                className: "normal-image"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/digital-marketing-hover.png",
+                                                className: "hover-image"
+                                            })
+                                        ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                         children: "DIGITAL MARKETING"
@@ -673,11 +697,18 @@ const Services1 = ()=>{
                                 className: "col-lg-3 col-md-6 item-box wow fadeInLeft",
                                 "data-wow-delay": ".9s",
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                        className: "icon home-services-icons",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                            src: "/img/website.png"
-                                        })
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                        className: "icon icon-for-hover home-services-icons",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/website.png",
+                                                className: "normal-image"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/website-hover.png",
+                                                className: "hover-image"
+                                            })
+                                        ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                         children: "WEBSITE DEVELOPMENT"

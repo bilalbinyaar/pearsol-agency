@@ -20,9 +20,12 @@ const Services1 = () => {
         </div>
         <div className="row">
           <div
-            className="col-lg-3 col-md-6 item-box bg-img wow fadeInLeft"
+            className="col-lg-3 col-md-6 item-box bg-img wow fadeInLeft "
             data-wow-delay=".3s"
-            style={{ backgroundImage: 'url(/img/1.jpg)' }}
+            style={{
+              backgroundImage: 'url(/img/1.jpg)',
+              backgroundPosition: '-60px',
+            }}
           >
             <h4 className="custom-font">
               Best Of <br /> Our Features
@@ -37,8 +40,9 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".5s"
           >
-            <span className="icon home-services-icons">
-              <img src="/img/branding.png" />
+            <span className="icon icon-for-hover home-services-icons">
+              <img src="/img/branding.png" className="normal-image" />
+              <img src="/img/branding-hover.png" className="hover-image" />
             </span>
             <h6>DESIGN & BRANDING</h6>
             <p>
@@ -49,8 +53,12 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".7s"
           >
-            <span className="icon home-services-icons">
-              <img src="/img/digital-marketing.png" />
+            <span className="icon icon-for-hover home-services-icons">
+              <img src="/img/digital-marketing.png" className="normal-image" />
+              <img
+                src="/img/digital-marketing-hover.png"
+                className="hover-image"
+              />
             </span>
             <h6>DIGITAL MARKETING</h6>
             <p>
@@ -62,8 +70,9 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".9s"
           >
-            <span className="icon home-services-icons">
-              <img src="/img/website.png" />
+            <span className="icon icon-for-hover home-services-icons">
+              <img src="/img/website.png" className="normal-image" />
+              <img src="/img/website-hover.png" className="hover-image" />
             </span>
             <h6>WEBSITE DEVELOPMENT</h6>
             <p>

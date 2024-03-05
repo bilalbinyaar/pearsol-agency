@@ -147,7 +147,7 @@ const Footer = ({ noSubBG  })=>{
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                         className: "custom-font stit simple-btn",
-                                        children: "Newslatter"
+                                        children: "Newsletter"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "Sign up for subscribe out newsletter!"

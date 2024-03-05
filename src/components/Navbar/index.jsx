@@ -79,13 +79,21 @@ const Navbar = ({ lr, nr, theme }) => {
               </div>
             </li> */}
 
-            <li className="nav-item" onClick={handleDropdown}>
+            <li
+              className="nav-item"
+              // onClick={handleDropdown}
+            >
               <Link href="/">
                 <a className="nav-link">Home</a>
               </Link>
             </li>
 
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            <li
+              className="nav-item dropdown"
+              onClick={handleDropdown}
+              // onMouseEnter={handleDropdown}
+              // onMouseLeave={handleDropdown}
+            >
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -117,13 +125,19 @@ const Navbar = ({ lr, nr, theme }) => {
               </div>
             </li>
 
-            <li className="nav-item" onClick={handleDropdown}>
+            <li
+              className="nav-item"
+              // onClick={handleDropdown}
+            >
               <Link href="/about/about-dark">
                 <a className="nav-link">About Us</a>
               </Link>
             </li>
 
-            <li className="nav-item" onClick={handleDropdown}>
+            <li
+              className="nav-item"
+              // onClick={handleDropdown}
+            >
               <Link href="#">
                 <a className="nav-link">Portfolio</a>
               </Link>
@@ -154,7 +168,10 @@ const Navbar = ({ lr, nr, theme }) => {
                 </Link>
               </div>
             </li> */}
-            <li className="nav-item" onClick={handleDropdown}>
+            <li
+              className="nav-item"
+              // onClick={handleDropdown}
+            >
               <Link href="/contact/contact-dark">
                 <a className="nav-link">Contact</a>
               </Link>

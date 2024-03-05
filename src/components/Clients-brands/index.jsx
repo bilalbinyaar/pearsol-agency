@@ -83,12 +83,14 @@ const ClientsBrands = ({ subBG, theme }) => {
                     src={theme == 'dark' ? item.darkImage : item.lightImage}
                     alt=""
                   />
+                  {/* <img src={item.lightImage} alt="" /> */}
                 </div>
                 <Split>
                   <a
                     href="#0"
-                    className="link words chars splitting clients-brand"
+                    className="link words chars splitting clients-brand to-transform"
                     data-splitting
+                    // style={{ transform: 'translateX(1px)' }}
                   >
                     <img src={item.lightImage} alt="" />
                   </a>
