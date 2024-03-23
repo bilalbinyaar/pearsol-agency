@@ -585,6 +585,22 @@ const Numbers1 = ()=>{
 
 
 const Services1 = ()=>{
+    // Function to handle item hover
+    const handleItemHover = (index)=>{
+        const items = document.querySelectorAll('.item-box');
+        items.forEach((item, i)=>{
+            if (i !== index) {
+                item.classList.add('items-blur');
+            }
+        });
+    };
+    // Function to handle mouse leave
+    const handleMouseLeave = ()=>{
+        const items = document.querySelectorAll('.item-box');
+        items.forEach((item)=>{
+            item.classList.remove('items-blur');
+        });
+    };
     return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
         className: "services",
         children: [
@@ -616,36 +632,11 @@ const Services1 = ()=>{
                         className: "row",
                         children: [
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "col-lg-3 col-md-6 item-box bg-img wow fadeInLeft ",
-                                "data-wow-delay": ".3s",
-                                style: {
-                                    backgroundImage: 'url(/img/1.jpg)',
-                                    backgroundPosition: '-60px'
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h4", {
-                                        className: "custom-font",
-                                        children: [
-                                            "Best Of ",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                            }),
-                                            " Our Features"
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                                        href: "/about/about-dark",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-40",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                children: "See All Services"
-                                            })
-                                        })
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "col-lg-3 col-md-6 item-box wow fadeInLeft",
+                                className: "col-lg-4 col-md-6 item-box wow fadeInLeft",
                                 "data-wow-delay": ".5s",
+                                onMouseEnter: ()=>handleItemHover(0)
+                                ,
+                                onMouseLeave: handleMouseLeave,
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                         className: "icon icon-for-hover home-services-icons",
@@ -669,8 +660,11 @@ const Services1 = ()=>{
                                 ]
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "col-lg-3 col-md-6 item-box wow fadeInLeft",
+                                className: "col-lg-4 col-md-6 item-box wow fadeInLeft",
                                 "data-wow-delay": ".7s",
+                                onMouseEnter: ()=>handleItemHover(1)
+                                ,
+                                onMouseLeave: handleMouseLeave,
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                         className: "icon icon-for-hover home-services-icons",
@@ -694,11 +688,109 @@ const Services1 = ()=>{
                                 ]
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "col-lg-3 col-md-6 item-box wow fadeInLeft",
+                                className: "col-lg-4 col-md-6 item-box wow fadeInLeft",
                                 "data-wow-delay": ".9s",
+                                onMouseEnter: ()=>handleItemHover(2)
+                                ,
+                                onMouseLeave: handleMouseLeave,
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                         className: "icon icon-for-hover home-services-icons",
+                                        style: {
+                                            marginTop: '13px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/website.png",
+                                                className: "normal-image"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/website-hover.png",
+                                                className: "hover-image"
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                        children: "WEBSITE DEVELOPMENT"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                        children: "We are crafting digital masterpieces for impactful online presence."
+                                    })
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "row",
+                        children: [
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "col-lg-4 col-md-6 item-box item-box-2 wow fadeInLeft",
+                                "data-wow-delay": ".5s",
+                                onMouseEnter: ()=>handleItemHover(3)
+                                ,
+                                onMouseLeave: handleMouseLeave,
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                        className: "icon icon-for-hover home-services-icons",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/branding.png",
+                                                className: "normal-image"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/branding-hover.png",
+                                                className: "hover-image"
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                        children: "DESIGN & BRANDING"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                        children: "We craft modern brand stories, seamlessly blending creativity."
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "col-lg-4 col-md-6 item-box item-box-2 wow fadeInLeft",
+                                "data-wow-delay": ".7s",
+                                onMouseEnter: ()=>handleItemHover(4)
+                                ,
+                                onMouseLeave: handleMouseLeave,
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                        className: "icon icon-for-hover home-services-icons",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/digital-marketing.png",
+                                                className: "normal-image"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/img/digital-marketing-hover.png",
+                                                className: "hover-image"
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                        children: "DIGITAL MARKETING"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                        children: "We are pioneering strategic digital mastery to propel your brand forward."
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "col-lg-4 col-md-6 item-box item-box-2 wow fadeInLeft",
+                                "data-wow-delay": ".9s",
+                                onMouseEnter: ()=>handleItemHover(5)
+                                ,
+                                onMouseLeave: handleMouseLeave,
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                        className: "icon icon-for-hover home-services-icons",
+                                        style: {
+                                            marginTop: '13px'
+                                        },
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                                 src: "/img/website.png",

@@ -1986,7 +1986,7 @@ span:hover {
   bottom: 0;
   left: 0;
   background-size: cover;
-  background-position: 0px -180px;
+  /* background-position: 0px -180px; */
 }
 .slider .parallax-slider .swiper-slide-active .caption h1 {
   -webkit-transition: all 0s;
@@ -2014,9 +2014,9 @@ span:hover {
 }
 
 .slider .parallax-slider .swiper-slide-active .caption p {
-  font-size: 42px;
+  font-size: 40px;
   line-height: 1;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .slider .parallax-slider .caption .thin {
@@ -3445,16 +3445,43 @@ header.simpl .caption .btn-curve {
 .services .item-box {
   padding: 80px 30px;
   text-align: center;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 .services .item-box:nth-of-type(2) {
-  background: #181b21;
-}
-.services .item-box:nth-of-type(3) {
   background: #1a1e25;
 }
-.services .item-box:last-of-type {
+.services .item-box:nth-of-type(1) {
   background: #20242c;
 }
+/* .services .item-box:last-of-type {
+  background: #20242c;
+} */
+.services .item-box:nth-of-type(3) {
+  background: #181b21;
+}
+
+.services .item-box-2:nth-of-type(1) {
+  background: #1a1e25;
+}
+.services .item-box-2:nth-of-type(3) {
+  background: #20242c;
+}
+/* .services .item-box:last-of-type {
+  background: #20242c;
+} */
+.services .item-box-2:nth-of-type(2) {
+  background: #181b21;
+}
+
+.services .item-box:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.items-blur {
+  filter: blur(5px);
+}
+
 .services .item-box.bg-img {
   position: relative;
   text-align: left;
