@@ -104,7 +104,16 @@ class Testimonials1 extends React.Component {
                               <h6 className="author-name custom-font">
                                 KEVIN NAFASH
                               </h6>
-                              <span className="author-details">USA</span>
+                              <span className="author-details">
+                                Joocy.AF, USA
+                              </span>
+                              <div className="testi-rates">
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                              </div>
                             </div>
                           </>
                         ) : (
@@ -115,7 +124,16 @@ class Testimonials1 extends React.Component {
                             <h6 className="author-name custom-font">
                               KEVIN NAFASH
                             </h6>
-                            <span className="author-details">USA</span>
+                            <span className="author-details">
+                              Joocy.AF, USA
+                            </span>
+                            <div className="testi-rates">
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                            </div>
                           </>
                         )}
                       </div>
@@ -143,7 +161,16 @@ class Testimonials1 extends React.Component {
                               <h6 className="author-name custom-font">
                                 HAUKAY
                               </h6>
-                              <span className="author-details">Germany</span>
+                              <span className="author-details">
+                                DHN.digital, Germany
+                              </span>
+                              <div className="testi-rates">
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                              </div>
                             </div>
                           </>
                         ) : (
@@ -152,7 +179,16 @@ class Testimonials1 extends React.Component {
                               <img src="/img/clients/2.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">HAUKAY</h6>
-                            <span className="author-details">Germany</span>
+                            <span className="author-details">
+                              DHN.digital, Germany
+                            </span>
+                            <div className="testi-rates">
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                            </div>
                           </>
                         )}
                       </div>
@@ -180,7 +216,16 @@ class Testimonials1 extends React.Component {
                               <h6 className="author-name custom-font">
                                 ANKEET UDANI
                               </h6>
-                              <span className="author-details">USA</span>
+                              <span className="author-details">
+                                Viking Capital, USA
+                              </span>
+                              <div className="testi-rates">
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                                <span className="pe-7s-star star-color"></span>
+                              </div>
                             </div>
                           </>
                         ) : (
@@ -191,7 +236,16 @@ class Testimonials1 extends React.Component {
                             <h6 className="author-name custom-font">
                               ANKEET UDANI
                             </h6>
-                            <span className="author-details">USA</span>
+                            <span className="author-details">
+                              Viking Capital, USA
+                            </span>
+                            <div className="testi-rates">
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                              <span className="pe-7s-star star-color"></span>
+                            </div>
                           </>
                         )}
                       </div>

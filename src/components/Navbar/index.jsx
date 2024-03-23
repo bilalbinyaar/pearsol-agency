@@ -138,7 +138,7 @@ const Navbar = ({ lr, nr, theme }) => {
               className="nav-item"
               // onClick={handleDropdown}
             >
-              <Link href="#">
+              <Link href="/works4/works4-dark">
                 <a className="nav-link">Portfolio</a>
               </Link>
             </li>

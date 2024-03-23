@@ -35,7 +35,7 @@ const CallToAction = ({ img, theme, subBG }) => {
                 } wow fadeInUp`}
                 data-wow-delay=".5s"
               >
-                <span>Get In Touch</span>
+                <span>Get a Quote</span>
               </a>
             </Link>
           </div>

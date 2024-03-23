@@ -3,7 +3,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Split from '../Split';
+// import Split from '../Split';
 import ClientsBrandsData from '../../data/sections/clients-brands.json';
 
 const ClientsBrands = ({ subBG, theme }) => {
@@ -23,7 +23,7 @@ const ClientsBrands = ({ subBG, theme }) => {
         </div>
         <Slider
           className=""
-          data-wow-delay=".5s"
+          // data-wow-delay="0s"
           {...{
             dots: false,
             infinite: true,
@@ -58,43 +58,43 @@ const ClientsBrands = ({ subBG, theme }) => {
               <h2 style={{ display: 'none' }}> &nbsp; </h2>
               <div
                 className="item"
-                data-wow-delay={
-                  index + 1 == '1'
-                    ? '.3s'
-                    : index + 1 == '2'
-                    ? '.6s'
-                    : index + 1 == '3'
-                    ? '.8s'
-                    : index + 1 == '4'
-                    ? '.3s'
-                    : index + 1 == '5'
-                    ? '.4s'
-                    : index + 1 == '6'
-                    ? '.7s'
-                    : index + 1 == '7'
-                    ? '.5s'
-                    : index + 1 == '8'
-                    ? '.3s'
-                    : ''
-                }
+                // data-wow-delay={
+                //   index + 1 == '1'
+                //     ? '.3s'
+                //     : index + 1 == '2'
+                //     ? '.6s'
+                //     : index + 1 == '3'
+                //     ? '.8s'
+                //     : index + 1 == '4'
+                //     ? '.3s'
+                //     : index + 1 == '5'
+                //     ? '.4s'
+                //     : index + 1 == '6'
+                //     ? '.7s'
+                //     : index + 1 == '7'
+                //     ? '.5s'
+                //     : index + 1 == '8'
+                //     ? '.3s'
+                //     : ''
+                // }
               >
-                <div className="img clients-brand">
+                <div className="styles clients-brand to-transform">
                   <img
                     src={theme == 'dark' ? item.darkImage : item.lightImage}
                     alt=""
                   />
                   {/* <img src={item.lightImage} alt="" /> */}
                 </div>
-                <Split>
+                {/* <Split>
                   <a
                     href="#0"
                     className="link words chars splitting clients-brand to-transform"
                     data-splitting
                     // style={{ transform: 'translateX(1px)' }}
                   >
-                    <img src={item.lightImage} alt="" />
+                    <img src={item.darkImage} alt="" />
                   </a>
-                </Split>
+                </Split> */}
               </div>
             </div>
           ))}

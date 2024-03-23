@@ -265,7 +265,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
 
                   <li>
                     <div className="o-hidden">
-                      <Link href="/contact/contact-dark">
+                      <Link href="/works4/works4-dark">
                         <a className="link">
                           <span className="nm">04.</span>Portfolio
                         </a>

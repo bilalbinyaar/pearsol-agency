@@ -5,6 +5,7 @@
   "/contact/contact-dark": "pages/contact/contact-dark.html",
   "/": "pages/index.html",
   "/main": "pages/main.html",
+  "/project-details2/project-details2-dark": "pages/project-details2/project-details2-dark.html",
   "/showcase2/showcase2-dark": "pages/showcase2/showcase2-dark.html",
   "/showcase3/showcase3-dark": "pages/showcase3/showcase3-dark.html",
   "/showcase4/showcase4-dark": "pages/showcase4/showcase4-dark.html",

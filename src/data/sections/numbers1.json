@@ -2,25 +2,25 @@
   {
     "id": 1,
     "icon": "pe-7s-smile",
-    "txt": "Happy Clients",
-    "value": "132"
+    "txt": "Completed Projects",
+    "value": "200"
   },
   {
     "id": 2,
     "icon": "pe-7s-portfolio",
-    "txt": "Completed Projects",
-    "value": "238"
+    "txt": "Project Success Rate",
+    "value": "98"
   },
   {
     "id": 3,
     "icon": "pe-7s-cloud-download",
-    "txt": "Positive Reviews",
-    "value": "98"
+    "txt": "Client Satisfaction",
+    "value": "100"
   },
   {
     "id": 4,
     "icon": "pe-7s-medal",
-    "txt": "Avg. Rating",
-    "value": "4.9"
+    "txt": "Service Quality",
+    "value": "100"
   }
 ]

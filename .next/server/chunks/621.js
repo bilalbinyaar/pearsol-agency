@@ -60,7 +60,7 @@ const CallToAction = ({ img , theme , subBG  })=>{
                                 className: `btn-curve ${theme == 'light' ? 'btn-blc' : 'btn-lit'} wow fadeInUp`,
                                 "data-wow-delay": ".5s",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                    children: "Get In Touch"
+                                    children: "Get a Quote"
                                 })
                             })
                         })

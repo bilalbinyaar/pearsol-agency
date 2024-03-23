@@ -51,6 +51,11 @@ const Services1 = () => {
             <p>
               We craft modern brand stories, seamlessly blending creativity.
             </p>
+            <Link href="#">
+              <a className="btn-curve btn-bord btn-lit mt-40">
+                <span>Learn more</span>
+              </a>
+            </Link>
           </div>
           {/* ITEM-2 */}
           <div
@@ -71,6 +76,11 @@ const Services1 = () => {
               We are pioneering strategic digital mastery to propel your brand
               forward.
             </p>
+            <Link href="#">
+              <a className="btn-curve btn-bord btn-lit mt-40">
+                <span>Learn more</span>
+              </a>
+            </Link>
           </div>
           {/* ITEM-3 */}
           <div
@@ -91,6 +101,11 @@ const Services1 = () => {
               We are crafting digital masterpieces for impactful online
               presence.
             </p>
+            <Link href="#">
+              <a className="btn-curve btn-bord btn-lit mt-40">
+                <span>Learn more</span>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="row">
@@ -109,6 +124,11 @@ const Services1 = () => {
             <p>
               We craft modern brand stories, seamlessly blending creativity.
             </p>
+            <Link href="#">
+              <a className="btn-curve btn-bord btn-lit mt-40">
+                <span>Learn more</span>
+              </a>
+            </Link>
           </div>
           {/* ITEM-5 */}
           <div
@@ -129,6 +149,11 @@ const Services1 = () => {
               We are pioneering strategic digital mastery to propel your brand
               forward.
             </p>
+            <Link href="#">
+              <a className="btn-curve btn-bord btn-lit mt-40">
+                <span>Learn more</span>
+              </a>
+            </Link>
           </div>
           {/* ITEM-6 */}
           <div
@@ -149,6 +174,11 @@ const Services1 = () => {
               We are crafting digital masterpieces for impactful online
               presence.
             </p>
+            <Link href="#">
+              <a className="btn-curve btn-bord btn-lit mt-40">
+                <span>Learn more</span>
+              </a>
+            </Link>
           </div>
         </div>
       </div>

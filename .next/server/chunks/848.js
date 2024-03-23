@@ -197,7 +197,7 @@ const Navbar = ({ lr , nr , theme  })=>{
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: "nav-item",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                        href: "#",
+                                        href: "/works4/works4-dark",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                             className: "nav-link",
                                             children: "Portfolio"

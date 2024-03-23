@@ -3445,7 +3445,7 @@ header.simpl .caption .btn-curve {
 .services .item-box {
   padding: 80px 30px;
   text-align: center;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition: transform 0.7s ease, filter 0.3s ease;
 }
 .services .item-box:nth-of-type(2) {
   background: #1a1e25;
@@ -3476,6 +3476,7 @@ header.simpl .caption .btn-curve {
 .services .item-box:hover {
   transform: scale(1.05);
   z-index: 1;
+  cursor: pointer;
 }
 
 .items-blur {
@@ -3822,6 +3823,8 @@ header.simpl .caption .btn-curve {
 .clients-brand .item {
   position: relative;
   text-align: center;
+  display: flex;
+  height: 120px;
 }
 .clients-brand .item .link {
   font-size: 16px;
@@ -3841,6 +3844,15 @@ header.simpl .caption .btn-curve {
 }
 
 .clients-brand .img {
+  max-width: 85px;
+  margin: auto;
+  position: relative;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.clients-brand .styles {
   max-width: 85px;
   margin: auto;
   position: relative;
@@ -6535,8 +6547,14 @@ header.simpl .caption .btn-curve {
   opacity: 1;
 }
 
-.to-transform {
-  transform: translateX(-2px);
+/* .to-transform {
+  transition: transform 1s ease-in-out !important;
+} */
+
+.to-transform img:hover {
+  transition: transform 0.3s ease-in-out !important;
+  transform: scale(1.5) !important;
+  cursor: pointer;
 }
 
 .dropdown-menu {
@@ -6547,4 +6565,9 @@ header.simpl .caption .btn-curve {
 .nav-item.dropdown:hover .dropdown-menu {
   visibility: visible !important;
   opacity: 1 !important;
+}
+
+.star-color {
+  color: #d1e231;
+  margin: 0 1px;
 }
