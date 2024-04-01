@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "icon": "pe-7s-smile",
+    "icon": "/img/counter/Completed-Projects.png",
     "txt": "Completed Projects",
     "value": "200"
   },
   {
     "id": 2,
-    "icon": "pe-7s-portfolio",
+    "icon": "/img/counter/Success-Rate.png",
     "txt": "Project Success Rate",
     "value": "98"
   },
   {
     "id": 3,
-    "icon": "pe-7s-cloud-download",
+    "icon": "/img/counter/Client-Satisfaction.png",
     "txt": "Client Satisfaction",
     "value": "100"
   },
   {
     "id": 4,
-    "icon": "pe-7s-medal",
+    "icon": "/img/counter/Service-Quality.png",
     "txt": "Service Quality",
     "value": "100"
   }

@@ -117,10 +117,10 @@ const Services1 = () => {
             onMouseLeave={handleMouseLeave}
           >
             <span className="icon icon-for-hover home-services-icons">
-              <img src="/img/branding.png" className="normal-image" />
-              <img src="/img/branding-hover.png" className="hover-image" />
+              <img src="/img/seo.png" className="normal-image" />
+              <img src="/img/seo-hover.png" className="hover-image" />
             </span>
-            <h6>DESIGN & BRANDING</h6>
+            <h6>SEARCH ENGINE OPTIMIZATION</h6>
             <p>
               We craft modern brand stories, seamlessly blending creativity.
             </p>
@@ -137,14 +137,14 @@ const Services1 = () => {
             onMouseEnter={() => handleItemHover(4)}
             onMouseLeave={handleMouseLeave}
           >
-            <span className="icon icon-for-hover home-services-icons">
-              <img src="/img/digital-marketing.png" className="normal-image" />
-              <img
-                src="/img/digital-marketing-hover.png"
-                className="hover-image"
-              />
+            <span
+              className="icon icon-for-hover home-services-icons"
+              style={{ marginTop: '-3px' }}
+            >
+              <img src="/img/smm.png" className="normal-image" />
+              <img src="/img/smm-hover.png" className="hover-image" />
             </span>
-            <h6>DIGITAL MARKETING</h6>
+            <h6>SOCIAL MEDIA MANAGEMENT</h6>
             <p>
               We are pioneering strategic digital mastery to propel your brand
               forward.
@@ -164,12 +164,12 @@ const Services1 = () => {
           >
             <span
               className="icon icon-for-hover home-services-icons"
-              style={{ marginTop: '13px' }}
+              style={{ marginTop: '7px' }}
             >
-              <img src="/img/website.png" className="normal-image" />
-              <img src="/img/website-hover.png" className="hover-image" />
+              <img src="/img/uiux.png" className="normal-image" />
+              <img src="/img/uiux-hover.png" className="hover-image" />
             </span>
-            <h6>WEBSITE DEVELOPMENT</h6>
+            <h6>UI & UX DESIGNING</h6>
             <p>
               We are crafting digital masterpieces for impactful online
               presence.

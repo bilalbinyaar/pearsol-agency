@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import CountUp from 'react-countup';
 import numbers1Data from '../../data/sections/numbers1.json';
@@ -12,7 +13,8 @@ const Numbers1 = () => {
           {numbers1Data.map((item) => (
             <div className="col-lg-3 col-md-6" key={item.id}>
               <div className={`item ${item.id == 1 ? 'no-bord' : ''}`}>
-                <span className={`icon ${item.icon}`}></span>
+                {/* <span className={`icon ${item.icon}`}></span> */}
+                <img className="icon" src={item.icon} alt="numbers" />
                 <h3 className="custom-font">
                   &nbsp;
                   <CountUp redraw={true} end={item.value} duration="3">
@@ -29,7 +31,6 @@ const Numbers1 = () => {
                     )}
                   </CountUp>
                 </h3>
-
                 <Split>
                   <p className="wow txt words chars splitting" data-splitting>
                     {item.txt}

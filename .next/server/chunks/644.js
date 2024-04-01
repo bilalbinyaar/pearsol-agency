@@ -479,7 +479,7 @@ var external_react_ = __webpack_require__(6689);
 var external_react_countup_ = __webpack_require__(609);
 var external_react_countup_default = /*#__PURE__*/__webpack_require__.n(external_react_countup_);
 ;// CONCATENATED MODULE: ./src/data/sections/numbers1.json
-const numbers1_namespaceObject = JSON.parse('[{"id":1,"icon":"pe-7s-smile","txt":"Completed Projects","value":"200"},{"id":2,"icon":"pe-7s-portfolio","txt":"Project Success Rate","value":"98"},{"id":3,"icon":"pe-7s-cloud-download","txt":"Client Satisfaction","value":"100"},{"id":4,"icon":"pe-7s-medal","txt":"Service Quality","value":"100"}]');
+const numbers1_namespaceObject = JSON.parse('[{"id":1,"icon":"/img/counter/Completed-Projects.png","txt":"Completed Projects","value":"200"},{"id":2,"icon":"/img/counter/Success-Rate.png","txt":"Project Success Rate","value":"98"},{"id":3,"icon":"/img/counter/Client-Satisfaction.png","txt":"Client Satisfaction","value":"100"},{"id":4,"icon":"/img/counter/Service-Quality.png","txt":"Service Quality","value":"100"}]');
 // EXTERNAL MODULE: ./src/components/Split/index.jsx
 var Split = __webpack_require__(8636);
 // EXTERNAL MODULE: external "react-visibility-sensor"
@@ -487,7 +487,7 @@ var external_react_visibility_sensor_ = __webpack_require__(6882);
 var external_react_visibility_sensor_default = /*#__PURE__*/__webpack_require__.n(external_react_visibility_sensor_);
 ;// CONCATENATED MODULE: ./src/components/Numbers/index.jsx
 
-
+/* eslint-disable @next/next/no-img-element */ 
 
 
 
@@ -504,8 +504,10 @@ const Numbers1 = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             className: `item ${item.id == 1 ? 'no-bord' : ''}`,
                             children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                    className: `icon ${item.icon}`
+                                /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    className: "icon",
+                                    src: item.icon,
+                                    alt: "numbers"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h3", {
                                     className: "custom-font",
@@ -747,17 +749,17 @@ const Services1 = ()=>{
                                         className: "icon icon-for-hover home-services-icons",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "/img/branding.png",
+                                                src: "/img/seo.png",
                                                 className: "normal-image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "/img/branding-hover.png",
+                                                src: "/img/seo-hover.png",
                                                 className: "hover-image"
                                             })
                                         ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                        children: "DESIGN & BRANDING"
+                                        children: "SEARCH ENGINE OPTIMIZATION"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "We craft modern brand stories, seamlessly blending creativity."
@@ -782,19 +784,22 @@ const Services1 = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                         className: "icon icon-for-hover home-services-icons",
+                                        style: {
+                                            marginTop: '-3px'
+                                        },
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "/img/digital-marketing.png",
+                                                src: "/img/smm.png",
                                                 className: "normal-image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "/img/digital-marketing-hover.png",
+                                                src: "/img/smm-hover.png",
                                                 className: "hover-image"
                                             })
                                         ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                        children: "DIGITAL MARKETING"
+                                        children: "SOCIAL MEDIA MANAGEMENT"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "We are pioneering strategic digital mastery to propel your brand forward."
@@ -820,21 +825,21 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                         className: "icon icon-for-hover home-services-icons",
                                         style: {
-                                            marginTop: '13px'
+                                            marginTop: '7px'
                                         },
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "/img/website.png",
+                                                src: "/img/uiux.png",
                                                 className: "normal-image"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "/img/website-hover.png",
+                                                src: "/img/uiux-hover.png",
                                                 className: "hover-image"
                                             })
                                         ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                        children: "WEBSITE DEVELOPMENT"
+                                        children: "UI & UX DESIGNING"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "We are crafting digital masterpieces for impactful online presence."
@@ -1034,25 +1039,12 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                             className: "author-details",
                                                                             children: "Joocy.AF, USA"
                                                                         }),
-                                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                             className: "testi-rates",
-                                                                            children: [
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                })
-                                                                            ]
+                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                                src: "/img/stars.png",
+                                                                                alt: "ratings"
+                                                                            })
                                                                         })
                                                                     ]
                                                                 })
@@ -1074,25 +1066,12 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                     className: "author-details",
                                                                     children: "Joocy.AF, USA"
                                                                 }),
-                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                     className: "testi-rates",
-                                                                    children: [
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        })
-                                                                    ]
+                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                        src: "/img/stars.png",
+                                                                        alt: "ratings"
+                                                                    })
                                                                 })
                                                             ]
                                                         })
@@ -1136,25 +1115,12 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                             className: "author-details",
                                                                             children: "DHN.digital, Germany"
                                                                         }),
-                                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                             className: "testi-rates",
-                                                                            children: [
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                })
-                                                                            ]
+                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                                src: "/img/stars.png",
+                                                                                alt: "ratings"
+                                                                            })
                                                                         })
                                                                     ]
                                                                 })
@@ -1176,25 +1142,12 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                     className: "author-details",
                                                                     children: "DHN.digital, Germany"
                                                                 }),
-                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                     className: "testi-rates",
-                                                                    children: [
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        })
-                                                                    ]
+                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                        src: "/img/stars.png",
+                                                                        alt: "ratings"
+                                                                    })
                                                                 })
                                                             ]
                                                         })
@@ -1238,25 +1191,12 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                             className: "author-details",
                                                                             children: "Viking Capital, USA"
                                                                         }),
-                                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                             className: "testi-rates",
-                                                                            children: [
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                }),
-                                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                                    className: "pe-7s-star star-color"
-                                                                                })
-                                                                            ]
+                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                                src: "/img/stars.png",
+                                                                                alt: "ratings"
+                                                                            })
                                                                         })
                                                                     ]
                                                                 })
@@ -1278,25 +1218,12 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                     className: "author-details",
                                                                     children: "Viking Capital, USA"
                                                                 }),
-                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                     className: "testi-rates",
-                                                                    children: [
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "pe-7s-star star-color"
-                                                                        })
-                                                                    ]
+                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                        src: "/img/stars.png",
+                                                                        alt: "ratings"
+                                                                    })
                                                                 })
                                                             ]
                                                         })

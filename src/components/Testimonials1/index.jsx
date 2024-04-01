@@ -108,11 +108,7 @@ class Testimonials1 extends React.Component {
                                 Joocy.AF, USA
                               </span>
                               <div className="testi-rates">
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
+                                <img src="/img/stars.png" alt="ratings" />
                               </div>
                             </div>
                           </>
@@ -128,11 +124,7 @@ class Testimonials1 extends React.Component {
                               Joocy.AF, USA
                             </span>
                             <div className="testi-rates">
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
+                              <img src="/img/stars.png" alt="ratings" />
                             </div>
                           </>
                         )}
@@ -165,11 +157,7 @@ class Testimonials1 extends React.Component {
                                 DHN.digital, Germany
                               </span>
                               <div className="testi-rates">
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
+                                <img src="/img/stars.png" alt="ratings" />
                               </div>
                             </div>
                           </>
@@ -183,11 +171,7 @@ class Testimonials1 extends React.Component {
                               DHN.digital, Germany
                             </span>
                             <div className="testi-rates">
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
+                              <img src="/img/stars.png" alt="ratings" />
                             </div>
                           </>
                         )}
@@ -220,11 +204,7 @@ class Testimonials1 extends React.Component {
                                 Viking Capital, USA
                               </span>
                               <div className="testi-rates">
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
-                                <span className="pe-7s-star star-color"></span>
+                                <img src="/img/stars.png" alt="ratings" />
                               </div>
                             </div>
                           </>
@@ -240,11 +220,7 @@ class Testimonials1 extends React.Component {
                               Viking Capital, USA
                             </span>
                             <div className="testi-rates">
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
-                              <span className="pe-7s-star star-color"></span>
+                              <img src="/img/stars.png" alt="ratings" />
                             </div>
                           </>
                         )}

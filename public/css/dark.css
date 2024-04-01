@@ -100,6 +100,7 @@ p {
   font-weight: 300;
   line-height: 1.5;
   margin: 0;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 a,
@@ -1275,12 +1276,14 @@ span:hover {
   text-transform: uppercase;
   letter-spacing: 14px;
   margin-bottom: 5px;
+  font-family: 'Barlow', sans-serif !important;
 }
 .sec-head h3 {
   font-size: 80px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
+  font-family: 'Poppins', sans-serif !important;
   /* text-shadow: 0 8px rgba(255, 255, 255, 0.05); */
 }
 .sec-head .tbg {
@@ -1309,7 +1312,8 @@ span:hover {
   margin-bottom: 20px;
 }
 .sub-title h6 {
-  font-family: 'Barlow Condensed', sans-serif;
+  /* font-family: 'Barlow Condensed', sans-serif; */
+  font-family: 'Barlow', sans-serif;
   font-weight: 300;
   font-size: 16px;
   text-transform: uppercase;
@@ -1487,6 +1491,7 @@ span:hover {
   letter-spacing: 4px;
   font-size: 13px;
   font-weight: 300;
+  font-family: 'Barlow', sans-serif !important;
 }
 .simple-btn:after {
   content: '';
@@ -2014,9 +2019,11 @@ span:hover {
 }
 
 .slider .parallax-slider .swiper-slide-active .caption p {
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 35px;
   line-height: 1;
   font-weight: 400;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .slider .parallax-slider .caption .thin {
@@ -3164,6 +3171,8 @@ header.simpl .caption .btn-curve {
   color: #fff;
   font-weight: 400;
   margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 32px;
 }
 
 .about .img-mons .img1,
@@ -3508,6 +3517,7 @@ header.simpl .caption .btn-curve {
   line-height: 1.8;
   text-transform: capitalize;
   margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif !important;
 }
 .services .rone > div {
   position: relative;
@@ -4290,9 +4300,11 @@ header.simpl .caption .btn-curve {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
+  font-family: 'Barlow', sans-serif !important;
 }
 .work-carousel .noraidus .cont h4 {
   font-size: 17px;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .half-bg {
@@ -4692,10 +4704,16 @@ header.simpl .caption .btn-curve {
   letter-spacing: 2px;
   font-weight: 500;
   margin-bottom: 5px;
-  color: #d1e231;
+  font-family: 'Poppins', sans-serif !important;
+
+  /* color: #d1e231;
+  font-family: 'Barlow', sans-serif !important; */
 }
 .testimonials .item .info .author-details {
   font-size: 13px;
+  /* font-family: 'Poppins', sans-serif !important; */
+  color: #d1e231;
+  font-family: 'Barlow', sans-serif !important;
 }
 
 .testimonials .slick-dots {
@@ -5503,6 +5521,7 @@ header.simpl .caption .btn-curve {
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-bottom: 10px;
+  font-family: 'Barlow', sans-serif !important;
 }
 .call-action .content h6 span {
   color: #d1e231;
@@ -5517,6 +5536,7 @@ header.simpl .caption .btn-curve {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
   color: transparent;
+  font-family: 'Poppins', sans-serif !important;
 }
 .call-action .content h2 span {
   color: transparent;
@@ -5539,6 +5559,7 @@ header.simpl .caption .btn-curve {
   font-size: 15px;
   font-weight: 700;
   text-transform: capitalize;
+  font-family: 'Barlow', sans-serif !important;
 }
 .call-action .btn-curve:hover span {
   color: #0c0f16;
@@ -5628,10 +5649,10 @@ header.simpl .caption .btn-curve {
 }
 .number-sec .item .icon {
   position: absolute;
-  left: 0;
+  left: 70px;
   bottom: 0;
   font-size: 70px;
-  width: 100%;
+  width: 50%;
   opacity: 0.05;
   z-index: -1;
 }
@@ -5813,6 +5834,7 @@ header.simpl .caption .btn-curve {
   font-size: 13px;
   z-index: 2;
   cursor: pointer;
+  font-family: 'Barlow', sans-serif !important;
 }
 .footer-half .insta .insta-gallary a {
   width: 60px;
@@ -6551,9 +6573,13 @@ header.simpl .caption .btn-curve {
   transition: transform 1s ease-in-out !important;
 } */
 
+.to-transform img {
+  transition: transform 0.6s ease-in-out !important;
+}
+
 .to-transform img:hover {
-  transition: transform 0.3s ease-in-out !important;
-  transform: scale(1.5) !important;
+  transition: transform 0.6s ease-in-out !important;
+  transform: scale(1.25) !important;
   cursor: pointer;
 }
 
@@ -6567,7 +6593,14 @@ header.simpl .caption .btn-curve {
   opacity: 1 !important;
 }
 
-.star-color {
-  color: #d1e231;
-  margin: 0 1px;
+.testi-rates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.testi-rates img {
+  width: 80px;
 }
