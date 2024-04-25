@@ -432,14 +432,16 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
                                             className: "caption center",
                                             children: [
                                                 (slide === null || slide === void 0 ? void 0 : slide.content) && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    children: slide.content.first
+                                                    dangerouslySetInnerHTML: {
+                                                        __html: slide.content.first
+                                                    }
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_4__["default"], {
                                                     href: "/about/about-dark",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                         className: "explorebtn mt-30",
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                            src: "/img/ExploreBtn.png",
+                                                            src: "/img/exp-icon.png",
                                                             alt: "explore"
                                                         })
                                                     })
@@ -1521,7 +1523,7 @@ const Homepage1 = ()=>{
 /***/ 5754:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Shattering Barriers","second":"Through Bold Digital Solutions"},"content":{"first":"Transforming the business landscape with bold marketing solutions!","second":"with bold marketing solutions!"},"image":"/img/slid/01.png"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"first":"Shattering Barriers","second":"Through Bold Digital Solutions"},"content":{"first":"Transforming the business landscape with bold  <strong>marketing solutions</strong>!","second":"with bold <strong>marketing solutions</strong>!"},"image":"/img/slid/01.png"}]');
 
 /***/ }),
 

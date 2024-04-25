@@ -16,7 +16,7 @@ exports.modules = {
 /* harmony import */ var _Split__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8636);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1664);
 
-
+/* eslint-disable @next/next/no-img-element */ 
 
 
 const CallToAction = ({ img , theme , subBG  })=>{
@@ -55,12 +55,12 @@ const CallToAction = ({ img , theme , subBG  })=>{
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "col-md-4 col-lg-3 valign",
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                            href: "/contact/contact-dark",
+                            href: "/about/about-dark",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                className: `btn-curve ${theme == 'light' ? 'btn-blc' : 'btn-lit'} wow fadeInUp`,
-                                "data-wow-delay": ".5s",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                    children: "Get a Quote"
+                                className: "explorebtn",
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                    src: "/img/exp-icon.png",
+                                    alt: "explore"
                                 })
                             })
                         })

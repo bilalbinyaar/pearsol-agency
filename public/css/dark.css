@@ -182,6 +182,7 @@ span:hover {
 .bg-img {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-y: center;
 }
 
 .bg-center {
@@ -1276,7 +1277,7 @@ span:hover {
   text-transform: uppercase;
   letter-spacing: 14px;
   margin-bottom: 5px;
-  font-family: 'Barlow', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif !important;
 }
 .sec-head h3 {
   font-size: 80px;
@@ -1491,7 +1492,7 @@ span:hover {
   letter-spacing: 4px;
   font-size: 13px;
   font-weight: 300;
-  font-family: 'Barlow', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif !important;
 }
 .simple-btn:after {
   content: '';
@@ -2021,8 +2022,8 @@ span:hover {
 .slider .parallax-slider .swiper-slide-active .caption p {
   /* font-size: 40px; */
   font-size: 35px;
-  line-height: 1;
-  font-weight: 400;
+  line-height: 1.2;
+  font-weight: 300;
   font-family: 'Poppins', sans-serif !important;
 }
 
@@ -2058,7 +2059,7 @@ span:hover {
   -o-transition: opacity 0.5s, visibility 0.5s;
   transition: opacity 0.5s, visibility 0.5s;
   /* font-family: 'Glancyr', sans-serif !important; */
-  font-family: 'Barlow', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif !important;
   line-height: 1.2;
 }
 .slider .parallax-slider .caption p {
@@ -2075,7 +2076,7 @@ span:hover {
   -o-transition-delay: 0.8s;
   transition-delay: 0.8s;
   /* font-family: 'Glancyr', sans-serif !important; */
-  font-family: 'Barlow', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif !important;
 
   line-height: 1.2;
 }
@@ -4279,7 +4280,7 @@ header.simpl .caption .btn-curve {
 }
 
 .work-carousel .noraidus .item-img {
-  height: 480px;
+  height: 750px;
   border-radius: 0;
 }
 
@@ -4300,7 +4301,7 @@ header.simpl .caption .btn-curve {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  font-family: 'Barlow', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif !important;
 }
 .work-carousel .noraidus .cont h4 {
   font-size: 17px;
@@ -4713,7 +4714,7 @@ header.simpl .caption .btn-curve {
   font-size: 13px;
   /* font-family: 'Poppins', sans-serif !important; */
   color: #d1e231;
-  font-family: 'Barlow', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif !important;
 }
 
 .testimonials .slick-dots {
@@ -5521,7 +5522,7 @@ header.simpl .caption .btn-curve {
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-bottom: 10px;
-  font-family: 'Barlow', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif !important;
 }
 .call-action .content h6 span {
   color: #d1e231;
@@ -5559,7 +5560,7 @@ header.simpl .caption .btn-curve {
   font-size: 15px;
   font-weight: 700;
   text-transform: capitalize;
-  font-family: 'Barlow', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif !important;
 }
 .call-action .btn-curve:hover span {
   color: #0c0f16;
@@ -5649,10 +5650,10 @@ header.simpl .caption .btn-curve {
 }
 .number-sec .item .icon {
   position: absolute;
-  left: 70px;
+  left: 80px;
   bottom: 0;
   font-size: 70px;
-  width: 50%;
+  width: 40%;
   opacity: 0.05;
   z-index: -1;
 }
@@ -5834,7 +5835,7 @@ header.simpl .caption .btn-curve {
   font-size: 13px;
   z-index: 2;
   cursor: pointer;
-  font-family: 'Barlow', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif !important;
 }
 .footer-half .insta .insta-gallary a {
   width: 60px;
@@ -6528,7 +6529,7 @@ header.simpl .caption .btn-curve {
 }
 
 .explorebtn img:hover {
-  transform: rotate(-360deg) scale(1.1) rotate(-50deg);
+  transform: rotate(-360deg) scale(1.1) rotate(0deg);
 }
 
 .home-services-icons img {

@@ -105,21 +105,18 @@ const IntroWithSlider1 = ({ sliderRef }) => {
                             </h1>
                           </Split> */}
                           {slide?.content && (
-                            <p>
-                              {slide.content.first}
-                              {/* <br /> */}
-                              {/* <span
-                                dangerouslySetInnerHTML={{
-                                  __html: slide.content.second,
-                                }}
-                              /> */}
-                            </p>
+                            <p
+                              dangerouslySetInnerHTML={{
+                                __html: slide.content.first,
+                              }}
+                            />
                           )}
 
                           <Link href="/about/about-dark">
                             <a className="explorebtn mt-30">
                               {/* <span>Explore</span> */}
-                              <img src="/img/ExploreBtn.png" alt="explore" />
+                              {/* <img src="/img/ExploreBtn.png" alt="explore" /> */}
+                              <img src="/img/exp-icon.png" alt="explore" />
                             </a>
                           </Link>
                         </div>

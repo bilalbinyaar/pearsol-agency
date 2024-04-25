@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import Split from '../Split';
 import Link from 'next/link';
@@ -28,7 +29,7 @@ const CallToAction = ({ img, theme, subBG }) => {
           </div>
 
           <div className="col-md-4 col-lg-3 valign">
-            <Link href="/contact/contact-dark">
+            {/* <Link href="/contact/contact-dark">
               <a
                 className={`btn-curve ${
                   theme == 'light' ? 'btn-blc' : 'btn-lit'
@@ -36,6 +37,13 @@ const CallToAction = ({ img, theme, subBG }) => {
                 data-wow-delay=".5s"
               >
                 <span>Get a Quote</span>
+              </a>
+            </Link> */}
+            <Link href="/about/about-dark">
+              <a className="explorebtn">
+                {/* <span>Explore</span> */}
+                {/* <img src="/img/ExploreBtn.png" alt="explore" /> */}
+                <img src="/img/exp-icon.png" alt="explore" />
               </a>
             </Link>
           </div>
