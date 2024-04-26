@@ -3,44 +3,6 @@ exports.id = 644;
 exports.ids = [644];
 exports.modules = {
 
-/***/ 6802:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-const fadeWhenScroll = ()=>{
-    window.addEventListener("scroll", ()=>{
-        var scrolled = window.pageYOffset;
-        if (document.querySelector(".fixed-slider .caption")) {
-            document.querySelectorAll(".fixed-slider .caption").forEach((caption)=>{
-                caption.style.transform = "translate3d(0, " + -(scrolled * 0.2) + "px, 0)";
-                caption.style.opacity = 1 - scrolled / 600;
-            });
-        }
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (fadeWhenScroll);
-
-
-/***/ }),
-
-/***/ 5850:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-const removeSlashFromPagination = ()=>{
-    if (document.querySelector(".swiper-pagination")) {
-        document.querySelector(".swiper-pagination").innerHTML = document.querySelector(".swiper-pagination").innerHTML.replace(" / ", "");
-    }
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (removeSlashFromPagination);
-
-
-/***/ }),
-
 /***/ 6658:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -87,16 +49,15 @@ const AboutUs2 = ({ skillsTheme  })=>{
                             className: "content",
                             children: [
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: "sub-title",
+                                    className: "sub-title for-pear-title",
                                     children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                            className: "pear-icon",
+                                            src: "/img/favicon.png",
+                                            alt: ""
+                                        }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                             children: "Who We Are"
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         })
                                     ]
                                 }),
@@ -252,10 +213,6 @@ const ClientsBrands = ({ subBG , theme  })=>{
                             className: "wow",
                             "data-splitting": true,
                             children: "Our Clients."
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                            className: "tbg",
-                            children: "Clients"
                         })
                     ]
                 }),
@@ -266,7 +223,7 @@ const ClientsBrands = ({ subBG , theme  })=>{
                     arrows: false,
                     autoplay: true,
                     slidesToScroll: 1,
-                    slidesToShow: 4,
+                    slidesToShow: 5,
                     responsive: [
                         {
                             breakpoint: 1024,
@@ -371,7 +328,7 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
     const paginationRef = react__WEBPACK_IMPORTED_MODULE_1___default().useRef(null);
     return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("header", {
         ref: sliderRef,
-        className: "slider slider-prlx fixed-slider text-center",
+        className: "slider slider-prlx fixed-slider text-center for-fixed-pos",
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             className: "swiper-container parallax-slider",
             children: !load ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.Swiper, {
@@ -481,7 +438,7 @@ var external_react_ = __webpack_require__(6689);
 var external_react_countup_ = __webpack_require__(609);
 var external_react_countup_default = /*#__PURE__*/__webpack_require__.n(external_react_countup_);
 ;// CONCATENATED MODULE: ./src/data/sections/numbers1.json
-const numbers1_namespaceObject = JSON.parse('[{"id":1,"icon":"/img/counter/Completed-Projects.png","txt":"Completed Projects","value":"200"},{"id":2,"icon":"/img/counter/Success-Rate.png","txt":"Project Success Rate","value":"98"},{"id":3,"icon":"/img/counter/Client-Satisfaction.png","txt":"Client Satisfaction","value":"100"},{"id":4,"icon":"/img/counter/Service-Quality.png","txt":"Service Quality","value":"100"}]');
+const numbers1_namespaceObject = JSON.parse('[{"id":1,"icon":"/img/counter/Completed-Projects.png","txt":"Completed Projects","value":"200"},{"id":2,"icon":"/img/counter/Success-Rate.png","txt":"Project Success Rate","value":"100"},{"id":3,"icon":"/img/counter/Client-Satisfaction.png","txt":"Client Satisfaction","value":"98"},{"id":4,"icon":"/img/counter/Service-Quality.png","txt":"Service Quality","value":"100"}]');
 // EXTERNAL MODULE: ./src/components/Split/index.jsx
 var Split = __webpack_require__(8636);
 // EXTERNAL MODULE: external "react-visibility-sensor"
@@ -611,10 +568,6 @@ const Services1 = ()=>{
                                     "data-splitting": true,
                                     children: "What We Do."
                                 })
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: "tbg",
-                                children: "Services"
                             })
                         ]
                     }),
@@ -650,7 +603,7 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
                                         href: "#",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-40",
+                                            className: "btn-curve btn-bord btn-lit mt-20",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                 children: "Learn more"
                                             })
@@ -687,7 +640,7 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
                                         href: "#",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-40",
+                                            className: "btn-curve btn-bord btn-lit mt-20",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                 children: "Learn more"
                                             })
@@ -727,7 +680,7 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
                                         href: "#",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-40",
+                                            className: "btn-curve btn-bord btn-lit mt-20",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                 children: "Learn more"
                                             })
@@ -769,7 +722,7 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
                                         href: "#",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-40",
+                                            className: "btn-curve btn-bord btn-lit mt-20",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                 children: "Learn more"
                                             })
@@ -809,7 +762,7 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
                                         href: "#",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-40",
+                                            className: "btn-curve btn-bord btn-lit mt-20",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                 children: "Learn more"
                                             })
@@ -849,7 +802,7 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
                                         href: "#",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-40",
+                                            className: "btn-curve btn-bord btn-lit mt-20",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                 children: "Learn more"
                                             })
@@ -982,10 +935,6 @@ class Testimonials1 extends (external_react_default()).Component {
                                     "data-splitting": true,
                                     children: "Testimonials."
                                 })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                className: "tbg",
-                                children: "Testimonials"
                             })
                         ]
                     }),
@@ -1009,9 +958,6 @@ class Testimonials1 extends (external_react_default()).Component {
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         className: "item",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                children: "The team at Pearsols provided exceptional social media service, and work, exceeding all expectations. Their expertise, dedication, and professionalism made the experience truly remarkable. Highly recommended for top-notch results, and a delightful collaboration!"
-                                            }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                 className: "info",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -1079,15 +1025,15 @@ class Testimonials1 extends (external_react_default()).Component {
                                                         })
                                                     })
                                                 })
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                children: "The team at Pearsols provided exceptional social media service, and work, exceeding all expectations. Their expertise, dedication, and professionalism made the experience truly remarkable. Highly recommended for top-notch results, and a delightful collaboration!"
                                             })
                                         ]
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         className: "item",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                children: "Precize communication, excellent results and fast delivery. I can recommend working with Pearsols for any kind of design and branding work to be done in high quality and fast. Well Done!"
-                                            }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                 className: "info",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -1155,15 +1101,15 @@ class Testimonials1 extends (external_react_default()).Component {
                                                         })
                                                     })
                                                 })
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                children: "Precize communication, excellent results and fast delivery. I can recommend working with Pearsols for any kind of design and branding work to be done in high quality and fast. Well Done!"
                                             })
                                         ]
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         className: "item",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                children: "Their prolonged efforts yielded exceptional, professional results precisely on schedule. I intend to repeatedly enlist their services due to the outstanding quality and timeliness of their work."
-                                            }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                 className: "info",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -1231,6 +1177,9 @@ class Testimonials1 extends (external_react_default()).Component {
                                                         })
                                                     })
                                                 })
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                children: "Their prolonged efforts yielded exceptional, professional results precisely on schedule. I intend to repeatedly enlist their services due to the outstanding quality and timeliness of their work."
                                             })
                                         ]
                                     })
@@ -1517,13 +1466,6 @@ const Homepage1 = ()=>{
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Homepage1);
 
 });
-
-/***/ }),
-
-/***/ 5754:
-/***/ ((module) => {
-
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Shattering Barriers","second":"Through Bold Digital Solutions"},"content":{"first":"Transforming the business landscape with bold  <strong>marketing solutions</strong>!","second":"with bold <strong>marketing solutions</strong>!"},"image":"/img/slid/01.png"}]');
 
 /***/ }),
 

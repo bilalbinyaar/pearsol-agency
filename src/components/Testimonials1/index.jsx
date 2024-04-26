@@ -62,7 +62,7 @@ class Testimonials1 extends React.Component {
                 Testimonials.
               </h3>
             </Split>
-            <span className="tbg">Testimonials</span>
+            {/* <span className="tbg">Testimonials</span> */}
           </div>
           <div
             className="row justify-content-center wow fadeInUp"
@@ -83,13 +83,6 @@ class Testimonials1 extends React.Component {
                 }}
               >
                 <div className="item">
-                  <p>
-                    The team at Pearsols provided exceptional social media
-                    service, and work, exceeding all expectations. Their
-                    expertise, dedication, and professionalism made the
-                    experience truly remarkable. Highly recommended for
-                    top-notch results, and a delightful collaboration!
-                  </p>
                   <div className="info">
                     <div className="cont">
                       <div className="author">
@@ -131,14 +124,15 @@ class Testimonials1 extends React.Component {
                       </div>
                     </div>
                   </div>
+                  <p>
+                    The team at Pearsols provided exceptional social media
+                    service, and work, exceeding all expectations. Their
+                    expertise, dedication, and professionalism made the
+                    experience truly remarkable. Highly recommended for
+                    top-notch results, and a delightful collaboration!
+                  </p>
                 </div>
                 <div className="item">
-                  <p>
-                    Precize communication, excellent results and fast delivery.
-                    I can recommend working with Pearsols for any kind of design
-                    and branding work to be done in high quality and fast. Well
-                    Done!
-                  </p>
                   <div className="info">
                     <div className="cont">
                       <div className="author">
@@ -178,14 +172,14 @@ class Testimonials1 extends React.Component {
                       </div>
                     </div>
                   </div>
+                  <p>
+                    Precize communication, excellent results and fast delivery.
+                    I can recommend working with Pearsols for any kind of design
+                    and branding work to be done in high quality and fast. Well
+                    Done!
+                  </p>
                 </div>
                 <div className="item">
-                  <p>
-                    Their prolonged efforts yielded exceptional, professional
-                    results precisely on schedule. I intend to repeatedly enlist
-                    their services due to the outstanding quality and timeliness
-                    of their work.
-                  </p>
                   <div className="info">
                     <div className="cont">
                       <div className="author">
@@ -227,6 +221,12 @@ class Testimonials1 extends React.Component {
                       </div>
                     </div>
                   </div>
+                  <p>
+                    Their prolonged efforts yielded exceptional, professional
+                    results precisely on schedule. I intend to repeatedly enlist
+                    their services due to the outstanding quality and timeliness
+                    of their work.
+                  </p>
                 </div>
               </Slider>
             </div>

@@ -139,14 +139,14 @@ const Navbar = ({ lr , nr , theme  })=>{
                                             className: "dropdown-menu",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase/showcase-dark",
+                                                    href: "/showcase2/showcase2-dark",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
                                                         children: "Design & Branding"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase2/showcase2-dark",
+                                                    href: "/showcase/showcase-dark",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
                                                         children: "Digital Marketing"
@@ -174,7 +174,7 @@ const Navbar = ({ lr , nr , theme  })=>{
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase/showcase-dark",
+                                                    href: "/search-engine/search-engine",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
                                                         children: "Search Engine Optimization"

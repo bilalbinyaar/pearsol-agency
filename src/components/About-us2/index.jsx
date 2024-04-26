@@ -28,11 +28,12 @@ const AboutUs2 = ({ skillsTheme }) => {
         <div className="row">
           <div className="col-lg-6 valign">
             <div className="content">
-              <div className="sub-title">
+              <div className="sub-title for-pear-title">
+                <img className="pear-icon" src="/img/favicon.png" alt="" />
                 <h6>Who We Are</h6>
+                {/* <span></span>
                 <span></span>
-                <span></span>
-                <span></span>
+                <span></span> */}
               </div>
               <Split>
                 <h2

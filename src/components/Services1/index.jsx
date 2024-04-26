@@ -33,7 +33,7 @@ const Services1 = () => {
               What We Do.
             </h3>
           </Split>
-          <span className="tbg">Services</span>
+          {/* <span className="tbg">Services</span> */}
         </div>
         <div className="row">
           {/* ITEM-1 */}
@@ -52,7 +52,7 @@ const Services1 = () => {
               We craft modern brand stories, seamlessly blending creativity.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
+              <a className="btn-curve btn-bord btn-lit mt-20">
                 <span>Learn more</span>
               </a>
             </Link>
@@ -77,7 +77,7 @@ const Services1 = () => {
               forward.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
+              <a className="btn-curve btn-bord btn-lit mt-20">
                 <span>Learn more</span>
               </a>
             </Link>
@@ -102,7 +102,7 @@ const Services1 = () => {
               presence.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
+              <a className="btn-curve btn-bord btn-lit mt-20">
                 <span>Learn more</span>
               </a>
             </Link>
@@ -125,7 +125,7 @@ const Services1 = () => {
               We craft modern brand stories, seamlessly blending creativity.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
+              <a className="btn-curve btn-bord btn-lit mt-20">
                 <span>Learn more</span>
               </a>
             </Link>
@@ -150,7 +150,7 @@ const Services1 = () => {
               forward.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
+              <a className="btn-curve btn-bord btn-lit mt-20">
                 <span>Learn more</span>
               </a>
             </Link>
@@ -175,7 +175,7 @@ const Services1 = () => {
               presence.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
+              <a className="btn-curve btn-bord btn-lit mt-20">
                 <span>Learn more</span>
               </a>
             </Link>

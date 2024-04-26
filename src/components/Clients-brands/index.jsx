@@ -19,7 +19,7 @@ const ClientsBrands = ({ subBG, theme }) => {
           <h3 className="wow" data-splitting>
             Our Clients.
           </h3>
-          <span className="tbg">Clients</span>
+          {/* <span className="tbg">Clients</span> */}
         </div>
         <Slider
           className=""
@@ -30,7 +30,7 @@ const ClientsBrands = ({ subBG, theme }) => {
             arrows: false,
             autoplay: true,
             slidesToScroll: 1,
-            slidesToShow: 4,
+            slidesToShow: 5,
             responsive: [
               {
                 breakpoint: 1024,

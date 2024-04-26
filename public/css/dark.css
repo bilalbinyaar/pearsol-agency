@@ -249,6 +249,7 @@ span:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .primery-shadow {
@@ -1379,11 +1380,14 @@ span:hover {
 /* ====================== [  Start Button Style ] ====================== */
 .btn-curve {
   background: transparent;
-  padding: 12px 35px;
-  border: 1px solid #1e1e1e;
+  /* padding: 12px 35px; */
+  padding: 0px 30px;
+  /* border: 1px solid #1e1e1e; */
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  font-family: 'Barlow Condensed', sans-serif !important;
+  font-weight: 200;
 }
 .btn-curve:focus {
   outline: none;
@@ -1407,7 +1411,7 @@ span:hover {
   left: -30px;
   right: -30px;
   bottom: 130%;
-  background: #1e1e1e;
+  /* background: #1e1e1e; */
   -webkit-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
@@ -1426,19 +1430,19 @@ span:hover {
   -o-transition: all 0.8s;
   transition: all 0.8s;
 }
-.btn-curve.btn-lit {
+/* .btn-curve.btn-lit {
   border-color: #fff;
   color: #fff;
-}
+} */
 .btn-curve.btn-lit:hover span {
   color: #d1e231;
 }
-.btn-curve.btn-lit:after {
+/* .btn-curve.btn-lit:after {
   background: #fff;
-}
-.btn-curve.btn-blc {
+} */
+/* .btn-curve.btn-blc {
   background: #1e1e1e;
-}
+} */
 .btn-curve.btn-blc:after {
   background: #fff;
 }
@@ -1967,7 +1971,7 @@ span:hover {
   position: relative;
 }
 .slider.fixed-slider {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   right: 0;
@@ -2255,9 +2259,9 @@ span:hover {
 .slider .swiper-pagination-fraction.steps .swiper-pagination-total {
   float: right;
 }
-/* .slider .social-icon {
+.slider .social-icon {
   position: absolute;
-  left: 40px;
+  right: 40px;
   bottom: 40px;
   z-index: 8;
 }
@@ -2270,7 +2274,7 @@ span:hover {
   border: 1px solid rgba(255, 255, 255, 0.05);
   color: #fff;
   font-size: 13px;
-} */
+}
 
 .search .social-icon a {
   width: 40px;
@@ -3453,7 +3457,7 @@ header.simpl .caption .btn-curve {
   z-index: 2;
 }
 .services .item-box {
-  padding: 80px 30px;
+  padding: 30px;
   text-align: center;
   transition: transform 0.7s ease, filter 0.3s ease;
 }
@@ -3520,6 +3524,12 @@ header.simpl .caption .btn-curve {
   margin-bottom: 10px;
   font-family: 'Poppins', sans-serif !important;
 }
+
+.services .item-box-pack h6 {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
 .services .rone > div {
   position: relative;
 }
@@ -3943,6 +3953,9 @@ header.simpl .caption .btn-curve {
   padding: 0 50px;
   margin: 50px 0;
 }
+.portfolio .gallery .items-pack {
+  padding: 0;
+}
 .portfolio .gallery .items.lg-mr {
   margin-top: 100px;
 }
@@ -4280,7 +4293,7 @@ header.simpl .caption .btn-curve {
 }
 
 .work-carousel .noraidus .item-img {
-  height: 750px;
+  height: 550px;
   border-radius: 0;
 }
 
@@ -4689,10 +4702,11 @@ header.simpl .caption .btn-curve {
 .testimonials .item p {
   font-size: 14px;
   font-weight: 300;
-}
-.testimonials .item .info {
   margin-top: 30px;
 }
+/* .testimonials .item .info {
+  margin-top: 30px;
+} */
 .testimonials .item .info .img {
   width: 70px;
   height: 70px;
@@ -4713,7 +4727,8 @@ header.simpl .caption .btn-curve {
 .testimonials .item .info .author-details {
   font-size: 13px;
   /* font-family: 'Poppins', sans-serif !important; */
-  color: #d1e231;
+  /* color: #d1e231; */
+  color: #fff;
   font-family: 'Barlow Condensed', sans-serif !important;
 }
 
@@ -5530,7 +5545,7 @@ header.simpl .caption .btn-curve {
 
 .call-action .content h2 {
   font-weight: 700;
-  font-size: 4vw;
+  font-size: 3.7vw;
   line-height: 1.2;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -6523,17 +6538,21 @@ header.simpl .caption .btn-curve {
   cursor: pointer !important;
 }
 
+.explorebtn-f img {
+  width: 95px;
+}
+
 .explorebtn img {
-  width: 110px;
+  width: 150px;
   transition: transform 1s ease;
 }
 
-.explorebtn img:hover {
+/* .explorebtn img:hover {
   transform: rotate(-360deg) scale(1.1) rotate(0deg);
-}
+} */
 
 .home-services-icons img {
-  width: 50px !important;
+  width: 35px !important;
 }
 
 .to-justify {
@@ -6604,4 +6623,36 @@ header.simpl .caption .btn-curve {
 
 .testi-rates img {
   width: 80px;
+}
+
+.pear-icon {
+  width: auto;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.for-pear-title {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.for-visible {
+  visibility: hidden;
+}
+
+.for-fixed-pos {
+  position: fixed;
+}
+
+.padding-section-bottom {
+  padding-bottom: 120px;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.no-m {
+  margin: 0;
 }

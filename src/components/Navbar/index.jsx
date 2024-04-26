@@ -104,10 +104,10 @@ const Navbar = ({ lr, nr, theme }) => {
                 Our Services
               </span>
               <div className="dropdown-menu">
-                <Link href="/showcase/showcase-dark">
+                <Link href="/showcase2/showcase2-dark">
                   <a className="dropdown-item">Design & Branding</a>
                 </Link>
-                <Link href="/showcase2/showcase2-dark">
+                <Link href="/showcase/showcase-dark">
                   <a className="dropdown-item">Digital Marketing</a>
                 </Link>
                 <Link href="/showcase3/showcase3-dark">
@@ -119,7 +119,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href="/showcase5/showcase5-dark">
                   <a className="dropdown-item">Social Media Management</a>
                 </Link>
-                <Link href="/showcase/showcase-dark">
+                <Link href="/search-engine/search-engine">
                   <a className="dropdown-item">Search Engine Optimization</a>
                 </Link>
               </div>
