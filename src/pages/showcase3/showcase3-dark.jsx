@@ -6,6 +6,7 @@ import UiIntro from '../../components/UiIntro';
 import Footer from '../../components/Footer';
 import UiAbout from '../../components/UiAbout';
 import UiPack from '../../components/UiPack';
+import CallToAction from '../../components/Call-to-action';
 
 const Showcase3Dark = () => {
   return (
@@ -15,6 +16,7 @@ const Showcase3Dark = () => {
       <div>
         <UiAbout />
         <UiPack />
+        <CallToAction subBG />
         <Footer />
       </div>
       {/* <ShowcasesFullScreenCircleSlide /> */}

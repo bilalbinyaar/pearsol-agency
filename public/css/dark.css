@@ -1607,7 +1607,7 @@ span:hover {
 .navbar .search {
   color: #fff;
   padding-left: 20px;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255);
 }
 .navbar .search .icon {
   cursor: pointer;
@@ -1675,11 +1675,14 @@ span:hover {
   left: 0;
   width: 100%;
   z-index: 999999;
-  padding: 30px 0;
+  padding: 20px 0;
   color: #fff;
   -webkit-transition: all 0.7s;
   -o-transition: all 0.7s;
   transition: all 0.7s;
+  border-bottom: 2px solid transparent;
+  background: #11141b;
+  border-color: #181b21;
 }
 .topnav .container,
 .topnav .container-fluid {
@@ -1689,6 +1692,7 @@ span:hover {
 }
 .topnav .container-fluid {
   padding: 0 50px;
+  align-items: center;
 }
 .topnav .logo {
   width: 120px;
@@ -1996,6 +2000,8 @@ span:hover {
   bottom: 0;
   left: 0;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.7);
   /* background-position: 0px -180px; */
 }
 .slider .parallax-slider .swiper-slide-active .caption h1 {
@@ -2837,7 +2843,7 @@ header.simpl .caption .btn-curve {
 }
 .works-header .capt h2 span {
   display: block;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
   text-transform: capitalize;
   color: #d1e231;
@@ -3457,7 +3463,7 @@ header.simpl .caption .btn-curve {
   z-index: 2;
 }
 .services .item-box {
-  padding: 30px;
+  padding: 45px 30px;
   text-align: center;
   transition: transform 0.7s ease, filter 0.3s ease;
 }
@@ -3974,6 +3980,7 @@ header.simpl .caption .btn-curve {
 .portfolio .gallery .items .item-img:hover {
   -webkit-clip-path: inset(5px 10px);
   clip-path: inset(5px 10px);
+  cursor: pointer;
 }
 .portfolio .gallery .items .item-img:hover img {
   -webkit-transform: scale(1.05);
@@ -4293,7 +4300,7 @@ header.simpl .caption .btn-curve {
 }
 
 .work-carousel .noraidus .item-img {
-  height: 550px;
+  height: 600px;
   border-radius: 0;
 }
 
@@ -4936,16 +4943,17 @@ header.simpl .caption .btn-curve {
   color: #d1e231;
 }
 
-.block-sec .vid-area .cont {
+/* .block-sec .vid-area .cont {
   margin-top: 40px;
-}
+} */
+
 .block-sec .vid-area .cont h6 {
   text-transform: uppercase;
   font-weight: 300;
   margin-bottom: 15px;
 }
 .block-sec .vid-area .cont h3 {
-  font-size: 45px;
+  font-size: 52px;
   font-weight: 700;
 }
 
@@ -5532,7 +5540,7 @@ header.simpl .caption .btn-curve {
 /* ====================== [ Start Call To Action  ] ====================== */
 .call-action .content h6 {
   color: #d1e231;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -5544,19 +5552,21 @@ header.simpl .caption .btn-curve {
 }
 
 .call-action .content h2 {
-  font-weight: 700;
-  font-size: 3.7vw;
+  font-weight: 600;
+  font-size: 60px;
   line-height: 1.2;
   text-transform: uppercase;
   margin-bottom: 20px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #fff;
-  color: transparent;
-  font-family: 'Poppins', sans-serif !important;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff; */
+  color: white !important;
+  letter-spacing: 2px;
+  /* font-family: 'Poppins', sans-serif !important; */
+  font-family: 'Barlow Condensed', sans-serif;
 }
-.call-action .content h2 span {
+/* .call-action .content h2 span {
   color: transparent;
-}
+} */
 .call-action .content h2 b span {
   color: #fff;
   -webkit-text-stroke-width: 0;
@@ -6550,6 +6560,9 @@ header.simpl .caption .btn-curve {
 /* .explorebtn img:hover {
   transform: rotate(-360deg) scale(1.1) rotate(0deg);
 } */
+.explorebtn img:hover {
+  transform: scale(1.1);
+}
 
 .home-services-icons img {
   width: 35px !important;
@@ -6655,4 +6668,14 @@ header.simpl .caption .btn-curve {
 
 .no-m {
   margin: 0;
+}
+
+.forflex-more {
+  display: flex;
+  align-items: center;
+}
+
+.contact-btn {
+  padding: 12px 35px;
+  color: white;
 }

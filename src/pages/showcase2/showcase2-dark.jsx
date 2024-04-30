@@ -6,6 +6,7 @@ import DbIntro from '../../components/DbIntro';
 import Footer from '../../components/Footer';
 import DbAbout from '../../components/DbAbout';
 import DbPack from '../../components/DbPack';
+import CallToAction from '../../components/Call-to-action';
 
 const Showcase4Dark = () => {
   return (
@@ -15,6 +16,7 @@ const Showcase4Dark = () => {
       <div>
         <DbAbout />
         <DbPack />
+        <CallToAction subBG />
         <Footer />
       </div>
       {/* <ShowcasesOneCenter /> */}

@@ -15,15 +15,16 @@ const CallToAction = ({ img, theme, subBG }) => {
             <div className="content sm-mb30">
               <Split>
                 <h6 className="wow words chars splitting" data-splitting>
-                  Let&apos;s Talk
+                  Let&apos;s
                 </h6>
-                <h2
+                {/* <h2
                   className="wow words custom-font chars splitting"
                   data-splitting
                 >
-                  {/* about your <b>project</b>. */}
-                  <b>about your project.</b>
-                </h2>
+                  
+                  <b>Talk about your project.</b>
+                </h2> */}
+                <h2 className="custom-font">Talk About Your project.</h2>
               </Split>
             </div>
           </div>

@@ -6,6 +6,7 @@ import WdIntro from '../../components/WebIntro';
 import Footer from '../../components/Footer';
 import WebAbout from '../../components/WebAbout';
 import WebPack from '../../components/WebPack';
+import CallToAction from '../../components/Call-to-action';
 
 const Showcase4Dark = () => {
   return (
@@ -15,6 +16,7 @@ const Showcase4Dark = () => {
       <div>
         <WebAbout />
         <WebPack />
+        <CallToAction subBG />
         <Footer />
       </div>
       {/* <ShowcasesGrid /> */}

@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/index.jsx';
 import SeoIntro from '../../components/SeoIntro/index.jsx';
 import SeoAbout from '../../components/SeoAbout/index.jsx';
 import SeoPack from '../../components/SeoPack/index.jsx';
+import CallToAction from '../../components/Call-to-action/index.jsx';
 
 const SearchEngine = () => {
   return (
@@ -16,6 +17,7 @@ const SearchEngine = () => {
       <div>
         <SeoAbout />
         <SeoPack />
+        <CallToAction subBG />
         <Footer />
       </div>
       {/* <ShowcasesShowStyle /> */}

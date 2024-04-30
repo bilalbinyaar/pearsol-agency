@@ -6,6 +6,7 @@ import DmIntro from '../../components/DmIntro';
 import Footer from '../../components/Footer';
 import DmAbout from '../../components/DmAbout';
 import DmPack from '../../components/DmPack';
+import CallToAction from '../../components/Call-to-action';
 
 const ShowcaseDark = () => {
   return (
@@ -15,6 +16,7 @@ const ShowcaseDark = () => {
       <div>
         <DmAbout />
         <DmPack />
+        <CallToAction subBG />
         <Footer />
       </div>
       {/* <ShowcasesFullScreen /> */}

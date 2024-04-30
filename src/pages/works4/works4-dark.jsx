@@ -77,8 +77,7 @@ const Works4Dark = () => {
           <div className="container">
             <div className="copyrights text-center mt-0">
               <p>
-                © 2022, Avo Template. Made with passion by
-                <a href="#0">ThemesCamp</a>.
+                © 2024 - <a href="#0">Pearsols</a>. All Copyrights Reserved.
               </p>
             </div>
           </div>

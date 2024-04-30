@@ -37,20 +37,13 @@ const UiAbout = ({ skillsTheme }) => {
                 </h2>
               </Split>
               <p className="wow fadeInUp to-justify" data-wow-delay=".4s">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                We always go beyond traditional UI/UX design. We are not just
+                creating interfaces; we are orchestrating seamless digital
+                journeys. Through a thoughtful blend of aesthetics and
+                functionality, we transcend conventional design boundaries. Our
+                designs are not just visually appealing; they are pathways that
+                elevate user engagement, ensuring every interaction becomes a
+                memorable and immersive experience.
               </p>
             </div>
           </div>

@@ -6,6 +6,7 @@ import SmmIntro from '../../components/SmmIntro/index.jsx';
 import Footer from '../../components/Footer/index.jsx';
 import SmmAbout from '../../components/SmmAbout/index.jsx';
 import SmmPack from '../../components/SmmPack/index.jsx';
+import CallToAction from '../../components/Call-to-action/index.jsx';
 
 const ShowcaseDark = () => {
   return (
@@ -15,6 +16,7 @@ const ShowcaseDark = () => {
       <div>
         <SmmAbout />
         <SmmPack />
+        <CallToAction subBG />
         <Footer />
       </div>
       {/* <ShowcasesShowStyle /> */}

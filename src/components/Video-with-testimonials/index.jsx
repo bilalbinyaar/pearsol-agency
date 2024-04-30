@@ -29,9 +29,9 @@ const VideoWithTestimonials = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 forflex-more">
               <div className="vid-area">
-                <div className="vid-icon">
+                {/* <div className="vid-icon">
                   {typeof window !== 'undefined' && (
                     <ModalVideo
                       channel="vimeo"
@@ -55,7 +55,7 @@ const VideoWithTestimonials = () => {
                       </span>
                     </div>
                   </a>
-                </div>
+                </div> */}
 
                 <div className="cont">
                   <Split>

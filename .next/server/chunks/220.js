@@ -276,7 +276,13 @@ const SmmIntro = ({ sliderRef  })=>{
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         className: "row justify-content-center",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            className: "col-lg-7 col-md-9"
+                                            className: "col-lg-7 col-md-9",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                className: "caption center",
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                    children: "We are strategically influencing social presence for lasting connections."
+                                                })
+                                            })
                                         })
                                     })
                                 })

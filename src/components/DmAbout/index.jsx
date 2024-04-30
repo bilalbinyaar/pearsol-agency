@@ -37,20 +37,14 @@ const DmAbout = ({ skillsTheme }) => {
                 </h2>
               </Split>
               <p className="wow fadeInUp to-justify" data-wow-delay=".4s">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                At Pearsols, we do not execute digital campaigns; we orchestrate
+                market dominance. In the ever-evolving digital landscape, we
+                navigate complexities with precision and strategy. Our approach
+                is not just about visibility; it is about strategic conquests
+                that position your brand at the forefront of success. We are not
+                providing services; we are crafting a digital narrative that
+                defines the trajectory of your brands journey in the online
+                realm.
               </p>
             </div>
           </div>

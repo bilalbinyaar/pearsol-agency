@@ -37,20 +37,15 @@ const DbAbout = ({ skillsTheme }) => {
                 </h2>
               </Split>
               <p className="wow fadeInUp to-justify" data-wow-delay=".4s">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                In the realm of design and branding, we do not just create; we
+                mold narratives that leave an indelible mark on the fabric of
+                history. Our meticulous fusion of creativity and strategy
+                results in brand identities that captivate and resonate deeply.
+                Every detail is carefully considered, ensuring our designs
+                transcend the ordinary and forge lasting connections. At
+                Pearsols, we are not merely crafting visuals; we are
+                architecting experiences that leave an indelible mark on the
+                evolving canvas of the competitive landscape.
               </p>
             </div>
           </div>

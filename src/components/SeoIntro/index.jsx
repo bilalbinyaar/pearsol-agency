@@ -90,7 +90,14 @@ const SeoIntro = ({ sliderRef }) => {
                 >
                   <div className="container">
                     <div className="row justify-content-center">
-                      <div className="col-lg-7 col-md-9"></div>
+                      <div className="col-lg-7 col-md-9">
+                        <div className="caption center">
+                          <p>
+                            We are strategically elevating visibility for search
+                            landscape dominance.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
