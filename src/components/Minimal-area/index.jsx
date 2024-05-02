@@ -45,7 +45,7 @@ const MinimalArea = () => {
               <ul className="feat">
                 <li className="wow fadeInUp" data-wow-delay=".2s">
                   <h6>
-                    <span>1</span> Our Mission
+                    <span>•</span> Our Mission
                   </h6>
                   <p>
                     We aim to go beyond the outdated digital marketing approach
@@ -55,7 +55,7 @@ const MinimalArea = () => {
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
                   <h6>
-                    <span>2</span> Our Vision
+                    <span>•</span> Our Vision
                   </h6>
                   <p>
                     Our main focus is to be the most creative agency among the

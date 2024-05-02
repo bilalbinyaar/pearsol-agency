@@ -52,7 +52,7 @@ const Services1 = () => {
               We craft modern brand stories, seamlessly blending creativity.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-20">
+              <a className="btn-curve btn-bord btn-lit mt-30">
                 <span>Learn more</span>
               </a>
             </Link>
@@ -77,7 +77,7 @@ const Services1 = () => {
               forward.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-20">
+              <a className="btn-curve btn-bord btn-lit mt-30">
                 <span>Learn more</span>
               </a>
             </Link>
@@ -102,7 +102,7 @@ const Services1 = () => {
               presence.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-20">
+              <a className="btn-curve btn-bord btn-lit mt-30">
                 <span>Learn more</span>
               </a>
             </Link>
@@ -125,7 +125,7 @@ const Services1 = () => {
               We craft modern brand stories, seamlessly blending creativity.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-20">
+              <a className="btn-curve btn-bord btn-lit mt-30">
                 <span>Learn more</span>
               </a>
             </Link>
@@ -150,7 +150,7 @@ const Services1 = () => {
               forward.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-20">
+              <a className="btn-curve btn-bord btn-lit mt-30">
                 <span>Learn more</span>
               </a>
             </Link>
@@ -175,7 +175,7 @@ const Services1 = () => {
               presence.
             </p>
             <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-20">
+              <a className="btn-curve btn-bord btn-lit mt-30">
                 <span>Learn more</span>
               </a>
             </Link>

@@ -124,14 +124,14 @@ const ContactWithMap = ({ theme = 'dark' }) => {
                   </h5>
                   <h5>+92 307 607 8089</h5>
                 </div>
-                <Split>
+                {/* <Split>
                   <h3 className="custom-font wow" data-splitting>
                     Visit Us.
                   </h3>
                 </Split>
                 <div className="item">
                   <h6>Islamabad, Pakistan 46000.</h6>
-                </div>
+                </div> */}
                 <div className="social mt-50">
                   <a
                     href="https://www.behance.net/marketingpearsols"

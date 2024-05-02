@@ -1315,11 +1315,11 @@ span:hover {
 }
 .sub-title h6 {
   /* font-family: 'Barlow Condensed', sans-serif; */
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   font-weight: 300;
   font-size: 16px;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
 }
 .sub-title span {
   width: 4px;
@@ -1344,7 +1344,7 @@ span:hover {
 }
 
 .extra-title {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .sm-title {
@@ -1498,6 +1498,12 @@ span:hover {
   font-weight: 300;
   font-family: 'Barlow Condensed', sans-serif !important;
 }
+
+.simple-btn:hover {
+  background-color: #d1e231;
+  color: #0c0f16;
+}
+
 .simple-btn:after {
   content: '';
   width: 45%;
@@ -1607,7 +1613,7 @@ span:hover {
 .navbar .search {
   color: #fff;
   padding-left: 20px;
-  border-left: 1px solid rgba(255, 255, 255);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
 .navbar .search .icon {
   cursor: pointer;
@@ -1691,7 +1697,7 @@ span:hover {
   display: flex;
 }
 .topnav .container-fluid {
-  padding: 0 50px;
+  padding: 0 75px;
   align-items: center;
 }
 .topnav .logo {
@@ -2001,7 +2007,7 @@ span:hover {
   left: 0;
   background-size: cover;
   background-blend-mode: overlay;
-  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: rgba(0, 0, 0, 0.7); */
   /* background-position: 0px -180px; */
 }
 .slider .parallax-slider .swiper-slide-active .caption h1 {
@@ -2280,6 +2286,10 @@ span:hover {
   border: 1px solid rgba(255, 255, 255, 0.05);
   color: #fff;
   font-size: 13px;
+}
+
+.slider .social-icon a:hover {
+  color: #d1e231;
 }
 
 .search .social-icon a {
@@ -3246,6 +3256,7 @@ header.simpl .caption .btn-curve {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
   background: #11141b;
   padding: 20px 30px;
   border-radius: 15px;
@@ -4953,7 +4964,7 @@ header.simpl .caption .btn-curve {
   margin-bottom: 15px;
 }
 .block-sec .vid-area .cont h3 {
-  font-size: 52px;
+  font-size: 48px;
   font-weight: 700;
 }
 
@@ -5540,7 +5551,7 @@ header.simpl .caption .btn-curve {
 /* ====================== [ Start Call To Action  ] ====================== */
 .call-action .content h6 {
   color: #d1e231;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -6552,16 +6563,47 @@ header.simpl .caption .btn-curve {
   width: 95px;
 }
 
-.explorebtn img {
+.explorebtn-f img:hover {
+  animation: bounce 1s;
+}
+
+/* .explorebtn img {
   width: 150px;
   transition: transform 1s ease;
 }
 
-/* .explorebtn img:hover {
+.explorebtn img:hover {
   transform: rotate(-360deg) scale(1.1) rotate(0deg);
-} */
+}
 .explorebtn img:hover {
   transform: scale(1.1);
+} */
+
+.explorebtn img {
+  width: 150px;
+  transition: transform 3s ease;
+}
+
+.explorebtn img:hover {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .home-services-icons img {
@@ -6677,5 +6719,20 @@ header.simpl .caption .btn-curve {
 
 .contact-btn {
   padding: 12px 35px;
-  color: white;
+  background-color: white;
+  color: #0c0f16;
+}
+
+.contact-btn:hover {
+  padding: 12px 35px;
+  background-color: #d1e231;
+  color: #0c0f16 !important;
+}
+
+.contact-btn span {
+  color: #0c0f16 !important;
+}
+
+.contact-btn span:hover {
+  color: #0c0f16 !important;
 }
