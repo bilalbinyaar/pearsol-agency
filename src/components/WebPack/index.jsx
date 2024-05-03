@@ -82,7 +82,7 @@ const WebPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(0)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack I</h6>
+              <h6>Front-end Development</h6>
             </div>
             {/* ITEM-2 */}
             <div
@@ -91,7 +91,7 @@ const WebPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(1)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack II</h6>
+              <h6>Back-end Development</h6>
             </div>
             {/* ITEM-3 */}
             <div
@@ -100,7 +100,7 @@ const WebPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(2)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack III</h6>
+              <h6>Custom Design & Development</h6>
             </div>
           </div>
           <div className="row">
@@ -111,7 +111,7 @@ const WebPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(3)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack IV</h6>
+              <h6>(CMS) Development & Integration</h6>
             </div>
             {/* ITEM-5 */}
             <div
@@ -120,7 +120,7 @@ const WebPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(4)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack V</h6>
+              <h6>E-commerce Website Development</h6>
             </div>
             {/* ITEM-6 */}
             <div
@@ -129,12 +129,41 @@ const WebPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(5)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack VI</h6>
+              <h6>Responsive Web Design</h6>
+            </div>
+          </div>
+          <div className="row">
+            {/* ITEM-1 */}
+            <div
+              className="col-lg-4 col-md-6 item-box item-box-pack wow fadeInLeft"
+              data-wow-delay=".5s"
+              onMouseEnter={() => handleItemHover(0)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <h6>Web Application Development</h6>
+            </div>
+            {/* ITEM-2 */}
+            <div
+              className="col-lg-4 col-md-6 item-box item-box-pack wow fadeInLeft"
+              data-wow-delay=".7s"
+              onMouseEnter={() => handleItemHover(1)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <h6>Website Maintenance & Support</h6>
+            </div>
+            {/* ITEM-3 */}
+            <div
+              className="col-lg-4 col-md-6 item-box item-box-pack wow fadeInLeft"
+              data-wow-delay=".9s"
+              onMouseEnter={() => handleItemHover(2)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <h6>Security & Performance Optimization</h6>
             </div>
           </div>
         </div>
 
-        <div className="row pt-120">
+        {/* <div className="row pt-120">
           <div className="valign">
             <div className="content">
               <Split>
@@ -202,7 +231,7 @@ const WebPack = ({ skillsTheme }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

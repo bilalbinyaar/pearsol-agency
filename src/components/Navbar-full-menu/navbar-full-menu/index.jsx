@@ -15,7 +15,8 @@ const NavbarFullMenu = ({ theme, lr }) => {
         id="navi"
         className={`topnav ${theme ? (theme === 'light' ? 'light' : '') : ''}`}
       >
-        <div className="container-fluid">
+        {/* <div className="container-fluid"> */}
+        <div className="container">
           <div className="logo">
             <Link href="/">
               {theme ? (
@@ -290,10 +291,10 @@ const NavbarFullMenu = ({ theme, lr }) => {
                   <h6>Phone :</h6>
                   <p>(+92) 307 607 8089</p>
                 </div>
-                <div className="item">
+                {/* <div className="item">
                   <h6>Address :</h6>
                   <p>Islamabad, Pakistan 46000.</p>
-                </div>
+                </div> */}
                 <div className="item">
                   <h6>Email :</h6>
                   <p>

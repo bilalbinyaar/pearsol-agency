@@ -1690,6 +1690,12 @@ span:hover {
   background: #11141b;
   border-color: #181b21;
 }
+
+.topnav .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .topnav .container,
 .topnav .container-fluid {
   display: -webkit-box;
@@ -3721,6 +3727,7 @@ header.simpl .caption .btn-curve {
   font-size: 40px;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 .min-area .content ul {
   margin: 0;

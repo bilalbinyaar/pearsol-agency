@@ -82,7 +82,7 @@ const UiPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(0)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack I</h6>
+              <h6>User Research</h6>
             </div>
             {/* ITEM-2 */}
             <div
@@ -91,7 +91,7 @@ const UiPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(1)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack II</h6>
+              <h6>Wireframing and Prototyping</h6>
             </div>
             {/* ITEM-3 */}
             <div
@@ -100,7 +100,7 @@ const UiPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(2)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack III</h6>
+              <h6>User Interface (UI) Design</h6>
             </div>
           </div>
           <div className="row">
@@ -111,7 +111,7 @@ const UiPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(3)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack IV</h6>
+              <h6>User Experience (UX) Design</h6>
             </div>
             {/* ITEM-5 */}
             <div
@@ -120,7 +120,7 @@ const UiPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(4)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack V</h6>
+              <h6>Icons Design</h6>
             </div>
             {/* ITEM-6 */}
             <div
@@ -129,12 +129,12 @@ const UiPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(5)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>Services Pack VI</h6>
+              <h6>Responsive Design</h6>
             </div>
           </div>
         </div>
 
-        <div className="row pt-120">
+        {/* <div className="row pt-120">
           <div className="valign">
             <div className="content">
               <Split>
@@ -202,7 +202,7 @@ const UiPack = ({ skillsTheme }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -130,7 +130,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                 id: "navi",
                 className: `topnav ${theme ? theme === 'light' ? 'light' : '' : ''}`,
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "container-fluid",
+                    className: "container",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: "logo",
@@ -427,17 +427,6 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     children: "(+92) 307 607 8089"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "item",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("h6", {
-                                                    children: "Address :"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    children: "Islamabad, Pakistan 46000."
                                                 })
                                             ]
                                         }),
