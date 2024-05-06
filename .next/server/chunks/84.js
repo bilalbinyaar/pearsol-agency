@@ -44,7 +44,7 @@ const removeSlashFromPagination = ()=>{
 /***/ 5754:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Shattering Barriers","second":"Through Bold Digital Solutions"},"content":{"first":"Transforming the business landscape with bold  <strong>marketing solutions</strong>!","second":"with bold <strong>marketing solutions</strong>!"},"image":"/img/slid/01.png"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"first":"Shattering Barriers","second":"Through Bold Digital Solutions"},"content":{"first":"<strong>Transforming the business landscape with bold marketing solutions</strong>!","second":"with bold <strong>marketing solutions</strong>!"},"image":"/img/slid/01.png"}]');
 
 /***/ })
 

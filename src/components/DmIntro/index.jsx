@@ -84,7 +84,7 @@ const DmIntro = ({ sliderRef }) => {
             {introData.map((slide) => (
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
-                  className="bg-img valign"
+                  className="bg-img valign bg-img-dm"
                   style={{ backgroundImage: `url(/img/slid/dm.jpg)` }}
                   data-overlay-dark="6"
                 >

@@ -266,7 +266,7 @@ const SmmIntro = ({ sliderRef  })=>{
                     children: _data_sections_intro_json__WEBPACK_IMPORTED_MODULE_2__.map((slide)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
                             className: "swiper-slide",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "bg-img valign",
+                                className: "bg-img valign bg-img-smm",
                                 style: {
                                     backgroundImage: `url(/img/slid/smm.jpg)`
                                 },

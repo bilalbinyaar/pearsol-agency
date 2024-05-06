@@ -56,9 +56,9 @@ const Works4Dark = () => {
             <div className="col-lg-9 col-md-11 static">
               <div className="capt mt-50">
                 <div className="parlx">
-                  <h2 className="custom-font">My amazing works</h2>
+                  <h2 className="custom-font">Creative Portfolio</h2>
                   <p>
-                    Creative way to showcase your works at their absolute best.
+                    Evoking emotions through the magic of creative expression.
                   </p>
                 </div>
 

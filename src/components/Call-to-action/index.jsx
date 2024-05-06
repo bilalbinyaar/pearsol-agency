@@ -40,7 +40,7 @@ const CallToAction = ({ img, theme, subBG }) => {
                 <span>Get a Quote</span>
               </a>
             </Link> */}
-            <Link href="/about/about-dark">
+            <Link href="/contact/contact-dark/">
               <a className="explorebtn-f">
                 {/* <span>Explore</span> */}
                 {/* <img src="/img/ExploreBtn.png" alt="explore" /> */}

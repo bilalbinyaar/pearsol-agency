@@ -17,21 +17,21 @@ const PortfolioTwoColumn = () => {
     <section className="portfolio section-padding pb-70">
       <div className="container">
         <div className="gallery full-width">
-          <div className="col-md-6 items graphic">
+          {/* <div className="col-md-6 items graphic">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-              {/* <Link href="/project-details2/project-details2-dark/">
-                <a> */}
+               <Link href="/project-details2/project-details2-dark/">
+                <a> 
               <img src="/img/portfolio/works/1.jpg" alt="image" />
-              {/* </a>
-              </Link> */}
+               </a>
+              </Link> 
               <div className="cont">
                 <h6>Creativity Demand</h6>
-                {/* <span>
+                 <span>
                   <a href="#0">Design</a>, <a href="#0">WordPress</a>
-                </span> */}
+                </span> 
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-md-6 items web">
             <div className="row">
@@ -54,23 +54,23 @@ const PortfolioTwoColumn = () => {
             </div>
           </div>
 
-          <div className="col-md-6 items brand">
+          {/* <div className="col-md-6 items brand">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-              {/* <Link href="/project-details2/project-details2-dark/">
+              <Link href="/project-details2/project-details2-dark/">
                 <a>
                   <img src="/img/portfolio/works/3.jpg" alt="image" />
                 </a>
-              </Link> */}
+              </Link>
               <img src="/img/portfolio/works/3.jpg" alt="image" />
 
               <div className="cont">
                 <h6>Create With Creatives</h6>
-                {/* <span>
+                <span>
                   <a href="#0">Design</a>, <a href="#0">WordPress</a>
-                </span> */}
+                </span>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-md-6 items brand">
             <div className="row">
@@ -134,27 +134,27 @@ const PortfolioTwoColumn = () => {
             </div>
           </div>
 
-          <div className="col-md-6 items brand">
+          {/* <div className="col-md-6 items brand">
             <div className="row">
               <div className="col-lg-10">
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  {/* <Link href="/project-details2/project-details2-dark/">
+                  <Link href="/project-details2/project-details2-dark/">
                     <a>
                       <img src="/img/portfolio/works/7.jpg" alt="image" />
                     </a>
-                  </Link> */}
+                  </Link>
                   <img src="/img/portfolio/works/7.jpg" alt="image" />
 
                   <div className="cont">
                     <h6>Blast From The Past</h6>
-                    {/* <span>
+                    <span>
                       <a href="#0">Design</a>, <a href="#0">WordPress</a>
-                    </span> */}
+                    </span>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-md-6 items web">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
@@ -166,7 +166,7 @@ const PortfolioTwoColumn = () => {
               <img src="/img/portfolio/works/5.png" alt="image" />
 
               <div className="cont">
-                <h6>See It Yourself</h6>
+                <h6>Company Profile Design</h6>
                 {/* <span>
                   <a href="#0">Design</a>, <a href="#0">WordPress</a>
                 </span> */}
