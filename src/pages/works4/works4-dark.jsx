@@ -4,6 +4,7 @@ import addParlx from '../../common/addParlx';
 import Navbar from '../../components/Navbar';
 import CallToAction from '../../components/Call-to-action';
 import PortfolioTwoColumn from '../../components/Portfolio-two-column';
+import Footer from '../../components/Footer';
 
 const Works4Dark = () => {
   const fixedHeader = React.useRef(null);
@@ -63,7 +64,7 @@ const Works4Dark = () => {
                 </div>
 
                 <div className="bactxt custom-font valign">
-                  <span className="full-width">Works</span>
+                  <span className="full-width">Portfolio</span>
                 </div>
               </div>
             </div>
@@ -73,7 +74,8 @@ const Works4Dark = () => {
       <div ref={MainContent} className="main-content">
         <PortfolioTwoColumn />
         <CallToAction />
-        <footer className="footer-half sub-bg">
+        <Footer />
+        {/* <footer className="footer-half sub-bg">
           <div className="container">
             <div className="copyrights text-center mt-0">
               <p>
@@ -81,7 +83,7 @@ const Works4Dark = () => {
               </p>
             </div>
           </div>
-        </footer>
+        </footer> */}
       </div>
     </DarkTheme>
   );

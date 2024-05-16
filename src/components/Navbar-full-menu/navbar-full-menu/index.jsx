@@ -141,7 +141,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/showcase/showcase-dark">
+                            <Link href="/design-and-branding">
                               <a className="sub-link">
                                 <span className="nm">01.</span>Design & Branding
                               </a>
@@ -150,7 +150,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/showcase2/showcase2-dark">
+                            <Link href="/digital-marketing">
                               <a className="sub-link">
                                 <span className="nm">02.</span>Digital Marketing
                               </a>
@@ -159,7 +159,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/showcase3/showcase3-dark">
+                            <Link href="/ui-ux-design">
                               <a className="sub-link">
                                 <span className="nm">03.</span>UI/UX Design
                               </a>
@@ -168,7 +168,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/showcase4/showcase4-dark">
+                            <Link href="/website-development">
                               <a className="sub-link">
                                 <span className="nm">04.</span>Website
                                 Development
@@ -178,7 +178,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/showcase5/showcase5-dark">
+                            <Link href="/social-media-management">
                               <a className="sub-link">
                                 <span className="nm">05.</span>Social Media
                                 Management
@@ -188,7 +188,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/showcase/showcase-dark">
+                            <Link href="/search-engine-optimization">
                               <a className="sub-link">
                                 <span className="nm">06.</span>Search Engine
                                 Optimization
@@ -201,7 +201,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href="/about/about-dark">
+                      <Link href="/about-us">
                         <a className="link">
                           <span className="nm">02.</span>About Us
                         </a>
@@ -266,7 +266,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
 
                   <li>
                     <div className="o-hidden">
-                      <Link href="/works4/works4-dark">
+                      <Link href="/portfolio">
                         <a className="link">
                           <span className="nm">04.</span>Portfolio
                         </a>
@@ -275,7 +275,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href="/contact/contact-dark">
+                      <Link href="/contact">
                         <a className="link">
                           <span className="nm">05.</span>Contact
                         </a>

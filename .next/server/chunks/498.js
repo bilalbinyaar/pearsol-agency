@@ -247,7 +247,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "o-hidden",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/showcase/showcase-dark",
+                                                                            href: "/design-and-branding",
                                                                             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                                                 className: "sub-link",
                                                                                 children: [
@@ -265,7 +265,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "o-hidden",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/showcase2/showcase2-dark",
+                                                                            href: "/digital-marketing",
                                                                             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                                                 className: "sub-link",
                                                                                 children: [
@@ -283,7 +283,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "o-hidden",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/showcase3/showcase3-dark",
+                                                                            href: "/ui-ux-design",
                                                                             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                                                 className: "sub-link",
                                                                                 children: [
@@ -301,7 +301,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "o-hidden",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/showcase4/showcase4-dark",
+                                                                            href: "/website-development",
                                                                             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                                                 className: "sub-link",
                                                                                 children: [
@@ -319,7 +319,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "o-hidden",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/showcase5/showcase5-dark",
+                                                                            href: "/social-media-management",
                                                                             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                                                 className: "sub-link",
                                                                                 children: [
@@ -337,7 +337,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "o-hidden",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                                            href: "/showcase/showcase-dark",
+                                                                            href: "/search-engine-optimization",
                                                                             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                                                 className: "sub-link",
                                                                                 children: [
@@ -360,7 +360,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                     className: "o-hidden",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                        href: "/about/about-dark",
+                                                        href: "/about-us",
                                                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                             className: "link",
                                                             children: [
@@ -378,7 +378,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                     className: "o-hidden",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                        href: "/works4/works4-dark",
+                                                        href: "/portfolio",
                                                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                             className: "link",
                                                             children: [
@@ -396,7 +396,7 @@ const NavbarFullMenu = ({ theme , lr  })=>{
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                     className: "o-hidden",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                        href: "/contact/contact-dark",
+                                                        href: "/contact",
                                                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                             className: "link",
                                                             children: [

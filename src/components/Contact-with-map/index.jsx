@@ -102,7 +102,7 @@ const ContactWithMap = ({ theme = 'dark' }) => {
                             theme === 'dark' ? 'btn-lit' : 'btn-color'
                           } disabled`}
                         >
-                          <span>Send Message</span>
+                          <span>Send</span>
                         </button>
                       </div>
                     </Form>

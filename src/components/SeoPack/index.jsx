@@ -158,7 +158,7 @@ const SeoPack = ({ skillsTheme }) => {
               onMouseEnter={() => handleItemHover(2)}
               onMouseLeave={handleMouseLeave}
             >
-              <h6>SEO Consultation 7 Strategy</h6>
+              <h6>SEO Consultation Strategy</h6>
             </div>
           </div>
         </div>

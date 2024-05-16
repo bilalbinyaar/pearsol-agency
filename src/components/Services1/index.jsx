@@ -35,7 +35,7 @@ const Services1 = () => {
           </Split>
           {/* <span className="tbg">Services</span> */}
         </div>
-        <div className="row">
+        <div className="row no-margin">
           {/* ITEM-1 */}
           <div
             className="col-lg-4 col-md-6 item-box wow fadeInLeft"
@@ -51,11 +51,21 @@ const Services1 = () => {
             <p>
               We craft modern brand stories, seamlessly blending creativity.
             </p>
-            <Link href="#">
+            {/* <Link href="#">
               <a className="btn-curve btn-bord btn-lit mt-30">
                 <span>Learn more</span>
               </a>
-            </Link>
+            </Link> */}
+            <Split>
+              <Link href="/design-and-branding">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
           {/* ITEM-2 */}
           <div
@@ -76,11 +86,16 @@ const Services1 = () => {
               We are pioneering strategic digital mastery to propel your brand
               forward.
             </p>
-            <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-30">
-                <span>Learn more</span>
-              </a>
-            </Link>
+            <Split>
+              <Link href="/digital-marketing">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
           {/* ITEM-3 */}
           <div
@@ -101,14 +116,19 @@ const Services1 = () => {
               We are crafting digital masterpieces for impactful online
               presence.
             </p>
-            <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-30">
-                <span>Learn more</span>
-              </a>
-            </Link>
+            <Split>
+              <Link href="/website-development">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
         </div>
-        <div className="row">
+        <div className="row no-margin">
           {/* ITEM-4 */}
           <div
             className="col-lg-4 col-md-6 item-box item-box-2 wow fadeInLeft"
@@ -124,11 +144,16 @@ const Services1 = () => {
             <p>
               We craft modern brand stories, seamlessly blending creativity.
             </p>
-            <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-30">
-                <span>Learn more</span>
-              </a>
-            </Link>
+            <Split>
+              <Link href="/search-engine-optimization">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
           {/* ITEM-5 */}
           <div
@@ -149,11 +174,16 @@ const Services1 = () => {
               We are pioneering strategic digital mastery to propel your brand
               forward.
             </p>
-            <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-30">
-                <span>Learn more</span>
-              </a>
-            </Link>
+            <Split>
+              <Link href="/social-media-management">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
           {/* ITEM-6 */}
           <div
@@ -174,11 +204,16 @@ const Services1 = () => {
               We are crafting digital masterpieces for impactful online
               presence.
             </p>
-            <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-30">
-                <span>Learn more</span>
-              </a>
-            </Link>
+            <Split>
+              <Link href="/ui-ux-design">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
         </div>
       </div>

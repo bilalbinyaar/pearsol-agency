@@ -44,7 +44,7 @@ class Testimonials1 extends React.Component {
         style={{
           backgroundImage: `${
             this.props.withBG && !this.props.imgSrc
-              ? 'url(/img/slid/3.jpg)'
+              ? 'url(/img/slid/3.png)'
               : this.props.imgSrc
               ? `url(${this.props.imgSrc})`
               : 'none'
@@ -90,15 +90,15 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                                <img src="/img/clients/4.png" alt="" />
                               </div>
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                KEVIN NAFASH
+                                Rameez Raja
                               </h6>
                               <span className="author-details">
-                                Joocy.AF, USA
+                                Pine Technologies, Pakistan
                               </span>
                               <div className="testi-rates">
                                 <img src="/img/stars.png" alt="ratings" />
@@ -108,13 +108,13 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img src="/img/clients/4.png" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              KEVIN NAFASH
+                              Rameez Raja
                             </h6>
                             <span className="author-details">
-                              Joocy.AF, USA
+                              Pine Technologies, Pakistan
                             </span>
                             <div className="testi-rates">
                               <img src="/img/stars.png" alt="ratings" />
@@ -125,11 +125,12 @@ class Testimonials1 extends React.Component {
                     </div>
                   </div>
                   <p>
-                    The team at Pearsols provided exceptional social media
-                    service, and work, exceeding all expectations. Their
-                    expertise, dedication, and professionalism made the
-                    experience truly remarkable. Highly recommended for
-                    top-notch results, and a delightful collaboration!
+                    We have recently had the pleasure of collaborating with
+                    Pearsols, and their professionalism and attention to detail
+                    in designing our business profile were truly exceptional.
+                    Their dynamic approach and punctual delivery underscored
+                    their expertise and unwavering dedication to design. In
+                    short, we wholeheartedly endorse them as true professionals.
                   </p>
                 </div>
                 <div className="item">
@@ -140,59 +141,12 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="/img/clients/2.jpg" alt="" />
+                                <img src="/img/clients/1.png" alt="" />
                               </div>
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                HAUKAY
-                              </h6>
-                              <span className="author-details">
-                                DHN.digital, Germany
-                              </span>
-                              <div className="testi-rates">
-                                <img src="/img/stars.png" alt="ratings" />
-                              </div>
-                            </div>
-                          </>
-                        ) : (
-                          <>
-                            <div className="img">
-                              <img src="/img/clients/2.jpg" alt="" />
-                            </div>
-                            <h6 className="author-name custom-font">HAUKAY</h6>
-                            <span className="author-details">
-                              DHN.digital, Germany
-                            </span>
-                            <div className="testi-rates">
-                              <img src="/img/stars.png" alt="ratings" />
-                            </div>
-                          </>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    Precize communication, excellent results and fast delivery.
-                    I can recommend working with Pearsols for any kind of design
-                    and branding work to be done in high quality and fast. Well
-                    Done!
-                  </p>
-                </div>
-                <div className="item">
-                  <div className="info">
-                    <div className="cont">
-                      <div className="author">
-                        {this.props.subBgLftstl ? (
-                          <>
-                            <div className="lxleft">
-                              <div className="img">
-                                <img src="/img/clients/3.jpg" alt="" />
-                              </div>
-                            </div>
-                            <div className="fxright">
-                              <h6 className="author-name custom-font">
-                                ANKEET UDANI
+                                Ankeet Udani
                               </h6>
                               <span className="author-details">
                                 Viking Capital, USA
@@ -205,10 +159,10 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/3.jpg" alt="" />
+                              <img src="/img/clients/1.png" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              ANKEET UDANI
+                              Ankeet Udani
                             </h6>
                             <span className="author-details">
                               Viking Capital, USA
@@ -222,10 +176,108 @@ class Testimonials1 extends React.Component {
                     </div>
                   </div>
                   <p>
-                    Their prolonged efforts yielded exceptional, professional
-                    results precisely on schedule. I intend to repeatedly enlist
-                    their services due to the outstanding quality and timeliness
-                    of their work.
+                    Pearsols stands out as the top agency I have had the
+                    privilege of working with. Following the exceptional work
+                    they have done , I eagerly anticipate future collaborations
+                    with them.
+                  </p>
+                </div>
+                <div className="item">
+                  <div className="info">
+                    <div className="cont">
+                      <div className="author">
+                        {this.props.subBgLftstl ? (
+                          <>
+                            <div className="lxleft">
+                              <div className="img">
+                                <img src="/img/clients/3.png" alt="" />
+                              </div>
+                            </div>
+                            <div className="fxright">
+                              <h6 className="author-name custom-font">
+                                Hauke ​​Kay
+                              </h6>
+                              <span className="author-details">
+                                DHN.digital, Germany
+                              </span>
+                              <div className="testi-rates">
+                                <img src="/img/stars.png" alt="ratings" />
+                              </div>
+                            </div>
+                          </>
+                        ) : (
+                          <>
+                            <div className="img">
+                              <img src="/img/clients/3.png" alt="" />
+                            </div>
+                            <h6 className="author-name custom-font">
+                              Hauke ​​Kay
+                            </h6>
+                            <span className="author-details">
+                              DHN.digital, Germany
+                            </span>
+                            <div className="testi-rates">
+                              <img src="/img/stars.png" alt="ratings" />
+                            </div>
+                          </>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    Our trip to Pakistan was truly remarkable, our meeting in
+                    Islamabad with Naveed being a highlight. His exceptional
+                    work and dedication to providing top-notch branding services
+                    were evident throughout. His efforts are instrumental in
+                    driving Pearsols towards greater heights of success.
+                  </p>
+                </div>
+                <div className="item">
+                  <div className="info">
+                    <div className="cont">
+                      <div className="author">
+                        {this.props.subBgLftstl ? (
+                          <>
+                            <div className="lxleft">
+                              <div className="img">
+                                <img src="/img/clients/2.png" alt="" />
+                              </div>
+                            </div>
+                            <div className="fxright">
+                              <h6 className="author-name custom-font">
+                                Kevin Nafash
+                              </h6>
+                              <span className="author-details">
+                                JoocyAF, USA
+                              </span>
+                              <div className="testi-rates">
+                                <img src="/img/stars.png" alt="ratings" />
+                              </div>
+                            </div>
+                          </>
+                        ) : (
+                          <>
+                            <div className="img">
+                              <img src="/img/clients/2.png" alt="" />
+                            </div>
+                            <h6 className="author-name custom-font">
+                              Kevin Nafash
+                            </h6>
+                            <span className="author-details">JoocyAF, USA</span>
+                            <div className="testi-rates">
+                              <img src="/img/stars.png" alt="ratings" />
+                            </div>
+                          </>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    The team at Pearsols provided awesome social media service,
+                    and work, exceeding all expectations. Their expertise,
+                    dedication, and social media strategies have made a
+                    tremendous experience. Highly recommended for amazing
+                    results, and a delightful collaboration!
                   </p>
                 </div>
               </Slider>

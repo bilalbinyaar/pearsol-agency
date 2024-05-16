@@ -60,7 +60,7 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
             </div>
           ))}
         </div> */}
-        <div className="row">
+        <div className="row no-margin">
           {/* ITEM-1 */}
           <div
             className="col-lg-4 col-md-6 item-box wow fadeInLeft"
@@ -69,26 +69,28 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
             onMouseLeave={handleMouseLeave}
           >
             <span className="icon icon-for-hover home-services-icons">
-              <img
-                src="/img/branding.png"
-                className="normal-image"
-                alt="This is branding"
-              />
-              <img
-                src="/img/branding-hover.png"
-                className="hover-image"
-                alt="This is branding"
-              />
+              <img src="/img/branding.png" className="normal-image" />
+              <img src="/img/branding-hover.png" className="hover-image" />
             </span>
             <h6>DESIGN & BRANDING</h6>
             <p>
               We craft modern brand stories, seamlessly blending creativity.
             </p>
-            <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
+            {/* <Link href="#">
+              <a className="btn-curve btn-bord btn-lit mt-30">
                 <span>Learn more</span>
               </a>
-            </Link>
+            </Link> */}
+            <Split>
+              <Link href="/design-and-branding">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
           {/* ITEM-2 */}
           <div
@@ -98,15 +100,10 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
             onMouseLeave={handleMouseLeave}
           >
             <span className="icon icon-for-hover home-services-icons">
-              <img
-                src="/img/digital-marketing.png"
-                className="normal-image"
-                alt="This is branding"
-              />
+              <img src="/img/digital-marketing.png" className="normal-image" />
               <img
                 src="/img/digital-marketing-hover.png"
                 className="hover-image"
-                alt="This is branding"
               />
             </span>
             <h6>DIGITAL MARKETING</h6>
@@ -114,11 +111,16 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
               We are pioneering strategic digital mastery to propel your brand
               forward.
             </p>
-            <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
-                <span>Learn more</span>
-              </a>
-            </Link>
+            <Split>
+              <Link href="/digital-marketing">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
           {/* ITEM-3 */}
           <div
@@ -131,30 +133,27 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
               className="icon icon-for-hover home-services-icons"
               style={{ marginTop: '13px' }}
             >
-              <img
-                src="/img/website.png"
-                className="normal-image"
-                alt="This is branding"
-              />
-              <img
-                src="/img/website-hover.png"
-                className="hover-image"
-                alt="This is branding"
-              />
+              <img src="/img/website.png" className="normal-image" />
+              <img src="/img/website-hover.png" className="hover-image" />
             </span>
             <h6>WEBSITE DEVELOPMENT</h6>
             <p>
               We are crafting digital masterpieces for impactful online
               presence.
             </p>
-            <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
-                <span>Learn more</span>
-              </a>
-            </Link>
+            <Split>
+              <Link href="/website-development">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
         </div>
-        <div className="row">
+        <div className="row no-margin">
           {/* ITEM-4 */}
           <div
             className="col-lg-4 col-md-6 item-box item-box-2 wow fadeInLeft"
@@ -163,26 +162,23 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
             onMouseLeave={handleMouseLeave}
           >
             <span className="icon icon-for-hover home-services-icons">
-              <img
-                src="/img/seo.png"
-                className="normal-image"
-                alt="This is branding"
-              />
-              <img
-                src="/img/seo-hover.png"
-                className="hover-image"
-                alt="This is branding"
-              />
+              <img src="/img/seo.png" className="normal-image" />
+              <img src="/img/seo-hover.png" className="hover-image" />
             </span>
             <h6>SEARCH ENGINE OPTIMIZATION</h6>
             <p>
               We craft modern brand stories, seamlessly blending creativity.
             </p>
-            <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
-                <span>Learn more</span>
-              </a>
-            </Link>
+            <Split>
+              <Link href="/search-engine-optimization">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
           {/* ITEM-5 */}
           <div
@@ -195,27 +191,24 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
               className="icon icon-for-hover home-services-icons"
               style={{ marginTop: '-3px' }}
             >
-              <img
-                src="/img/smm.png"
-                className="normal-image"
-                alt="This is branding"
-              />
-              <img
-                src="/img/smm-hover.png"
-                className="hover-image"
-                alt="This is branding"
-              />
+              <img src="/img/smm.png" className="normal-image" />
+              <img src="/img/smm-hover.png" className="hover-image" />
             </span>
             <h6>SOCIAL MEDIA MANAGEMENT</h6>
             <p>
               We are pioneering strategic digital mastery to propel your brand
               forward.
             </p>
-            <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
-                <span>Learn more</span>
-              </a>
-            </Link>
+            <Split>
+              <Link href="/social-media-management">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
           {/* ITEM-6 */}
           <div
@@ -228,27 +221,24 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
               className="icon icon-for-hover home-services-icons"
               style={{ marginTop: '7px' }}
             >
-              <img
-                src="/img/uiux.png"
-                className="normal-image"
-                alt="This is branding"
-              />
-              <img
-                src="/img/uiux-hover.png"
-                className="hover-image"
-                alt="This is branding"
-              />
+              <img src="/img/uiux.png" className="normal-image" />
+              <img src="/img/uiux-hover.png" className="hover-image" />
             </span>
             <h6>UI & UX DESIGNING</h6>
             <p>
               We are crafting digital masterpieces for impactful online
               presence.
             </p>
-            <Link href="#">
-              <a className="btn-curve btn-bord btn-lit mt-40">
-                <span>Learn more</span>
-              </a>
-            </Link>
+            <Split>
+              <Link href="/ui-ux-design">
+                <a
+                  className="words chars splitting simple-btn custom-font mt-30 wow"
+                  data-splitting
+                >
+                  <span>Learn More</span>
+                </a>
+              </Link>
+            </Split>
           </div>
         </div>
       </div>

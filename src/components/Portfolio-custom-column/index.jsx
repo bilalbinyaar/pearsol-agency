@@ -93,7 +93,7 @@ const PortfolioCustomColumn = ({
                   <span>
                     {item.tags.map((tag, index) => (
                       <React.Fragment key={index * 3}>
-                        <Link href="/works4/works4-dark">{tag}</Link>
+                        <Link href="/portfolio">{tag}</Link>
                         {index == item.tags.length - 1 ? '' : ','}
                       </React.Fragment>
                     ))}

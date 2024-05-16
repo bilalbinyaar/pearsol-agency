@@ -78,14 +78,8 @@ const Works1Slider = () => {
                         }}
                       ></div>
                       <div className="cont">
-                        <h6 className="color-font">
-                          <Link href="/works/works-dark">{slide.title}</Link>
-                        </h6>
-                        <h4>
-                          <Link href="/project-details2/project-details2-dark">
-                            {slide.secTex}
-                          </Link>
-                        </h4>
+                        <h6 className="color-font">{slide.title}</h6>
+                        <h4>{slide.secTex}</h4>
                       </div>
                     </div>
                   </SwiperSlide>

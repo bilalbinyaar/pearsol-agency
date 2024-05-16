@@ -1,23 +1,37 @@
 [
   {
     "id": 1,
-    "title": "Social Media Marketing",
-    "secTex": "Innovation and Crafts",
+    "title": "JoocyAF, USA",
+    "secTex": "Social Media Marketing",
     "image": "/img/portfolio/metro/01.jpg",
     "slug": "/project-details2/project-details2-dark"
   },
   {
     "id": 2,
-    "title": "Design & Branding",
-    "secTex": "Inspiring new space",
+    "title": "Apexx, Dubai",
+    "secTex": "Design & Branding",
     "image": "/img/portfolio/metro/02.jpg",
     "slug": "/project-details2/project-details2-dark"
   },
   {
     "id": 3,
-    "title": "Web Design",
-    "secTex": "Natural plus modern",
+    "title": "Sofit, United Kingdom",
+    "secTex": "Web Design",
     "image": "/img/portfolio/metro/03.jpg",
+    "slug": "/project-details2/project-details2-dark"
+  },
+  {
+    "id": 4,
+    "title": "HSD, Pakistan",
+    "secTex": "Business Profile Design",
+    "image": "/img/portfolio/metro/04.jpg",
+    "slug": "/project-details2/project-details2-dark"
+  },
+  {
+    "id": 5,
+    "title": "Hevlon Technologies, USA",
+    "secTex": "Stationery Design",
+    "image": "/img/portfolio/metro/05.jpg",
     "slug": "/project-details2/project-details2-dark"
   }
 ]

@@ -25,95 +25,44 @@
   },
   {
     "id": 5,
-    "darkImage": "/img/clients/brands/dark/05.png",
-    "lightImage": "/img/clients/brands/light/05.png",
+    "darkImage": "/img/clients/brands/dark/08.png",
+    "lightImage": "/img/clients/brands/light/08.png",
     "companyName": "apex"
   },
   {
     "id": 6,
-    "darkImage": "/img/clients/brands/dark/06.png",
-    "lightImage": "/img/clients/brands/light/06.png",
+    "darkImage": "/img/clients/brands/dark/09.png",
+    "lightImage": "/img/clients/brands/light/09.png",
     "companyName": "THE URBAN FACTORY"
   },
   {
     "id": 7,
-    "darkImage": "/img/clients/brands/dark/07.png",
-    "lightImage": "/img/clients/brands/light/07.png",
-    "companyName": "Stylux"
-  },
-  {
-    "id": 8,
-    "darkImage": "/img/clients/brands/dark/08.png",
-    "lightImage": "/img/clients/brands/light/08.png",
+    "darkImage": "/img/clients/brands/dark/10.png",
+    "lightImage": "/img/clients/brands/light/10.png",
     "companyName": "Trends Maven"
   },
   {
-    "id": 9,
-    "darkImage": "/img/clients/brands/dark/09.png",
-    "lightImage": "/img/clients/brands/light/09.png",
+    "id": 8,
+    "darkImage": "/img/clients/brands/dark/11.png",
+    "lightImage": "/img/clients/brands/light/11.png",
     "companyName": "Oral Medicine & Pathology Center"
   },
   {
-    "id": 10,
-    "darkImage": "/img/clients/brands/dark/10.png",
-    "lightImage": "/img/clients/brands/light/10.png",
+    "id": 9,
+    "darkImage": "/img/clients/brands/dark/12.png",
+    "lightImage": "/img/clients/brands/light/12.png",
     "companyName": "Modulare Klima Trennung"
   },
   {
-    "id": 11,
-    "darkImage": "/img/clients/brands/dark/11.png",
-    "lightImage": "/img/clients/brands/light/11.png",
+    "id": 10,
+    "darkImage": "/img/clients/brands/dark/13.png",
+    "lightImage": "/img/clients/brands/light/13.png",
     "companyName": "Gozubi"
   },
   {
-    "id": 12,
-    "darkImage": "/img/clients/brands/dark/12.png",
-    "lightImage": "/img/clients/brands/light/12.png",
-    "companyName": "Thomas Andresen"
-  },
-  {
-    "id": 13,
-    "darkImage": "/img/clients/brands/dark/13.png",
-    "lightImage": "/img/clients/brands/light/13.png",
-    "companyName": "Giving Back Pharmacy"
-  },
-  {
-    "id": 14,
+    "id": 11,
     "darkImage": "/img/clients/brands/dark/14.png",
     "lightImage": "/img/clients/brands/light/14.png",
-    "companyName": "Homewire"
-  },
-  {
-    "id": 15,
-    "darkImage": "/img/clients/brands/dark/15.png",
-    "lightImage": "/img/clients/brands/light/15.png",
-    "companyName": "MidCountry Homes"
-  },
-  {
-    "id": 16,
-    "darkImage": "/img/clients/brands/dark/16.png",
-    "lightImage": "/img/clients/brands/light/16.png",
-    "companyName": "NuGen Homes"
-  },
-
-  {
-    "id": 17,
-    "darkImage": "/img/clients/brands/dark/17.png",
-    "lightImage": "/img/clients/brands/light/17.png",
-    "companyName": "NuGen Homes"
-  },
-
-  {
-    "id": 18,
-    "darkImage": "/img/clients/brands/dark/18.png",
-    "lightImage": "/img/clients/brands/light/18.png",
-    "companyName": "NuGen Homes"
-  },
-
-  {
-    "id": 19,
-    "darkImage": "/img/clients/brands/dark/19.png",
-    "lightImage": "/img/clients/brands/light/19.png",
-    "companyName": "NuGen Homes"
+    "companyName": "Thomas Andresen"
   }
 ]

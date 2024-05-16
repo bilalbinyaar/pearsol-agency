@@ -104,22 +104,22 @@ const Navbar = ({ lr, nr, theme }) => {
                 Our Services
               </span>
               <div className="dropdown-menu">
-                <Link href="/showcase2/showcase2-dark">
+                <Link href="/design-and-branding">
                   <a className="dropdown-item">Design & Branding</a>
                 </Link>
-                <Link href="/showcase/showcase-dark">
+                <Link href="/digital-marketing">
                   <a className="dropdown-item">Digital Marketing</a>
                 </Link>
-                <Link href="/showcase3/showcase3-dark">
+                <Link href="/ui-ux-design">
                   <a className="dropdown-item">UI/UX Design</a>
                 </Link>
-                <Link href="/showcase4/showcase4-dark">
+                <Link href="/website-development">
                   <a className="dropdown-item">Website Development</a>
                 </Link>
-                <Link href="/showcase5/showcase5-dark">
+                <Link href="/social-media-management">
                   <a className="dropdown-item">Social Media Management</a>
                 </Link>
-                <Link href="/search-engine/search-engine">
+                <Link href="/search-engine-optimization">
                   <a className="dropdown-item">Search Engine Optimization</a>
                 </Link>
               </div>
@@ -129,7 +129,7 @@ const Navbar = ({ lr, nr, theme }) => {
               className="nav-item"
               // onClick={handleDropdown}
             >
-              <Link href="/about/about-dark">
+              <Link href="/about-us">
                 <a className="nav-link">About Us</a>
               </Link>
             </li>
@@ -138,7 +138,7 @@ const Navbar = ({ lr, nr, theme }) => {
               className="nav-item"
               // onClick={handleDropdown}
             >
-              <Link href="/works4/works4-dark">
+              <Link href="/portfolio">
                 <a className="nav-link">Portfolio</a>
               </Link>
             </li>
@@ -172,7 +172,7 @@ const Navbar = ({ lr, nr, theme }) => {
               className="nav-item"
               // onClick={handleDropdown}
             >
-              <Link href="/contact/contact-dark">
+              <Link href="/contact">
                 <a className="nav-link">Contact</a>
               </Link>
             </li>

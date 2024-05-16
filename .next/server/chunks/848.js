@@ -139,42 +139,42 @@ const Navbar = ({ lr , nr , theme  })=>{
                                             className: "dropdown-menu",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase2/showcase2-dark",
+                                                    href: "/design-and-branding",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
                                                         children: "Design & Branding"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase/showcase-dark",
+                                                    href: "/digital-marketing",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
                                                         children: "Digital Marketing"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase3/showcase3-dark",
+                                                    href: "/ui-ux-design",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
                                                         children: "UI/UX Design"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase4/showcase4-dark",
+                                                    href: "/website-development",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
                                                         children: "Website Development"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/showcase5/showcase5-dark",
+                                                    href: "/social-media-management",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
                                                         children: "Social Media Management"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                    href: "/search-engine/search-engine",
+                                                    href: "/search-engine-optimization",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         className: "dropdown-item",
                                                         children: "Search Engine Optimization"
@@ -187,7 +187,7 @@ const Navbar = ({ lr , nr , theme  })=>{
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: "nav-item",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                        href: "/about/about-dark",
+                                        href: "/about-us",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                             className: "nav-link",
                                             children: "About Us"
@@ -197,7 +197,7 @@ const Navbar = ({ lr , nr , theme  })=>{
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: "nav-item",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                        href: "/works4/works4-dark",
+                                        href: "/portfolio",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                             className: "nav-link",
                                             children: "Portfolio"
@@ -207,7 +207,7 @@ const Navbar = ({ lr , nr , theme  })=>{
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: "nav-item",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                        href: "/contact/contact-dark",
+                                        href: "/contact",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                             className: "nav-link",
                                             children: "Contact"

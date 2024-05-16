@@ -1499,6 +1499,21 @@ span:hover {
   font-family: 'Barlow Condensed', sans-serif !important;
 }
 
+.simple-btn-cus {
+  position: relative;
+  padding: 7px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+.simple-btn:hover {
+  color: #d1e231;
+}
+
 /* .simple-btn:hover {
   background-color: #d1e231;
   color: #0c0f16;
@@ -1513,12 +1528,27 @@ span:hover {
   left: 0;
   top: 0;
 }
-.simple-btn:hover:after {
-  background: #d1e231;
-  z-index: -1;
-  /* color: #0c0f16; */
+
+.simple-btn-cus:after {
+  content: '';
+  width: 45%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  position: absolute;
+  left: 0;
+  top: 0;
 }
+/* .simple-btn:hover:after {
+  background: #d1e231;
+  color: #d1e231;
+  z-index: -1;
+  color: #0c0f16;
+} */
 .simple-btn.right:after {
+  left: auto;
+  right: 0;
+}
+.simple-btn-cus.right:after {
   left: auto;
   right: 0;
 }
@@ -4753,8 +4783,8 @@ header.simpl .caption .btn-curve {
   margin: 0 auto 20px;
 }
 .testimonials .item .info .author-name {
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  text-transform: capitalize !important;
+  letter-spacing: 1px;
   font-weight: 500;
   margin-bottom: 5px;
   font-family: 'Poppins', sans-serif !important;
@@ -5922,6 +5952,255 @@ header.simpl .caption .btn-curve {
 }
 
 /* ====================== [ End Footer ] ====================== */
+/* ====================== [ Start New CSS ] ====================== */
+
+.whatsapp-wrapper:hover {
+  transform: scale(1.18) !important;
+}
+
+.whatsapp-wrapper {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+  display: block;
+  border-radius: 50px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+  transform: translateY(20px);
+  -webkit-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  transition: all 400ms linear;
+}
+
+.whatsapp-wrapper.active-progress {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.whatsapp-wrapper::after {
+  position: absolute;
+  content: '';
+  text-align: center;
+  line-height: 44px;
+  font-size: 13px;
+  font-weight: 900;
+  left: 0;
+  top: 0;
+  height: 44px;
+  width: 44px;
+  cursor: pointer;
+  display: block;
+  z-index: 1;
+  -webkit-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  transition: all 400ms linear;
+}
+
+.banner-a {
+  font-weight: 500;
+  color: #d1e231 !important;
+}
+
+.clients-brand img {
+  width: 112px !important;
+}
+
+.container-fluid .logo {
+  cursor: pointer !important;
+}
+
+.explorebtn-f img {
+  width: 95px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.explorebtn-f img:hover {
+  /* animation: bounce 3s; */
+  transition: transform 0.5s ease-in-out !important;
+  transform: scale(1.25) !important;
+  cursor: pointer;
+}
+
+.explorebtn img {
+  width: 150px;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* .explorebtn img:hover {
+  transform: rotate(-360deg) scale(1.1) rotate(0deg) scale(1);
+} */
+/* .explorebtn img:hover {
+  transform: scale(1.1);
+} */
+
+/* .explorebtn img {
+  width: 150px;
+  transition: transform 3s ease;
+} */
+
+.explorebtn img:hover {
+  /* animation: bounce 3s; */
+  transition: transform 0.5s ease-in-out !important;
+  transform: scale(1.2) !important;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  25% {
+    transform: rotate(-360deg);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.home-services-icons img {
+  width: 35px !important;
+}
+
+.to-justify {
+  text-align: justify;
+}
+
+.bimg {
+  position: relative;
+  display: inline-block;
+}
+.about-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.bimg:hover .about-hover {
+  opacity: 1;
+}
+
+.icon-for-hover {
+  position: relative;
+  display: inline-block;
+}
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.icon-for-hover:hover .hover-image {
+  opacity: 1;
+}
+
+/* .to-transform {
+  transition: transform 1s ease-in-out !important;
+} */
+
+.to-transform img {
+  transition: transform 0.5s ease-in-out !important;
+}
+
+.to-transform img:hover {
+  transition: transform 0.5s ease-in-out !important;
+  transform: scale(1.25) !important;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.testi-rates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.testi-rates img {
+  width: 80px;
+}
+
+.pear-icon {
+  width: auto;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.for-pear-title {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.for-visible {
+  visibility: hidden;
+}
+
+.for-fixed-pos {
+  position: fixed;
+}
+
+.padding-section-bottom {
+  padding-bottom: 120px;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.no-m {
+  margin: 0;
+}
+
+.forflex-more {
+  display: flex;
+  align-items: center;
+}
+
+.contact-btn {
+  padding: 12px 35px;
+  background-color: white;
+  color: #0c0f16;
+}
+
+.contact-btn:hover {
+  padding: 12px 35px;
+  background-color: #d1e231;
+  color: #0c0f16 !important;
+}
+
+.contact-btn span {
+  color: #0c0f16 !important;
+}
+
+.contact-btn span:hover {
+  color: #0c0f16 !important;
+}
+/* ====================== [ End New CSS ] ====================== */
+
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
   .bg-img {
@@ -5986,10 +6265,11 @@ header.simpl .caption .btn-curve {
     order: 1 !important;
   }
   .container {
-    max-width: 720px;
+    max-width: 705px;
   }
   .navbar {
     min-height: 60px;
+    padding-top: 20px;
   }
   .navbar .navbar-collapse {
     max-height: 340px;
@@ -6246,7 +6526,7 @@ header.simpl .caption .btn-curve {
     padding-bottom: 80px;
   }
   .container {
-    max-width: 540px;
+    max-width: 505px;
   }
   h1 {
     font-size: 35px;
@@ -6269,6 +6549,10 @@ header.simpl .caption .btn-curve {
   .progress-wrap {
     right: 15px;
     bottom: 15px;
+  }
+
+  .whatsapp-wrapper {
+    right: 15px;
   }
   .navbar .logo {
     width: 85px;
@@ -6417,9 +6701,32 @@ header.simpl .caption .btn-curve {
   .team-crv .img-box .img.sizmd {
     margin-bottom: 30px;
   }
+
+  .exp-valign {
+    justify-content: flex-start;
+  }
+
+  .number-sec .item .icon {
+    left: 42%;
+    width: 18%;
+  }
+
+  .no-margin {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .container {
+    width: 475px;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .container {
+    width: 450px;
+  }
+
   .hamenu .cont-info {
     display: none;
   }
@@ -6511,251 +6818,20 @@ header.simpl .caption .btn-curve {
     color: #fff;
     -webkit-text-stroke: 0px #fff;
   }
+
+  .exp-valign {
+    justify-content: flex-start;
+  }
+
+  .number-sec .item .icon {
+    left: 40%;
+    width: 18%;
+  }
 }
 
+@media screen and (max-width: 450px) {
+  .container {
+    width: 400px;
+  }
+}
 /* ====================== [ End Responsive ] ====================== */
-
-.whatsapp-wrapper:hover {
-  transform: scale(1.18) !important;
-}
-
-.whatsapp-wrapper {
-  position: fixed;
-  bottom: 100px;
-  right: 30px;
-  height: 48px;
-  width: 48px;
-  cursor: pointer;
-  display: block;
-  border-radius: 50px;
-  z-index: 100;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transform: translateY(20px);
-  -ms-transform: translateY(20px);
-  transform: translateY(20px);
-  -webkit-transition: all 400ms linear;
-  -o-transition: all 400ms linear;
-  transition: all 400ms linear;
-}
-
-.whatsapp-wrapper.active-progress {
-  opacity: 1;
-  visibility: visible;
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-}
-
-.whatsapp-wrapper::after {
-  position: absolute;
-  content: '';
-  text-align: center;
-  line-height: 44px;
-  font-size: 13px;
-  font-weight: 900;
-  left: 0;
-  top: 0;
-  height: 44px;
-  width: 44px;
-  cursor: pointer;
-  display: block;
-  z-index: 1;
-  -webkit-transition: all 400ms linear;
-  -o-transition: all 400ms linear;
-  transition: all 400ms linear;
-}
-
-.banner-a {
-  font-weight: 500;
-  color: #d1e231 !important;
-}
-
-.clients-brand img {
-  width: 112px !important;
-}
-
-.container-fluid .logo {
-  cursor: pointer !important;
-}
-
-.explorebtn-f img {
-  width: 95px;
-}
-
-.explorebtn-f img:hover {
-  /* animation: bounce 3s; */
-  transition: transform 0.5s ease-in-out !important;
-  transform: scale(1.15) !important;
-  cursor: pointer;
-}
-
-.explorebtn img {
-  width: 150px;
-  transition: transform 1s ease;
-}
-
-/* .explorebtn img:hover {
-  transform: rotate(-360deg) scale(1.1) rotate(0deg) scale(1);
-} */
-/* .explorebtn img:hover {
-  transform: scale(1.1);
-} */
-
-/* .explorebtn img {
-  width: 150px;
-  transition: transform 3s ease;
-} */
-
-.explorebtn img:hover {
-  /* animation: bounce 3s; */
-  transition: transform 0.5s ease-in-out !important;
-  transform: scale(1.15) !important;
-  cursor: pointer;
-}
-
-@keyframes bounce {
-  25% {
-    transform: rotate(-360deg);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  75% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.home-services-icons img {
-  width: 35px !important;
-}
-
-.to-justify {
-  text-align: justify;
-}
-
-.bimg {
-  position: relative;
-  display: inline-block;
-}
-.about-hover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-.bimg:hover .about-hover {
-  opacity: 1;
-}
-
-.icon-for-hover {
-  position: relative;
-  display: inline-block;
-}
-.hover-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-.icon-for-hover:hover .hover-image {
-  opacity: 1;
-}
-
-/* .to-transform {
-  transition: transform 1s ease-in-out !important;
-} */
-
-.to-transform img {
-  transition: transform 0.5s ease-in-out !important;
-}
-
-.to-transform img:hover {
-  transition: transform 0.5s ease-in-out !important;
-  transform: scale(1.25) !important;
-  cursor: pointer;
-}
-
-.dropdown-menu {
-  visibility: hidden !important;
-  opacity: 0 !important;
-}
-
-.nav-item.dropdown:hover .dropdown-menu {
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-.testi-rates {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 15px;
-}
-
-.testi-rates img {
-  width: 80px;
-}
-
-.pear-icon {
-  width: auto;
-  height: 18px;
-  margin-right: 10px;
-}
-
-.for-pear-title {
-  padding-left: 0;
-  display: flex;
-  align-items: center;
-}
-
-.for-visible {
-  visibility: hidden;
-}
-
-.for-fixed-pos {
-  position: fixed;
-}
-
-.padding-section-bottom {
-  padding-bottom: 120px;
-}
-
-.pt-120 {
-  padding-top: 120px;
-}
-
-.no-m {
-  margin: 0;
-}
-
-.forflex-more {
-  display: flex;
-  align-items: center;
-}
-
-.contact-btn {
-  padding: 12px 35px;
-  background-color: white;
-  color: #0c0f16;
-}
-
-.contact-btn:hover {
-  padding: 12px 35px;
-  background-color: #d1e231;
-  color: #0c0f16 !important;
-}
-
-.contact-btn span {
-  color: #0c0f16 !important;
-}
-
-.contact-btn span:hover {
-  color: #0c0f16 !important;
-}

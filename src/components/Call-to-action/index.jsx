@@ -29,7 +29,7 @@ const CallToAction = ({ img, theme, subBG }) => {
             </div>
           </div>
 
-          <div className="col-md-4 col-lg-3 valign">
+          <div className="col-md-4 col-lg-3 valign exp-valign">
             {/* <Link href="/contact/contact-dark">
               <a
                 className={`btn-curve ${
@@ -40,7 +40,7 @@ const CallToAction = ({ img, theme, subBG }) => {
                 <span>Get a Quote</span>
               </a>
             </Link> */}
-            <Link href="/contact/contact-dark/">
+            <Link href="/contact">
               <a className="explorebtn-f">
                 {/* <span>Explore</span> */}
                 {/* <img src="/img/ExploreBtn.png" alt="explore" /> */}

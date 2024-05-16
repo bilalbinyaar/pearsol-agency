@@ -75,7 +75,7 @@ const AboutUs2 = ({ skillsTheme  })=>{
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
-                                        href: "/about/about-dark",
+                                        href: "/about-us",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                             className: "words chars splitting simple-btn custom-font mt-30 wow",
                                             "data-splitting": true,
@@ -186,7 +186,7 @@ var external_react_ = __webpack_require__(6689);
 var external_react_slick_ = __webpack_require__(8096);
 var external_react_slick_default = /*#__PURE__*/__webpack_require__.n(external_react_slick_);
 ;// CONCATENATED MODULE: ./src/data/sections/clients-brands.json
-const clients_brands_namespaceObject = JSON.parse('[{"id":1,"darkImage":"/img/clients/brands/dark/01.png","lightImage":"/img/clients/brands/light/01.png","companyName":"NETSOFT SOLUTIONS"},{"id":2,"darkImage":"/img/clients/brands/dark/02.png","lightImage":"/img/clients/brands/light/02.png","companyName":"DevBracket"},{"id":3,"darkImage":"/img/clients/brands/dark/03.png","lightImage":"/img/clients/brands/light/03.png","companyName":"SPARKPRO"},{"id":4,"darkImage":"/img/clients/brands/dark/04.png","lightImage":"/img/clients/brands/light/04.png","companyName":"CLIMATE PIONEERS ACADEMY"},{"id":5,"darkImage":"/img/clients/brands/dark/05.png","lightImage":"/img/clients/brands/light/05.png","companyName":"apex"},{"id":6,"darkImage":"/img/clients/brands/dark/06.png","lightImage":"/img/clients/brands/light/06.png","companyName":"THE URBAN FACTORY"},{"id":7,"darkImage":"/img/clients/brands/dark/07.png","lightImage":"/img/clients/brands/light/07.png","companyName":"Stylux"},{"id":8,"darkImage":"/img/clients/brands/dark/08.png","lightImage":"/img/clients/brands/light/08.png","companyName":"Trends Maven"},{"id":9,"darkImage":"/img/clients/brands/dark/09.png","lightImage":"/img/clients/brands/light/09.png","companyName":"Oral Medicine & Pathology Center"},{"id":10,"darkImage":"/img/clients/brands/dark/10.png","lightImage":"/img/clients/brands/light/10.png","companyName":"Modulare Klima Trennung"},{"id":11,"darkImage":"/img/clients/brands/dark/11.png","lightImage":"/img/clients/brands/light/11.png","companyName":"Gozubi"},{"id":12,"darkImage":"/img/clients/brands/dark/12.png","lightImage":"/img/clients/brands/light/12.png","companyName":"Thomas Andresen"},{"id":13,"darkImage":"/img/clients/brands/dark/13.png","lightImage":"/img/clients/brands/light/13.png","companyName":"Giving Back Pharmacy"},{"id":14,"darkImage":"/img/clients/brands/dark/14.png","lightImage":"/img/clients/brands/light/14.png","companyName":"Homewire"},{"id":15,"darkImage":"/img/clients/brands/dark/15.png","lightImage":"/img/clients/brands/light/15.png","companyName":"MidCountry Homes"},{"id":16,"darkImage":"/img/clients/brands/dark/16.png","lightImage":"/img/clients/brands/light/16.png","companyName":"NuGen Homes"},{"id":17,"darkImage":"/img/clients/brands/dark/17.png","lightImage":"/img/clients/brands/light/17.png","companyName":"NuGen Homes"},{"id":18,"darkImage":"/img/clients/brands/dark/18.png","lightImage":"/img/clients/brands/light/18.png","companyName":"NuGen Homes"},{"id":19,"darkImage":"/img/clients/brands/dark/19.png","lightImage":"/img/clients/brands/light/19.png","companyName":"NuGen Homes"}]');
+const clients_brands_namespaceObject = JSON.parse('[{"id":1,"darkImage":"/img/clients/brands/dark/01.png","lightImage":"/img/clients/brands/light/01.png","companyName":"NETSOFT SOLUTIONS"},{"id":2,"darkImage":"/img/clients/brands/dark/02.png","lightImage":"/img/clients/brands/light/02.png","companyName":"DevBracket"},{"id":3,"darkImage":"/img/clients/brands/dark/03.png","lightImage":"/img/clients/brands/light/03.png","companyName":"SPARKPRO"},{"id":4,"darkImage":"/img/clients/brands/dark/04.png","lightImage":"/img/clients/brands/light/04.png","companyName":"CLIMATE PIONEERS ACADEMY"},{"id":5,"darkImage":"/img/clients/brands/dark/08.png","lightImage":"/img/clients/brands/light/08.png","companyName":"apex"},{"id":6,"darkImage":"/img/clients/brands/dark/09.png","lightImage":"/img/clients/brands/light/09.png","companyName":"THE URBAN FACTORY"},{"id":7,"darkImage":"/img/clients/brands/dark/10.png","lightImage":"/img/clients/brands/light/10.png","companyName":"Trends Maven"},{"id":8,"darkImage":"/img/clients/brands/dark/11.png","lightImage":"/img/clients/brands/light/11.png","companyName":"Oral Medicine & Pathology Center"},{"id":9,"darkImage":"/img/clients/brands/dark/12.png","lightImage":"/img/clients/brands/light/12.png","companyName":"Modulare Klima Trennung"},{"id":10,"darkImage":"/img/clients/brands/dark/13.png","lightImage":"/img/clients/brands/light/13.png","companyName":"Gozubi"},{"id":11,"darkImage":"/img/clients/brands/dark/14.png","lightImage":"/img/clients/brands/light/14.png","companyName":"Thomas Andresen"}]');
 ;// CONCATENATED MODULE: ./src/components/Clients-brands/index.jsx
 
 /* eslint-disable @next/next/no-img-element */ 
@@ -394,7 +394,7 @@ const IntroWithSlider1 = ({ sliderRef  })=>{
                                                     }
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_4__["default"], {
-                                                    href: "/about/about-dark",
+                                                    href: "/about-us",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                         className: "explorebtn mt-30",
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
@@ -572,7 +572,7 @@ const Services1 = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "row",
+                        className: "row no-margin",
                         children: [
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                 className: "col-lg-4 col-md-6 item-box wow fadeInLeft",
@@ -600,12 +600,15 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "We craft modern brand stories, seamlessly blending creativity."
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                                        href: "#",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-30",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                children: "Learn more"
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                                            href: "/design-and-branding",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                className: "words chars splitting simple-btn custom-font mt-30 wow",
+                                                "data-splitting": true,
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                    children: "Learn More"
+                                                })
                                             })
                                         })
                                     })
@@ -637,12 +640,15 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "We are pioneering strategic digital mastery to propel your brand forward."
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                                        href: "#",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-30",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                children: "Learn more"
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                                            href: "/digital-marketing",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                className: "words chars splitting simple-btn custom-font mt-30 wow",
+                                                "data-splitting": true,
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                    children: "Learn More"
+                                                })
                                             })
                                         })
                                     })
@@ -677,12 +683,15 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "We are crafting digital masterpieces for impactful online presence."
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                                        href: "#",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-30",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                children: "Learn more"
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                                            href: "/website-development",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                className: "words chars splitting simple-btn custom-font mt-30 wow",
+                                                "data-splitting": true,
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                    children: "Learn More"
+                                                })
                                             })
                                         })
                                     })
@@ -691,7 +700,7 @@ const Services1 = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "row",
+                        className: "row no-margin",
                         children: [
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                 className: "col-lg-4 col-md-6 item-box item-box-2 wow fadeInLeft",
@@ -719,12 +728,15 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "We craft modern brand stories, seamlessly blending creativity."
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                                        href: "#",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-30",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                children: "Learn more"
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                                            href: "/search-engine-optimization",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                className: "words chars splitting simple-btn custom-font mt-30 wow",
+                                                "data-splitting": true,
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                    children: "Learn More"
+                                                })
                                             })
                                         })
                                     })
@@ -759,12 +771,15 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "We are pioneering strategic digital mastery to propel your brand forward."
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                                        href: "#",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-30",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                children: "Learn more"
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                                            href: "/social-media-management",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                className: "words chars splitting simple-btn custom-font mt-30 wow",
+                                                "data-splitting": true,
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                    children: "Learn More"
+                                                })
                                             })
                                         })
                                     })
@@ -799,12 +814,15 @@ const Services1 = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "We are crafting digital masterpieces for impactful online presence."
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                                        href: "#",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: "btn-curve btn-bord btn-lit mt-30",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                children: "Learn more"
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                                            href: "/ui-ux-design",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                className: "words chars splitting simple-btn custom-font mt-30 wow",
+                                                "data-splitting": true,
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                    children: "Learn More"
+                                                })
                                             })
                                         })
                                     })
@@ -915,7 +933,7 @@ class Testimonials1 extends (external_react_default()).Component {
         return(/*#__PURE__*/ jsx_runtime_.jsx("section", {
             className: `testimonials section-padding ${this.props.subBgLftstl ? 'sub-bg lftstl' : ''} ${this.props.withBG ? 'bg-img' : ''} ${this.props.parallaxie ? 'parallaxie' : ''} ${!this.props.overlay ? 'noOverlay' : ''}`,
             style: {
-                backgroundImage: `${this.props.withBG && !this.props.imgSrc ? 'url(/img/slid/3.jpg)' : this.props.imgSrc ? `url(${this.props.imgSrc})` : 'none'}`
+                backgroundImage: `${this.props.withBG && !this.props.imgSrc ? 'url(/img/slid/3.png)' : this.props.imgSrc ? `url(${this.props.imgSrc})` : 'none'}`
             },
             "data-overlay-dark": `${this.props.overlay ? '9' : '0'}`,
             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -971,7 +989,7 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "img",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                            src: "/img/clients/1.jpg",
+                                                                            src: "/img/clients/4.png",
                                                                             alt: ""
                                                                         })
                                                                     })
@@ -981,11 +999,11 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                     children: [
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                                                                             className: "author-name custom-font",
-                                                                            children: "KEVIN NAFASH"
+                                                                            children: "Rameez Raja"
                                                                         }),
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                             className: "author-details",
-                                                                            children: "Joocy.AF, USA"
+                                                                            children: "Pine Technologies, Pakistan"
                                                                         }),
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                             className: "testi-rates",
@@ -1002,17 +1020,17 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                     className: "img",
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                        src: "/img/clients/1.jpg",
+                                                                        src: "/img/clients/4.png",
                                                                         alt: ""
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                                                                     className: "author-name custom-font",
-                                                                    children: "KEVIN NAFASH"
+                                                                    children: "Rameez Raja"
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                     className: "author-details",
-                                                                    children: "Joocy.AF, USA"
+                                                                    children: "Pine Technologies, Pakistan"
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                     className: "testi-rates",
@@ -1027,7 +1045,7 @@ class Testimonials1 extends (external_react_default()).Component {
                                                 })
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                children: "The team at Pearsols provided exceptional social media service, and work, exceeding all expectations. Their expertise, dedication, and professionalism made the experience truly remarkable. Highly recommended for top-notch results, and a delightful collaboration!"
+                                                children: "We have recently had the pleasure of collaborating with Pearsols, and their professionalism and attention to detail in designing our business profile were truly exceptional. Their dynamic approach and punctual delivery underscored their expertise and unwavering dedication to design. In short, we wholeheartedly endorse them as true professionals."
                                             })
                                         ]
                                     }),
@@ -1047,7 +1065,7 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                         className: "img",
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                            src: "/img/clients/2.jpg",
+                                                                            src: "/img/clients/1.png",
                                                                             alt: ""
                                                                         })
                                                                     })
@@ -1057,83 +1075,7 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                     children: [
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                                                                             className: "author-name custom-font",
-                                                                            children: "HAUKAY"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                            className: "author-details",
-                                                                            children: "DHN.digital, Germany"
-                                                                        }),
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                            className: "testi-rates",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                                src: "/img/stars.png",
-                                                                                alt: "ratings"
-                                                                            })
-                                                                        })
-                                                                    ]
-                                                                })
-                                                            ]
-                                                        }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                    className: "img",
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                        src: "/img/clients/2.jpg",
-                                                                        alt: ""
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("h6", {
-                                                                    className: "author-name custom-font",
-                                                                    children: "HAUKAY"
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                                    className: "author-details",
-                                                                    children: "DHN.digital, Germany"
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                    className: "testi-rates",
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                        src: "/img/stars.png",
-                                                                        alt: "ratings"
-                                                                    })
-                                                                })
-                                                            ]
-                                                        })
-                                                    })
-                                                })
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                children: "Precize communication, excellent results and fast delivery. I can recommend working with Pearsols for any kind of design and branding work to be done in high quality and fast. Well Done!"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "item",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                className: "info",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                    className: "cont",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                        className: "author",
-                                                        children: this.props.subBgLftstl ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                    className: "lxleft",
-                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                        className: "img",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                            src: "/img/clients/3.jpg",
-                                                                            alt: ""
-                                                                        })
-                                                                    })
-                                                                }),
-                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                                    className: "fxright",
-                                                                    children: [
-                                                                        /*#__PURE__*/ jsx_runtime_.jsx("h6", {
-                                                                            className: "author-name custom-font",
-                                                                            children: "ANKEET UDANI"
+                                                                            children: "Ankeet Udani"
                                                                         }),
                                                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                             className: "author-details",
@@ -1154,13 +1096,13 @@ class Testimonials1 extends (external_react_default()).Component {
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                     className: "img",
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                                        src: "/img/clients/3.jpg",
+                                                                        src: "/img/clients/1.png",
                                                                         alt: ""
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                                                                     className: "author-name custom-font",
-                                                                    children: "ANKEET UDANI"
+                                                                    children: "Ankeet Udani"
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                     className: "author-details",
@@ -1179,7 +1121,159 @@ class Testimonials1 extends (external_react_default()).Component {
                                                 })
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                children: "Their prolonged efforts yielded exceptional, professional results precisely on schedule. I intend to repeatedly enlist their services due to the outstanding quality and timeliness of their work."
+                                                children: "Pearsols stands out as the top agency I have had the privilege of working with. Following the exceptional work they have done , I eagerly anticipate future collaborations with them."
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        className: "item",
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                className: "info",
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                    className: "cont",
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                        className: "author",
+                                                        children: this.props.subBgLftstl ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+                                                            children: [
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                                    className: "lxleft",
+                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                                        className: "img",
+                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                            src: "/img/clients/3.png",
+                                                                            alt: ""
+                                                                        })
+                                                                    })
+                                                                }),
+                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                                    className: "fxright",
+                                                                    children: [
+                                                                        /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                                            className: "author-name custom-font",
+                                                                            children: "Hauke ​​Kay"
+                                                                        }),
+                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                                            className: "author-details",
+                                                                            children: "DHN.digital, Germany"
+                                                                        }),
+                                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                                            className: "testi-rates",
+                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                                src: "/img/stars.png",
+                                                                                alt: "ratings"
+                                                                            })
+                                                                        })
+                                                                    ]
+                                                                })
+                                                            ]
+                                                        }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+                                                            children: [
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                                    className: "img",
+                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                        src: "/img/clients/3.png",
+                                                                        alt: ""
+                                                                    })
+                                                                }),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                                    className: "author-name custom-font",
+                                                                    children: "Hauke ​​Kay"
+                                                                }),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                                    className: "author-details",
+                                                                    children: "DHN.digital, Germany"
+                                                                }),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                                    className: "testi-rates",
+                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                        src: "/img/stars.png",
+                                                                        alt: "ratings"
+                                                                    })
+                                                                })
+                                                            ]
+                                                        })
+                                                    })
+                                                })
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                children: "Our trip to Pakistan was truly remarkable, our meeting in Islamabad with Naveed being a highlight. His exceptional work and dedication to providing top-notch branding services were evident throughout. His efforts are instrumental in driving Pearsols towards greater heights of success."
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        className: "item",
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                className: "info",
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                    className: "cont",
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                        className: "author",
+                                                        children: this.props.subBgLftstl ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+                                                            children: [
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                                    className: "lxleft",
+                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                                        className: "img",
+                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                            src: "/img/clients/2.png",
+                                                                            alt: ""
+                                                                        })
+                                                                    })
+                                                                }),
+                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                                    className: "fxright",
+                                                                    children: [
+                                                                        /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                                            className: "author-name custom-font",
+                                                                            children: "Kevin Nafash"
+                                                                        }),
+                                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                                            className: "author-details",
+                                                                            children: "JoocyAF, USA"
+                                                                        }),
+                                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                                            className: "testi-rates",
+                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                                src: "/img/stars.png",
+                                                                                alt: "ratings"
+                                                                            })
+                                                                        })
+                                                                    ]
+                                                                })
+                                                            ]
+                                                        }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+                                                            children: [
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                                    className: "img",
+                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                        src: "/img/clients/2.png",
+                                                                        alt: ""
+                                                                    })
+                                                                }),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                                    className: "author-name custom-font",
+                                                                    children: "Kevin Nafash"
+                                                                }),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                                    className: "author-details",
+                                                                    children: "JoocyAF, USA"
+                                                                }),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                                    className: "testi-rates",
+                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                                        src: "/img/stars.png",
+                                                                        alt: "ratings"
+                                                                    })
+                                                                })
+                                                            ]
+                                                        })
+                                                    })
+                                                })
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                children: "The team at Pearsols provided awesome social media service, and work, exceeding all expectations. Their expertise, dedication, and social media strategies have made a tremendous experience. Highly recommended for amazing results, and a delightful collaboration!"
                                             })
                                         ]
                                     })
@@ -1306,16 +1400,10 @@ const Works1Slider = ()=>{
                                                     children: [
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                             className: "color-font",
-                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_5__["default"], {
-                                                                href: "/works/works-dark",
-                                                                children: slide.title
-                                                            })
+                                                            children: slide.title
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_5__["default"], {
-                                                                href: "/project-details2/project-details2-dark",
-                                                                children: slide.secTex
-                                                            })
+                                                            children: slide.secTex
                                                         })
                                                     ]
                                                 })
@@ -1472,7 +1560,7 @@ const Homepage1 = ()=>{
 /***/ 9590:
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"id":1,"title":"Social Media Marketing","secTex":"Innovation and Crafts","image":"/img/portfolio/metro/01.jpg","slug":"/project-details2/project-details2-dark"},{"id":2,"title":"Design & Branding","secTex":"Inspiring new space","image":"/img/portfolio/metro/02.jpg","slug":"/project-details2/project-details2-dark"},{"id":3,"title":"Web Design","secTex":"Natural plus modern","image":"/img/portfolio/metro/03.jpg","slug":"/project-details2/project-details2-dark"}]');
+module.exports = JSON.parse('[{"id":1,"title":"JoocyAF, USA","secTex":"Social Media Marketing","image":"/img/portfolio/metro/01.jpg","slug":"/project-details2/project-details2-dark"},{"id":2,"title":"Apexx, Dubai","secTex":"Design & Branding","image":"/img/portfolio/metro/02.jpg","slug":"/project-details2/project-details2-dark"},{"id":3,"title":"Sofit, United Kingdom","secTex":"Web Design","image":"/img/portfolio/metro/03.jpg","slug":"/project-details2/project-details2-dark"},{"id":4,"title":"HSD, Pakistan","secTex":"Business Profile Design","image":"/img/portfolio/metro/04.jpg","slug":"/project-details2/project-details2-dark"},{"id":5,"title":"Hevlon Technologies, USA","secTex":"Stationery Design","image":"/img/portfolio/metro/05.jpg","slug":"/project-details2/project-details2-dark"}]');
 
 /***/ })
 

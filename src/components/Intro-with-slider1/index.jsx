@@ -112,7 +112,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
                             />
                           )}
 
-                          <Link href="/about/about-dark">
+                          <Link href="/about-us">
                             <a className="explorebtn mt-30">
                               {/* <span>Explore</span> */}
                               {/* <img src="/img/ExploreBtn.png" alt="explore" /> */}

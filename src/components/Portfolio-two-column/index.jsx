@@ -44,7 +44,7 @@ const PortfolioTwoColumn = () => {
                   </Link> */}
                   <img src="/img/portfolio/works/1.png" alt="image" />
                   <div className="cont">
-                    <h6>Social Media Marketing</h6>
+                    <h6>Logo & Brand Identity</h6>
                     {/* <span>
                       <a href="#0">Design</a>, <a href="#0">WordPress</a>
                     </span> */}
@@ -84,7 +84,7 @@ const PortfolioTwoColumn = () => {
                   <img src="/img/portfolio/works/2.png" alt="image" />
 
                   <div className="cont">
-                    <h6>Stationery Design</h6>
+                    <h6>Social Media Marketing</h6>
                     {/* <span>
                       <a href="#0">Design</a>, <a href="#0">WordPress</a>
                     </span> */}
@@ -106,7 +106,7 @@ const PortfolioTwoColumn = () => {
                   <img src="/img/portfolio/works/4.png" alt="image" />
 
                   <div className="cont">
-                    <h6>Advertising Material</h6>
+                    <h6>Stationery Design</h6>
                     {/* <span>
                       <a href="#0">Design</a>, <a href="#0">WordPress</a>
                     </span> */}
@@ -126,7 +126,7 @@ const PortfolioTwoColumn = () => {
               <img src="/img/portfolio/works/3.png" alt="image" />
 
               <div className="cont">
-                <h6>Design & Branding</h6>
+                <h6>Advertising Design</h6>
                 {/* <span>
                   <a href="#0">Design</a>, <a href="#0">WordPress</a>
                 </span> */}
@@ -166,7 +166,7 @@ const PortfolioTwoColumn = () => {
               <img src="/img/portfolio/works/5.png" alt="image" />
 
               <div className="cont">
-                <h6>Company Profile Design</h6>
+                <h6>Business Profile Design</h6>
                 {/* <span>
                   <a href="#0">Design</a>, <a href="#0">WordPress</a>
                 </span> */}

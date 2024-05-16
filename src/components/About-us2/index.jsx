@@ -57,7 +57,7 @@ const AboutUs2 = ({ skillsTheme }) => {
                 excellence in the evolving world of digital possibilities.
               </p> */}
               <Split>
-                <Link href="/about/about-dark">
+                <Link href="/about-us">
                   <a
                     className="words chars splitting simple-btn custom-font mt-30 wow"
                     data-splitting

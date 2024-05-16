@@ -32,16 +32,16 @@ const Footer = ({ noSubBG }) => {
                   <li>
                     <span>Email : </span> info@pearsols.com
                   </li>
-                  <li>
+                  {/* <li>
                     <span>Address : </span> Islamabad, Pakistan 46000.
-                  </li>
+                  </li> */}
                   <li>
                     <span>Phone : </span> +92 307 607 8089
                   </li>
                 </ul>
               </div>
               <div className="social-icon">
-                <h6 className="custom-font stit simple-btn">Follow Us</h6>
+                <h6 className="custom-font stit simple-btn-cus">Follow Us</h6>
                 <div className="social">
                   <a
                     href="https://www.behance.net/marketingpearsols"
@@ -81,7 +81,7 @@ const Footer = ({ noSubBG }) => {
           </div>
           <div className="col-lg-5 offset-lg-2">
             <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">Newsletter</h6>
+              <h6 className="custom-font stit simple-btn-cus">Newsletter</h6>
               <p>Sign up for subscribe out newsletter!</p>
               <Formik
                 initialValues={{
