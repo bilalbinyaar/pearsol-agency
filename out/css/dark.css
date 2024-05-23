@@ -4088,6 +4088,7 @@ header.simpl .caption .btn-curve {
 .portfolio .gallery .items .cont h6 {
   font-weight: 600;
   margin-bottom: 5px;
+  color: #0c0f16;
 }
 .portfolio .gallery .items .cont span {
   color: #999;
@@ -6714,17 +6715,27 @@ header.simpl .caption .btn-curve {
   .no-margin {
     margin: 0 !important;
   }
-}
 
-@media screen and (max-width: 515px) {
-  .container {
-    width: 475px;
+  .number-sec .item:after {
+    display: none;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .container {
-    width: 450px;
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .container {
+    width: 430px;
   }
 
   .hamenu .cont-info {
@@ -6831,7 +6842,13 @@ header.simpl .caption .btn-curve {
 
 @media screen and (max-width: 450px) {
   .container {
-    width: 400px;
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .container {
+    width: 320px;
   }
 }
 /* ====================== [ End Responsive ] ====================== */

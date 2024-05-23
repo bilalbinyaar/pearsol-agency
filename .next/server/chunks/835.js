@@ -563,7 +563,7 @@ const WebPack = ({ skillsTheme  })=>{
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "col-lg-4 col-md-6 item-box item-box-pack wow fadeInLeft",
                                     "data-wow-delay": ".5s",
-                                    onMouseEnter: ()=>handleItemHover(0)
+                                    onMouseEnter: ()=>handleItemHover(6)
                                     ,
                                     onMouseLeave: handleMouseLeave,
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
@@ -573,7 +573,7 @@ const WebPack = ({ skillsTheme  })=>{
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "col-lg-4 col-md-6 item-box item-box-pack wow fadeInLeft",
                                     "data-wow-delay": ".7s",
-                                    onMouseEnter: ()=>handleItemHover(1)
+                                    onMouseEnter: ()=>handleItemHover(7)
                                     ,
                                     onMouseLeave: handleMouseLeave,
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
@@ -583,7 +583,7 @@ const WebPack = ({ skillsTheme  })=>{
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "col-lg-4 col-md-6 item-box item-box-pack wow fadeInLeft",
                                     "data-wow-delay": ".9s",
-                                    onMouseEnter: ()=>handleItemHover(2)
+                                    onMouseEnter: ()=>handleItemHover(8)
                                     ,
                                     onMouseLeave: handleMouseLeave,
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {

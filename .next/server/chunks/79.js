@@ -11,8 +11,10 @@ exports.modules = {
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 const AboutHeader = ()=>{
@@ -37,15 +39,16 @@ const AboutHeader = ()=>{
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                 className: "path",
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                        href: "#0",
-                                        children: "Home"
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
+                                        href: "/",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            children: "Home"
+                                        })
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         children: "/"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                        href: "#0",
                                         className: "active",
                                         children: "About Us"
                                     })
@@ -1056,7 +1059,9 @@ const VideoWithTestimonials = ()=>{
         arrows: false,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000
     };
     return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
         className: "block-sec",
@@ -1116,7 +1121,7 @@ const VideoWithTestimonials = ()=>{
                                                 className: "item",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                        children: "The team at Pearsols provided exceptional social media service, and work, exceeding all expectations. Their expertise, dedication, and professionalism made the experience truly remarkable. Highly recommended for top-notch results, and a delightful collaboration!"
+                                                        children: "We have recently had the pleasure of collaborating with Pearsols, and their professionalism and attention to detail in designing our business profile were truly exceptional. Their dynamic approach and punctual delivery underscored their expertise and unwavering dedication to design. In short, we wholeheartedly endorse them as true professionals."
                                                     }),
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                         className: "info",
@@ -1126,7 +1131,7 @@ const VideoWithTestimonials = ()=>{
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                     className: "img-box",
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                                        src: "/img/clients/1.jpg",
+                                                                        src: "/img/clients/4.png",
                                                                         alt: ""
                                                                     })
                                                                 })
@@ -1138,11 +1143,11 @@ const VideoWithTestimonials = ()=>{
                                                                     children: [
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                             className: "author-name custom-font",
-                                                                            children: "KEVIN NAFASH"
+                                                                            children: "Rameez Raja"
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                             className: "author-details",
-                                                                            children: "USA"
+                                                                            children: "Pine Technologies, Pakistan"
                                                                         })
                                                                     ]
                                                                 })
@@ -1155,7 +1160,7 @@ const VideoWithTestimonials = ()=>{
                                                 className: "item",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                        children: "Precize communication, excellent results and fast delivery. I can recommend working with Pearsols for any kind of design and branding work to be done in high quality and fast. Well Done!"
+                                                        children: "Pearsols stands out as the top agency I have had the privilege of working with. Following the exceptional work they have done , I eagerly anticipate future collaborations with them."
                                                     }),
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                         className: "info",
@@ -1165,7 +1170,7 @@ const VideoWithTestimonials = ()=>{
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                     className: "img-box",
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                                        src: "/img/clients/2.jpg",
+                                                                        src: "/img/clients/1.png",
                                                                         alt: ""
                                                                     })
                                                                 })
@@ -1177,11 +1182,11 @@ const VideoWithTestimonials = ()=>{
                                                                     children: [
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                             className: "author-name custom-font",
-                                                                            children: "HAUKAY"
+                                                                            children: "Ankeet Udani"
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                             className: "author-details",
-                                                                            children: "Germany"
+                                                                            children: "Viking Capital, USA"
                                                                         })
                                                                     ]
                                                                 })
@@ -1194,7 +1199,7 @@ const VideoWithTestimonials = ()=>{
                                                 className: "item",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                        children: "Their prolonged efforts yielded exceptional, professional results precisely on schedule. I intend to repeatedly enlist their services due to the outstanding quality and timeliness of their work."
+                                                        children: "Our trip to Pakistan was truly remarkable, our meeting in Islamabad with Naveed being a highlight. His exceptional work and dedication to providing top-notch branding services were evident throughout. His efforts are instrumental in driving Pearsols towards greater heights of success."
                                                     }),
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                         className: "info",
@@ -1204,7 +1209,7 @@ const VideoWithTestimonials = ()=>{
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                     className: "img-box",
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                                        src: "/img/clients/3.jpg",
+                                                                        src: "/img/clients/3.png",
                                                                         alt: ""
                                                                     })
                                                                 })
@@ -1216,11 +1221,53 @@ const VideoWithTestimonials = ()=>{
                                                                     children: [
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                             className: "author-name custom-font",
-                                                                            children: "ANKEET UDANI"
+                                                                            children: "Hauke ​​Kay"
+                                                                        }),
+                                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                                                            className: "author-details",
+                                                                            children: [
+                                                                                ' ',
+                                                                                "DHN.digital, Germany"
+                                                                            ]
+                                                                        })
+                                                                    ]
+                                                                })
+                                                            })
+                                                        ]
+                                                    })
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                className: "item",
+                                                children: [
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                        children: "The team at Pearsols provided awesome social media service, and work, exceeding all expectations. Their expertise, dedication, and social media strategies have made a tremendous experience. Highly recommended for amazing results, and a delightful collaboration!"
+                                                    }),
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                        className: "info",
+                                                        children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                                className: "img",
+                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                                    className: "img-box",
+                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                                        src: "/img/clients/2.png",
+                                                                        alt: ""
+                                                                    })
+                                                                })
+                                                            }),
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                                className: "cont",
+                                                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                                    className: "author",
+                                                                    children: [
+                                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                                            className: "author-name custom-font",
+                                                                            children: "Kevin Nafash"
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                             className: "author-details",
-                                                                            children: "USA"
+                                                                            children: "JoocyAF, USA"
                                                                         })
                                                                     ]
                                                                 })

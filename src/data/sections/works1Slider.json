@@ -33,5 +33,12 @@
     "secTex": "Stationery Design",
     "image": "/img/portfolio/metro/05.jpg",
     "slug": "/project-details2/project-details2-dark"
+  },
+  {
+    "id": 6,
+    "title": "Franklins, United Kingdom",
+    "secTex": "Advertising Design",
+    "image": "/img/portfolio/metro/06.jpg",
+    "slug": "/project-details2/project-details2-dark"
   }
 ]

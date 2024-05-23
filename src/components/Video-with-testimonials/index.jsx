@@ -19,6 +19,8 @@ const VideoWithTestimonials = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
   };
   return (
     <section className="block-sec">
@@ -84,68 +86,105 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                      The team at Pearsols provided exceptional social media
+                      We have recently had the pleasure of collaborating with
+                      Pearsols, and their professionalism and attention to
+                      detail in designing our business profile were truly
+                      exceptional. Their dynamic approach and punctual delivery
+                      underscored their expertise and unwavering dedication to
+                      design. In short, we wholeheartedly endorse them as true
+                      professionals.
+                    </p>
+                    <div className="info">
+                      <div className="img">
+                        <div className="img-box">
+                          <img src="/img/clients/4.png" alt="" />
+                        </div>
+                      </div>
+                      <div className="cont">
+                        <div className="author">
+                          <h6 className="author-name custom-font">
+                            Rameez Raja
+                          </h6>
+                          <span className="author-details">
+                            Pine Technologies, Pakistan
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="item">
+                    <p>
+                      Pearsols stands out as the top agency I have had the
+                      privilege of working with. Following the exceptional work
+                      they have done , I eagerly anticipate future
+                      collaborations with them.
+                    </p>
+                    <div className="info">
+                      <div className="img">
+                        <div className="img-box">
+                          <img src="/img/clients/1.png" alt="" />
+                        </div>
+                      </div>
+                      <div className="cont">
+                        <div className="author">
+                          <h6 className="author-name custom-font">
+                            Ankeet Udani
+                          </h6>
+                          <span className="author-details">
+                            Viking Capital, USA
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="item">
+                    <p>
+                      Our trip to Pakistan was truly remarkable, our meeting in
+                      Islamabad with Naveed being a highlight. His exceptional
+                      work and dedication to providing top-notch branding
+                      services were evident throughout. His efforts are
+                      instrumental in driving Pearsols towards greater heights
+                      of success.
+                    </p>
+                    <div className="info">
+                      <div className="img">
+                        <div className="img-box">
+                          <img src="/img/clients/3.png" alt="" />
+                        </div>
+                      </div>
+                      <div className="cont">
+                        <div className="author">
+                          <h6 className="author-name custom-font">
+                            Hauke ​​Kay
+                          </h6>
+                          <span className="author-details">
+                            {' '}
+                            DHN.digital, Germany
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="item">
+                    <p>
+                      The team at Pearsols provided awesome social media
                       service, and work, exceeding all expectations. Their
-                      expertise, dedication, and professionalism made the
-                      experience truly remarkable. Highly recommended for
-                      top-notch results, and a delightful collaboration!
+                      expertise, dedication, and social media strategies have
+                      made a tremendous experience. Highly recommended for
+                      amazing results, and a delightful collaboration!
                     </p>
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="/img/clients/2.png" alt="" />
                         </div>
                       </div>
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">
-                            KEVIN NAFASH
+                            Kevin Nafash
                           </h6>
-                          <span className="author-details">USA</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="item">
-                    <p>
-                      Precize communication, excellent results and fast
-                      delivery. I can recommend working with Pearsols for any
-                      kind of design and branding work to be done in high
-                      quality and fast. Well Done!
-                    </p>
-                    <div className="info">
-                      <div className="img">
-                        <div className="img-box">
-                          <img src="/img/clients/2.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="cont">
-                        <div className="author">
-                          <h6 className="author-name custom-font">HAUKAY</h6>
-                          <span className="author-details">Germany</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="item">
-                    <p>
-                      Their prolonged efforts yielded exceptional, professional
-                      results precisely on schedule. I intend to repeatedly
-                      enlist their services due to the outstanding quality and
-                      timeliness of their work.
-                    </p>
-                    <div className="info">
-                      <div className="img">
-                        <div className="img-box">
-                          <img src="/img/clients/3.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="cont">
-                        <div className="author">
-                          <h6 className="author-name custom-font">
-                            ANKEET UDANI
-                          </h6>
-                          <span className="author-details">USA</span>
+                          <span className="author-details">JoocyAF, USA</span>
                         </div>
                       </div>
                     </div>
