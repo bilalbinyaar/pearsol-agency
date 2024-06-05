@@ -167,7 +167,7 @@ const SeoIntro = ({ sliderRef  })=>{
                     className: "swiper-wrapper",
                     slidesPerView: 1,
                     children: _data_sections_intro_json__WEBPACK_IMPORTED_MODULE_2__.map((slide)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
-                            className: "swiper-slide",
+                            className: "swiper-slide responsive-height",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "bg-img valign",
                                 style: {

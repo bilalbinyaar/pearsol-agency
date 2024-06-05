@@ -14,7 +14,10 @@ const AboutIntro = () => {
           <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text">
               <Split>
-                <p className="wow txt words chars splitting" data-splitting>
+                <p
+                  className="wow txt words chars splitting to-justify"
+                  data-splitting
+                >
                   We are the trendsetters in reshaping the digital landscape. We
                   excel in seamlessly blending design, strategy, and innovation
                   to precisely craft compelling brands, create user-friendly

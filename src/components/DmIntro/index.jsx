@@ -82,7 +82,10 @@ const DmIntro = ({ sliderRef }) => {
             slidesPerView={1}
           >
             {introData.map((slide) => (
-              <SwiperSlide key={slide.id} className="swiper-slide">
+              <SwiperSlide
+                key={slide.id}
+                className="swiper-slide responsive-height"
+              >
                 <div
                   className="bg-img valign bg-img-dm"
                   style={{ backgroundImage: `url(/img/slid/dm.jpg)` }}

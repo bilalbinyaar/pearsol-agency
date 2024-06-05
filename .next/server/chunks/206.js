@@ -157,7 +157,7 @@ const ContactWithMap = ({ theme ='dark'  })=>{
                                                 email: '',
                                                 message: ''
                                             },
-                                            onSubmit: async (values)=>{
+                                            onSubmit: async (values, { resetForm  })=>{
                                                 await sendMessage(500);
                                                 // alert(JSON.stringify(values, null, 2));
                                                 // show message
@@ -165,17 +165,34 @@ const ContactWithMap = ({ theme ='dark'  })=>{
                                                 formData.append('name', values.name);
                                                 formData.append('email', values.email);
                                                 formData.append('message', values.message);
-                                                const res = await axios__WEBPACK_IMPORTED_MODULE_3___default().post('/contact.php', formData);
-                                                if (!res) return;
-                                                messageRef.current.innerText = 'Your Message has been successfully sent. I will contact you soon.';
-                                                // Reset the values
-                                                values.name = '';
-                                                values.email = '';
-                                                values.message = '';
-                                                // clear message
-                                                setTimeout(()=>{
-                                                    messageRef.current.innerText = '';
-                                                }, 2000);
+                                                // const res = await axios.post('/contact.php', formData);
+                                                const res = await axios__WEBPACK_IMPORTED_MODULE_3___default().post('https://formspree.io/f/mvoejvyo', formData, {
+                                                    headers: {
+                                                        Accept: 'application/json'
+                                                    }
+                                                });
+                                                // if (!res) return;
+                                                // messageRef.current.innerText =
+                                                //   'Your Message has been successfully sent. I will contact you soon.';
+                                                // values.name = '';
+                                                // values.email = '';
+                                                // values.message = '';
+                                                // setTimeout(() => {
+                                                //   messageRef.current.innerText = '';
+                                                // }, 2000);
+                                                if (res.data.ok) {
+                                                    // Message to show on successful submission
+                                                    messageRef.current.innerText = 'Your Message has been successfully sent. I will contact you soon.';
+                                                    messageRef.current.classList.add('success-message'); // Add success message class
+                                                    resetForm();
+                                                    setTimeout(()=>{
+                                                        // Clear the success message after 2 seconds
+                                                        messageRef.current.innerText = '';
+                                                    }, 5000);
+                                                } else {
+                                                    // Message to show if submission fails
+                                                    messageRef.current.innerText = 'Failed to send message. Please try again later.';
+                                                }
                                             },
                                             children: ({ errors , touched  })=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(formik__WEBPACK_IMPORTED_MODULE_2__.Form, {
                                                     id: "contact-form",

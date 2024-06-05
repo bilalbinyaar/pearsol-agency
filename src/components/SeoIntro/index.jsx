@@ -82,7 +82,10 @@ const SeoIntro = ({ sliderRef }) => {
             slidesPerView={1}
           >
             {introData.map((slide) => (
-              <SwiperSlide key={slide.id} className="swiper-slide">
+              <SwiperSlide
+                key={slide.id}
+                className="swiper-slide responsive-height"
+              >
                 <div
                   className="bg-img valign"
                   style={{ backgroundImage: `url(/img/slid/seo.jpg)` }}

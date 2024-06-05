@@ -6719,6 +6719,18 @@ header.simpl .caption .btn-curve {
   .number-sec .item:after {
     display: none;
   }
+
+  .work-carousel .noraidus .item-img {
+    height: 380px;
+  }
+
+  .slider .parallax-slider .responsive-height {
+    min-height: 80vh;
+  }
+
+  /* .to-justify {
+    text-align: justify !important;
+  } */
 }
 
 @media screen and (max-width: 580px) {
@@ -6852,3 +6864,7 @@ header.simpl .caption .btn-curve {
   }
 }
 /* ====================== [ End Responsive ] ====================== */
+
+.success-message {
+  color: #d1e231 !important;
+}

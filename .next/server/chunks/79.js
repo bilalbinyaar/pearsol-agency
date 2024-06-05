@@ -103,7 +103,7 @@ const AboutIntro = ()=>{
                             className: "text",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Split__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: "wow txt words chars splitting",
+                                    className: "wow txt words chars splitting to-justify",
                                     "data-splitting": true,
                                     children: "We are the trendsetters in reshaping the digital landscape. We excel in seamlessly blending design, strategy, and innovation to precisely craft compelling brands, create user-friendly responsive websites, and develop impactful digital strategies. Committed to excellence, we propel businesses to new heights, establishing the gold standard for digital achievements."
                                 })

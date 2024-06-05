@@ -14,7 +14,10 @@ class MyDocument extends Document {
         <Head>
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="keywords" content="Pearsols - Digital Agency" />
-          <meta name="description" content="Pearsols - Digital Agency" />
+          <meta
+            name="description"
+            content="Branding & Digital Marketing Services"
+          />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/favicon.ico" />
           {/* Google Fonts */}
